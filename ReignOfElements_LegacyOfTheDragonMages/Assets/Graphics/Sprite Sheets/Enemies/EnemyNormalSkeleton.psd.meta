@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: 6df0231dd4d0ddc4cb77511e6e654dc3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2049
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5ef4c60956a90459618dd185d58262
+      internalID: 1424283482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2049
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3890c9f56f146df47a42b22cb3832435
+      internalID: -1253136055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2048
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999acc9d20ceae45b740eac7b585d1a
+      internalID: 1489965497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2047
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964b6a24b7ad4743bcf3be31960aa56
+      internalID: 1556885433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2048
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ce09ccea469734fb9cb6bebb37f2f6
+      internalID: 573299575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2049
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0e7fed929449b46a9f69f76b1e01cc
+      internalID: -990779080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2048
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a5ae8c855935043ad282c7b176e428
+      internalID: -398616760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2047
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcde2147f153ae34ca00d617d1bae802
+      internalID: -564152815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2048
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f9e8801fca9e849a7731c2e8d5d77f
+      internalID: -44135301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1983
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523d7315aa83e4b46aae1025606cd501
+      internalID: 1994116307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1984
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5507bb41434c8643ad8a01cfe6f5206
+      internalID: 851722256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1985
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1134637e1d39f4f98257fc17b6c7e4
+      internalID: 1293030746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1985
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e445bda5fb3914bb1f3c8f05df594a
+      internalID: -646405189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1984
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf227d4cd565a244982296510dc911b
+      internalID: 1584142527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1984
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea267b04153d954d88c1942279804ec
+      internalID: -776557314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1984
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd98123eed9faa34d883e95f6e7daaee
+      internalID: 711485272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1984
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b031849a8d9fb2a4c94c690ec06a74b7
+      internalID: 751686407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1984
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e10e970c7525345ab2dbf0b07c2f74
+      internalID: 1895260830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1918
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef570cdc3aba6c64c902f75ee268a67c
+      internalID: 854687063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1918
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffd0d828f26e914481a2a115edee23a
+      internalID: -1474225965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1919
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5d3426e345d1540a286123a2f54790
+      internalID: 180328732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1918
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a30b9a28b07caf4e9a4a262f658bfeb
+      internalID: 1624747210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1918
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2775535d17411af4fb870cbe2bb65f09
+      internalID: 1384916210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1918
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ae46eec2d832948847566f686f19d6
+      internalID: 2129343814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1919
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06746030f0366e4aaba68ad4448f089
+      internalID: 733645476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1919
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e777c00668e15b498ff49ccc4c63475
+      internalID: 1865704417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1918
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e202fabaed9c0b4c8a27a7ea4f8c38b
+      internalID: -1663913311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1855
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28afe1f24547ecf42bcea8f4c1dbdaa2
+      internalID: -304842520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1856
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c081d40d63710a498c84845e26bec4d
+      internalID: 1790772422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1857
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9329f10f8d65084ca769d43948d9a8d
+      internalID: -2013966109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1857
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647460700501f2c4e8f04820573aab5f
+      internalID: -1062014627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1856
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289a7fdd00ac9bf4d8172fc88566daa3
+      internalID: -2144216053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1856
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42f060ac6260fe43bf82d042f2d4f93
+      internalID: -992535981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1856
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f24fe2f3546042a51388cc1e87fdc
+      internalID: 33419296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1856
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371bffc12867c042988e47d8cb88a1c
+      internalID: -1556220277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1856
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d57acf1b974c6e40a017cb8e1949c1a
+      internalID: -480369997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1792
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a84ec968ba87f4c836a143a07bbec2
+      internalID: 1980761817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1792
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf7e63ac98e4ed4bb05c5f95d927b4d
+      internalID: -273388694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1792
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9827f9fc19e7040b1e21f129ba5863
+      internalID: -858185555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1794
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12caf97ba59f26a47872cd1717e59d06
+      internalID: -327970323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1793
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289e1ce6f371f294f9dbf03f06968366
+      internalID: -887189242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1793
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030a082d4e686cd4bb12d8a70dfcc4f7
+      internalID: -1692144029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Back_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1728
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadcbb2134ec3bc4fba8e528bd9c58a0
+      internalID: -91464894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Back_01
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1727
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d921c8a2393595a45acf5e12e9df069a
+      internalID: -376248443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Back_02
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1727
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5160be07aa47b149be95518285793f9
+      internalID: -1030578244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Back_03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1727
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df6708ba2396a44e95b67f54cb340bf
+      internalID: -431775331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Back_04
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1727
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5df5823959190843a53373059ddc8e5
+      internalID: -1193926977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Back_05
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1727
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3def02feec2647abdb5cc10b6ed78
+      internalID: -34959673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Left_00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1659
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f1a79e48db6b744a3c5287dbf91a4b
+      internalID: 155985894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Left_01
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1658
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb1177cc79621a4facb40dc98d73414
+      internalID: 907509048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Left_02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1658
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635e9513acec4504cb011717ced941fd
+      internalID: 1189749908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Left_03
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1658
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f427d10d2cdee84eaa70b846ce87360
+      internalID: 994745943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Left_04
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1658
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3332a292079505148846859906ebcce8
+      internalID: -1388518537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Left_05
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1658
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8523e15aea11a49b0d71dbbf61e7e6
+      internalID: 298652424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Front_00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1588
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b90efc757deafd40b6bb8590d0d5c26
+      internalID: 1117331108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Front_01
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1588
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa70ee8a7fbf3442b59f813fe5ed8fe
+      internalID: 454492767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Front_02
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1588
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dfec3dd0cf2e442abe7381489e229d
+      internalID: -1524890894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Front_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1589
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a9acdbd2ca0f1439fee006155f6280
+      internalID: 1187387036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Front_04
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1584
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4b003500a13c4c8b1de3ee6d741d4
+      internalID: 1884135892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Front_05
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1589
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bfc3b26ba376b49856983d48929d70
+      internalID: -1421821023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Right_00
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1522
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbed8ddb526a3d44da8c71f6cf5b720c
+      internalID: -842556847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Right_01
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1521
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9591c20869d6b44eb972b13ef92f80b
+      internalID: 495135737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Right_02
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1521
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee829e68f273b04dab88a0d1eff00ae
+      internalID: -1040900631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Right_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1521
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30dc55a753d43c43b5615a683bec038
+      internalID: 1486816132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Right_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1521
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323df81d8170f274d9058a156153f5ee
+      internalID: -1156246176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyNormalSkeleton_Attack_Right_05
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1521
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953718f980d9d2d41bec554ea850d3a2
+      internalID: -851655630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemyNormalSkeleton_Attack_Back_00: -91464894
+      EnemyNormalSkeleton_Attack_Back_01: -376248443
+      EnemyNormalSkeleton_Attack_Back_02: -1030578244
+      EnemyNormalSkeleton_Attack_Back_03: -431775331
+      EnemyNormalSkeleton_Attack_Back_04: -1193926977
+      EnemyNormalSkeleton_Attack_Back_05: -34959673
+      EnemyNormalSkeleton_Attack_Front_00: 1117331108
+      EnemyNormalSkeleton_Attack_Front_01: 454492767
+      EnemyNormalSkeleton_Attack_Front_02: -1524890894
+      EnemyNormalSkeleton_Attack_Front_03: 1187387036
+      EnemyNormalSkeleton_Attack_Front_04: 1884135892
+      EnemyNormalSkeleton_Attack_Front_05: -1421821023
+      EnemyNormalSkeleton_Attack_Left_00: 155985894
+      EnemyNormalSkeleton_Attack_Left_01: 907509048
+      EnemyNormalSkeleton_Attack_Left_02: 1189749908
+      EnemyNormalSkeleton_Attack_Left_03: 994745943
+      EnemyNormalSkeleton_Attack_Left_04: -1388518537
+      EnemyNormalSkeleton_Attack_Left_05: 298652424
+      EnemyNormalSkeleton_Attack_Right_00: -842556847
+      EnemyNormalSkeleton_Attack_Right_01: 495135737
+      EnemyNormalSkeleton_Attack_Right_02: -1040900631
+      EnemyNormalSkeleton_Attack_Right_03: 1486816132
+      EnemyNormalSkeleton_Attack_Right_04: -1156246176
+      EnemyNormalSkeleton_Attack_Right_05: -851655630
+      EnemyNormalSkeleton_Dead_00: 1980761817
+      EnemyNormalSkeleton_Dead_01: -273388694
+      EnemyNormalSkeleton_Dead_02: -858185555
+      EnemyNormalSkeleton_Dead_03: -327970323
+      EnemyNormalSkeleton_Dead_04: -887189242
+      EnemyNormalSkeleton_Dead_05: -1692144029
+      EnemyNormalSkeleton_Walk_Back_00: 1424283482
+      EnemyNormalSkeleton_Walk_Back_01: -1253136055
+      EnemyNormalSkeleton_Walk_Back_02: 1489965497
+      EnemyNormalSkeleton_Walk_Back_03: 1556885433
+      EnemyNormalSkeleton_Walk_Back_04: 573299575
+      EnemyNormalSkeleton_Walk_Back_05: -990779080
+      EnemyNormalSkeleton_Walk_Back_06: -398616760
+      EnemyNormalSkeleton_Walk_Back_07: -564152815
+      EnemyNormalSkeleton_Walk_Back_08: -44135301
+      EnemyNormalSkeleton_Walk_Front_00: 854687063
+      EnemyNormalSkeleton_Walk_Front_01: -1474225965
+      EnemyNormalSkeleton_Walk_Front_02: 180328732
+      EnemyNormalSkeleton_Walk_Front_03: 1624747210
+      EnemyNormalSkeleton_Walk_Front_04: 1384916210
+      EnemyNormalSkeleton_Walk_Front_05: 2129343814
+      EnemyNormalSkeleton_Walk_Front_06: 733645476
+      EnemyNormalSkeleton_Walk_Front_07: 1865704417
+      EnemyNormalSkeleton_Walk_Front_08: -1663913311
+      EnemyNormalSkeleton_Walk_Left_00: 1994116307
+      EnemyNormalSkeleton_Walk_Left_01: 851722256
+      EnemyNormalSkeleton_Walk_Left_02: 1293030746
+      EnemyNormalSkeleton_Walk_Left_03: -646405189
+      EnemyNormalSkeleton_Walk_Left_04: 1584142527
+      EnemyNormalSkeleton_Walk_Left_05: -776557314
+      EnemyNormalSkeleton_Walk_Left_06: 711485272
+      EnemyNormalSkeleton_Walk_Left_07: 751686407
+      EnemyNormalSkeleton_Walk_Left_08: 1895260830
+      EnemyNormalSkeleton_Walk_Right_00: -304842520
+      EnemyNormalSkeleton_Walk_Right_01: 1790772422
+      EnemyNormalSkeleton_Walk_Right_02: -2013966109
+      EnemyNormalSkeleton_Walk_Right_03: -1062014627
+      EnemyNormalSkeleton_Walk_Right_04: -2144216053
+      EnemyNormalSkeleton_Walk_Right_05: -992535981
+      EnemyNormalSkeleton_Walk_Right_06: 33419296
+      EnemyNormalSkeleton_Walk_Right_07: -1556220277
+      EnemyNormalSkeleton_Walk_Right_08: -480369997
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

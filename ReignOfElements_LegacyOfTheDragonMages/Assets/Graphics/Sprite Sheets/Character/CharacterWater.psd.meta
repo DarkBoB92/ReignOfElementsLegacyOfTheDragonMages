@@ -1,0 +1,2384 @@
+fileFormatVersion: 2
+guid: 8ec1919c862c37b48bd5b1bc60bbbbc2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85d9b4a8b289641951d5767e759f86
+      internalID: 844198905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c017a1f4594af04191cc7b12949c0e4
+      internalID: 590853173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0447dfd007b87548b1ce9f69c3c6436
+      internalID: 1362140928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75daabb1b116444a8ac07188742e502
+      internalID: -2011138328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2048
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6c64d57bce73845af2ba6489d187e9
+      internalID: -892408538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2048
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10a4b1ec0b8c044c81797193885bfca
+      internalID: 1869096026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fd28d0a6e33d6448982a57733eb7a0
+      internalID: 908464973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad541ad5990a7b24c93e652c3959df5d
+      internalID: -2000612380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a0544006110744a85ff19548a5ee87
+      internalID: -1839635555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f8085d0a47a964eae4b1a73eeddafa
+      internalID: -813091546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a0734ed443b6249a37d2a06e2703b5
+      internalID: -1739109211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26901de959dbe5e44b82b1d3f88f94d8
+      internalID: 1266618276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bf28b4c11efb447a0a626ede8a82c8
+      internalID: -1468556163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991077307a6129d46b0dc33f70268f09
+      internalID: -1231823781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a2c25c722f9534291158412c9e155b
+      internalID: 1133664087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94b61407c5295c49a0ed632eca0df1c
+      internalID: 1255901331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30704274b29b79b4797048e164373345
+      internalID: -802970423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9611318b53adf8845834ccd8673557a2
+      internalID: -60979881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35e16a57e7450749a70fb561989ac2b
+      internalID: -1130815739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910b7e3bb402c8146968af554e5f4634
+      internalID: -1708748348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7cadc188e0999409b1b1d79efce7c3
+      internalID: 1568069715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4936ed8f37434296819c406f0a0d6
+      internalID: -965085153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e560f113461410b4a8d436ec43211492
+      internalID: -1009516860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0854bff5fa8604cbacad9c5862d46e
+      internalID: 1197205473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a91da6463f06b48886373735fc9cc0
+      internalID: -1014823109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1857
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03887561f33642046b86bcccd6b844a4
+      internalID: 1465962076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1857
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f429ad825bf13419a2f5486139da56
+      internalID: -745753065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfa3d2a6f25c7e4f81fb8cca430d906
+      internalID: 969215912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1795
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336345ac386d56941b25461a17033dcf
+      internalID: -858652608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1795
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcbba1f50c7aa2478a6e3cef9fd527b
+      internalID: -1072282078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1795
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8eb6be0b464b4b4f99460877a6e3d20
+      internalID: -2058105083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1794
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1a1618ca085e44be22554be4ca694
+      internalID: -1828178090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1795
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0344146381170c345bd77dcf4e46aef1
+      internalID: -1016043075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1795
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9454ee2f7bd644441816bd0e5ad857db
+      internalID: -1527591046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1795
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76911244692bf0d45a6a356c916b1a39
+      internalID: 101146213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1794
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08251b1a8ef08ca459c409d5e59911a3
+      internalID: 1152931815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1795
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccab3f9f57e5e52439cbcd8d1a313b41
+      internalID: -874621969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1731
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8a62146404cfe48bc0420d7c5fcc26
+      internalID: -1116941761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1731
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e22b6ef97ee6934d9b3b399c1ac828a
+      internalID: -665258984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1732
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce242d6a6e52d5e41ba9c0148b9f7b34
+      internalID: -543047233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1732
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c80fe89a5676e4685bdb40d2b2c566
+      internalID: 1301334027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1731
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452c3208716e08b4db7d25422883b4ed
+      internalID: 224151552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1731
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593a2278a033a784cb5114eb7f072eb0
+      internalID: -680061840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1731
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeb3eb5c466c674dbcac8148f1d4fc9
+      internalID: -951817971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1731
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4334d2f59388d24d9420ef81412f94a
+      internalID: 1536372188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1731
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaa99b2b1757d241bc05b52cfa7688f
+      internalID: -1289034428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1667
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4483e942af97a84297b19bf0279c318
+      internalID: 714642451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1667
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121c94f3740e2bc4cb33d1e8b9418385
+      internalID: 518993885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1666
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee6a0ab80c12fe4496ea2ca9e0d1977
+      internalID: -1025897300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1666
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691e1a6a2dc5d544e8d26ae88d0a704a
+      internalID: -906118414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1666
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8b6b61997c5254091b012111c236bc
+      internalID: 1172310859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1667
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dcd0aebf56f264eaf77e3e0bb8163d
+      internalID: 319975382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1666
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d1a929f4b785b42b2dbb0de688c4c0
+      internalID: -1461192604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1666
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf9c109b07a4c4795f3dba60cebf77
+      internalID: 1911329539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1666
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e911e39462e35614da9ab1a5a252d395
+      internalID: 1541106947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1603
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdcd879ca1d2d743bc98ee8ce9dbb1e
+      internalID: 851106389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1603
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdc006d8ec1324488923fdc71c6b4b6
+      internalID: 623926183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1604
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f610a260c6eae843a7ba9af98b39b67
+      internalID: 1631239550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1604
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46ae961bb263bb4d8c811fa1286fcce
+      internalID: -375058572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1603
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87a37dba93a91f468715dcb5b949f08
+      internalID: 186792808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1603
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c08dec3b9bb574ba9353bb7af083a8
+      internalID: -1089791286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1603
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc51633bd7e7cf84f95023b8de7405b2
+      internalID: 1988645095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1603
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d2f4bebe0a049428f91d581b8714d1
+      internalID: -275917261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1603
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954d0c2a7c235d347bbd16315ce30ecd
+      internalID: 922308300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1539
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f132020fa74d243a13a34ce71cd582
+      internalID: -2001767064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1539
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9277a0de6cfe409087a5c839564e5
+      internalID: -1626755079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1539
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c86e5183530e0a4bb99679b3e747d5e
+      internalID: -1583476317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1539
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147c58c70fa33b744875d8ae0f84859c
+      internalID: 1602575369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1539
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d6895df3953bf48a209cadd8ad6df6
+      internalID: -1846635157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1538
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44080a6b49aeaca40a9f5089c0450f78
+      internalID: 1347501260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1468
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0caec4578cb484eb9d67ab15c1e7a1
+      internalID: 613582185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1467
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c1bba98ed99824b8611315a99bd451
+      internalID: -1035314735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1467
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f3d5f5e8b50ad4583affaf6e54cd61
+      internalID: -1028216414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1467
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4b0a01393328429e94cb6effc3a41
+      internalID: 870884990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1467
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c3e73cf593be74095abdb2baed04eb
+      internalID: 1235504657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1467
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cccc5a4474ad5b46868aaef471f67f5
+      internalID: -1070672781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1467
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6899d6e87befa43805d2deaa795d61
+      internalID: -1129749953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Back_07
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1467
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c566333a6a59be74baccc9c61d908115
+      internalID: -2046915004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1392
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6466ffdfd978cf349a0920310baf6069
+      internalID: 468966646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1392
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d1ae0e76c5494abf92320e9421b1f
+      internalID: 1695775999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1392
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c25e2a788ddd2418eaa6a7acad0682
+      internalID: 1729777020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1392
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7b37093a565ff49b8fbdbb145733bf
+      internalID: -46948192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1392
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1087dbe8009384fa52d32a70547a1f
+      internalID: 1218070557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1392
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d88399c6c66cf04bacd362e7faf7f27
+      internalID: 1928054827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1392
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf616ac7fa9fc04cab2127b3b3b434d
+      internalID: 1308894145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Left_07
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1392
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126ac15974e756244a2114715b170f7d
+      internalID: -1590385221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1323
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab29519028953f499105ab4e2a94155
+      internalID: 2086464533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1324
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fe17800a5526f47b784e26f3dd7f58
+      internalID: 449676376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1324
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e057454a0ce1b94fb13c0c96596b3c9
+      internalID: 865707503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1324
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d911818e32718a488935a842e12ee08
+      internalID: 1612948027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1322
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87fed7326b1e64fbc618c6494178ac
+      internalID: 1140363683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1320
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290852531e34c3041915cff78c06cfa2
+      internalID: -2020892850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1322
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd27215ac5bb88647b1a0004d967f160
+      internalID: 1585470534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Front_07
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1324
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da49ab699e35c1447878242c970ee7ec
+      internalID: -2092819838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1249
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7a07b59f0b89d4b9fc36a6277b31f4
+      internalID: 849498290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1249
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eba4ed44cf6ca74aad036efdb7babd7
+      internalID: -1032199374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1249
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3b443f3fe0aef49badce0807402ab7
+      internalID: 1234645996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1249
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd61fff1314176f4b83ec1fd1a25afe2
+      internalID: 1822595961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1249
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dcc5da14641df42ad888cac8e7b3e6
+      internalID: 703510826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1249
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaea863ae981584db19b51c05d2c8d1
+      internalID: 870683623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1249
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a2727fb3033ff418dab3760850d943
+      internalID: 1149368093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterWater_Weapon_Cast_Right_07
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1249
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a216f9cd9db2445af313c1baf48ddb
+      internalID: -1555135611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      5: -1089791286
+      CharacterWater_Cast_Back_00: 844198905
+      CharacterWater_Cast_Back_01: 590853173
+      CharacterWater_Cast_Back_02: 1362140928
+      CharacterWater_Cast_Back_03: -2011138328
+      CharacterWater_Cast_Back_04: -892408538
+      CharacterWater_Cast_Back_05: 1869096026
+      CharacterWater_Cast_Back_06: 908464973
+      CharacterWater_Cast_Front_00: 1133664087
+      CharacterWater_Cast_Front_01: 1255901331
+      CharacterWater_Cast_Front_02: -802970423
+      CharacterWater_Cast_Front_03: -60979881
+      CharacterWater_Cast_Front_04: -1130815739
+      CharacterWater_Cast_Front_05: -1708748348
+      CharacterWater_Cast_Front_06: 1568069715
+      CharacterWater_Cast_Left_00: -2000612380
+      CharacterWater_Cast_Left_01: -1839635555
+      CharacterWater_Cast_Left_02: -813091546
+      CharacterWater_Cast_Left_03: -1739109211
+      CharacterWater_Cast_Left_04: 1266618276
+      CharacterWater_Cast_Left_05: -1468556163
+      CharacterWater_Cast_Left_06: -1231823781
+      CharacterWater_Cast_Right_00: -965085153
+      CharacterWater_Cast_Right_01: -1009516860
+      CharacterWater_Cast_Right_02: 1197205473
+      CharacterWater_Cast_Right_03: -1014823109
+      CharacterWater_Cast_Right_04: 1465962076
+      CharacterWater_Cast_Right_05: -745753065
+      CharacterWater_Cast_Right_06: 969215912
+      CharacterWater_Dead_00: -2001767064
+      CharacterWater_Dead_01: -1626755079
+      CharacterWater_Dead_02: -1583476317
+      CharacterWater_Dead_03: 1602575369
+      CharacterWater_Dead_04: -1846635157
+      CharacterWater_Dead_05: 1347501260
+      CharacterWater_Walk_Back_00: -858652608
+      CharacterWater_Walk_Back_01: -1072282078
+      CharacterWater_Walk_Back_02: -2058105083
+      CharacterWater_Walk_Back_03: -1828178090
+      CharacterWater_Walk_Back_04: -1016043075
+      CharacterWater_Walk_Back_05: -1527591046
+      CharacterWater_Walk_Back_06: 101146213
+      CharacterWater_Walk_Back_07: 1152931815
+      CharacterWater_Walk_Back_08: -874621969
+      CharacterWater_Walk_Front_00: 714642451
+      CharacterWater_Walk_Front_01: 518993885
+      CharacterWater_Walk_Front_02: -1025897300
+      CharacterWater_Walk_Front_03: -906118414
+      CharacterWater_Walk_Front_04: 1172310859
+      CharacterWater_Walk_Front_05: 319975382
+      CharacterWater_Walk_Front_06: -1461192604
+      CharacterWater_Walk_Front_07: 1911329539
+      CharacterWater_Walk_Front_08: 1541106947
+      CharacterWater_Walk_Left_00: -1116941761
+      CharacterWater_Walk_Left_01: -665258984
+      CharacterWater_Walk_Left_02: -543047233
+      CharacterWater_Walk_Left_03: 1301334027
+      CharacterWater_Walk_Left_04: 224151552
+      CharacterWater_Walk_Left_05: -680061840
+      CharacterWater_Walk_Left_06: -951817971
+      CharacterWater_Walk_Left_07: 1536372188
+      CharacterWater_Walk_Left_08: -1289034428
+      CharacterWater_Walk_Right_00: 851106389
+      CharacterWater_Walk_Right_01: 623926183
+      CharacterWater_Walk_Right_02: 1631239550
+      CharacterWater_Walk_Right_03: -375058572
+      CharacterWater_Walk_Right_04: 186792808
+      CharacterWater_Walk_Right_06: 1988645095
+      CharacterWater_Walk_Right_07: -275917261
+      CharacterWater_Walk_Right_08: 922308300
+      CharacterWater_Weapon_Cast_Back_00: 613582185
+      CharacterWater_Weapon_Cast_Back_01: -1035314735
+      CharacterWater_Weapon_Cast_Back_02: -1028216414
+      CharacterWater_Weapon_Cast_Back_03: 870884990
+      CharacterWater_Weapon_Cast_Back_04: 1235504657
+      CharacterWater_Weapon_Cast_Back_05: -1070672781
+      CharacterWater_Weapon_Cast_Back_06: -1129749953
+      CharacterWater_Weapon_Cast_Back_07: -2046915004
+      CharacterWater_Weapon_Cast_Front_00: 2086464533
+      CharacterWater_Weapon_Cast_Front_01: 449676376
+      CharacterWater_Weapon_Cast_Front_02: 865707503
+      CharacterWater_Weapon_Cast_Front_03: 1612948027
+      CharacterWater_Weapon_Cast_Front_04: 1140363683
+      CharacterWater_Weapon_Cast_Front_05: -2020892850
+      CharacterWater_Weapon_Cast_Front_06: 1585470534
+      CharacterWater_Weapon_Cast_Front_07: -2092819838
+      CharacterWater_Weapon_Cast_Left_00: 468966646
+      CharacterWater_Weapon_Cast_Left_01: 1695775999
+      CharacterWater_Weapon_Cast_Left_02: 1729777020
+      CharacterWater_Weapon_Cast_Left_03: -46948192
+      CharacterWater_Weapon_Cast_Left_04: 1218070557
+      CharacterWater_Weapon_Cast_Left_05: 1928054827
+      CharacterWater_Weapon_Cast_Left_06: 1308894145
+      CharacterWater_Weapon_Cast_Left_07: -1590385221
+      CharacterWater_Weapon_Cast_Right_00: 849498290
+      CharacterWater_Weapon_Cast_Right_01: -1032199374
+      CharacterWater_Weapon_Cast_Right_02: 1234645996
+      CharacterWater_Weapon_Cast_Right_03: 1822595961
+      CharacterWater_Weapon_Cast_Right_04: 703510826
+      CharacterWater_Weapon_Cast_Right_05: 870683623
+      CharacterWater_Weapon_Cast_Right_06: 1149368093
+      CharacterWater_Weapon_Cast_Right_07: -1555135611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1680 @@
+fileFormatVersion: 2
+guid: 34a4ad372245a7f4ba0ec1c70449b7d6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f654f6338d113f4db30a385996007b0
+      internalID: -1114592580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1281
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5875fc015bfbee44a9f8c08ccb0e1038
+      internalID: -212319142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ea5f68f2ce784f98430c902300043
+      internalID: 1980310382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1281
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e5c95fad25cc245a58654de3f0beaf
+      internalID: -273972143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1281
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817820be77346b4ba921ede916f4987
+      internalID: 16208168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1281
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269019c6b1be0ec408d3653ac16ff2c6
+      internalID: -759153387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1281
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b374c3eb860eedc409743c51540b9b83
+      internalID: -1879402182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f00d8aae8729441854f9cf6fe3ee6b
+      internalID: 675621672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b629ddc2c686647a0071c2867be87e
+      internalID: 280938332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921e119629b658041a76813ea13d7030
+      internalID: -691289048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0136b336818dc624ab74bfef9cec8b53
+      internalID: -1575760221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1217
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ad50f71d7603144acd0aae00ddcbc2
+      internalID: 94532769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1217
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd700a3dc4b4b2746998778934b292aa
+      internalID: -1779244099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e6d279b2e73e468bee9af8727db13
+      internalID: -1240496543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1153
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9da812e57098e44b4ca758dfe682b7
+      internalID: -1352097172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1153
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bd0413a2cfd0943813d53f43be8fb3
+      internalID: 665630663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1153
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b084a4ca848eac4b827bdb8e32003d7
+      internalID: -1649275897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1153
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ac5d93fed2ced4f860e3a62a1a6c52
+      internalID: -1208762153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1153
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50f2985c4169e843af946e0b9345aed
+      internalID: 1246292220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1153
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c144c49f4a17d91489c2e6cab419ef65
+      internalID: 708272571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1153
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9697686cc8b7f4f46afb2819d7d358c4
+      internalID: 1835642042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7301ecfb854dccb4abfb9f4edf572257
+      internalID: 1465690900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97de71503e77f36478e3189faf934930
+      internalID: -1429528817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2fdea24b6aef041bdb48d49bfe4d3f
+      internalID: -1138940101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c047a89838cfb81429c6b7d20fba978f
+      internalID: -2060016131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1089
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86232385c9bd8145a870fd8eb3cf30a
+      internalID: -818582011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1089
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce534a2a6f3c044881d8388a448f2f5
+      internalID: 2024635293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d80198935d1c3e47a5024c705c7156c
+      internalID: -1859838045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1026
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de276424a48e7b43877c6322dfaff8b
+      internalID: 1137380067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1025
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf832e34c50496c4ca65af3789d14317
+      internalID: 272247607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1024
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe39bac676497b4999c16db1794fce5
+      internalID: 841172536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1024
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f862d9dee2b3de442b18e9863cbdda24
+      internalID: 846150332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1024
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a13323dda3de344842a6e0d001733c
+      internalID: -847739018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1025
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f750c87951d9c47ab5d1d40d89d1c7
+      internalID: -1665761303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1024
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7402b880a787542832640e0edcb84d
+      internalID: -724826331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1024
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09502a9ae56814b45af93b6ac7f19c2d
+      internalID: 1833309707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1024
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9f686f070349e4587aa85b6f4a4ef8
+      internalID: -248369982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 961
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e061fa656476e46877cde16daff4a3
+      internalID: -2034126756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 961
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50605fd99250fa449cd5065f22817e0
+      internalID: 1951727796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 962
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0cab86c0d0992429e377f2dc9b47cb
+      internalID: 1777116939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 962
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf975374e57aad4ba08f0ea474d2f44
+      internalID: 1735533522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 961
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e11b4d67f7da84b8cf39b5a0fe6c49
+      internalID: -1827614483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 961
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925c112c38205144586e3438814de9e2
+      internalID: -1848666553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 961
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddf46f6f20b9ec4391f55785d1f6815
+      internalID: 478353397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 961
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d95b42bda6b6ec4db2a7f2de0a71fc2
+      internalID: -2073991462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 961
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299947e288e4e242883ad226db779af
+      internalID: -373109131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 897
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9521bf55565571418fbcf917c00f7c9
+      internalID: -1674639751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 896
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e6a71862aacb4c8f445fc317cecf9
+      internalID: 812193766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 896
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a98d12d66a64499c3ed688b257e86
+      internalID: -1979911607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 896
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b6f0122be07af43ac87da9504e882f
+      internalID: -1010864640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 896
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650c63ca2351c3409a487680d13cc8f
+      internalID: 798751427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 897
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65388bafa64d3984e96cf03e6cf75518
+      internalID: -1548070860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 896
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31a3afe521ab0b47ba41337acd64e6f
+      internalID: 575371034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 896
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f52d60d979cece43a9a677b1eac5518
+      internalID: 1139544773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 896
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f076d42b902e8bd4a8d89c69d7e096a7
+      internalID: 1776983253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc068256062dfd84bae51d88fa671bf6
+      internalID: -1060901741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 833
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58f37ce66cc87c4a8ac7e4ace400cb9
+      internalID: 1704680975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 834
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b1f11d488bc58429bd664d5b019030
+      internalID: -114746056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 834
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27baad27bb359434894af94ba904f45f
+      internalID: -908696965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17dd6b8bcdeabe4e84577b0edf33140
+      internalID: 2090848544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 833
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc39c592722cde4cbddcd25f261a3c1
+      internalID: 1063945610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c728f7fc3d23488eb9e6dddc49eea
+      internalID: -1141905463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e2d983842762644bbcfe02608f4c4f
+      internalID: -58353406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc7e2073beaa347b0a4739aa290414
+      internalID: -283565762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 766
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5eb67c0a4304d4fbc3e7f8df75acf3
+      internalID: 1799698732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 766
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115d06904d571b44fa843fb1f3122938
+      internalID: 174333229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 766
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bca5288095cc54e8265ab87e7088c8
+      internalID: 510434386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 767
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff49888773848614ab2a5622f17838e5
+      internalID: 861645417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 768
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221b691f86ce324fbc78acb98db35ce
+      internalID: 2030300826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWaterOrc_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 765
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30794c47732d5e42909c279d5cdca95
+      internalID: -1856312337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemyWaterOrc_Cast_Back_00: -1114592580
+      EnemyWaterOrc_Cast_Back_01: -212319142
+      EnemyWaterOrc_Cast_Back_02: 1980310382
+      EnemyWaterOrc_Cast_Back_03: -273972143
+      EnemyWaterOrc_Cast_Back_04: 16208168
+      EnemyWaterOrc_Cast_Back_05: -759153387
+      EnemyWaterOrc_Cast_Back_06: -1879402182
+      EnemyWaterOrc_Cast_Front_00: -1352097172
+      EnemyWaterOrc_Cast_Front_01: 665630663
+      EnemyWaterOrc_Cast_Front_02: -1649275897
+      EnemyWaterOrc_Cast_Front_03: -1208762153
+      EnemyWaterOrc_Cast_Front_04: 1246292220
+      EnemyWaterOrc_Cast_Front_05: 708272571
+      EnemyWaterOrc_Cast_Front_06: 1835642042
+      EnemyWaterOrc_Cast_Left_00: 675621672
+      EnemyWaterOrc_Cast_Left_01: 280938332
+      EnemyWaterOrc_Cast_Left_02: -691289048
+      EnemyWaterOrc_Cast_Left_03: -1575760221
+      EnemyWaterOrc_Cast_Left_04: 94532769
+      EnemyWaterOrc_Cast_Left_05: -1779244099
+      EnemyWaterOrc_Cast_Left_06: -1240496543
+      EnemyWaterOrc_Cast_Right_00: 1465690900
+      EnemyWaterOrc_Cast_Right_01: -1429528817
+      EnemyWaterOrc_Cast_Right_02: -1138940101
+      EnemyWaterOrc_Cast_Right_03: -2060016131
+      EnemyWaterOrc_Cast_Right_04: -818582011
+      EnemyWaterOrc_Cast_Right_05: 2024635293
+      EnemyWaterOrc_Cast_Right_06: -1859838045
+      EnemyWaterOrc_Dead_00: 1799698732
+      EnemyWaterOrc_Dead_01: 174333229
+      EnemyWaterOrc_Dead_02: 510434386
+      EnemyWaterOrc_Dead_03: 861645417
+      EnemyWaterOrc_Dead_04: 2030300826
+      EnemyWaterOrc_Dead_05: -1856312337
+      EnemyWaterOrc_Walk_Back_00: 1137380067
+      EnemyWaterOrc_Walk_Back_01: 272247607
+      EnemyWaterOrc_Walk_Back_02: 841172536
+      EnemyWaterOrc_Walk_Back_03: 846150332
+      EnemyWaterOrc_Walk_Back_04: -847739018
+      EnemyWaterOrc_Walk_Back_05: -1665761303
+      EnemyWaterOrc_Walk_Back_06: -724826331
+      EnemyWaterOrc_Walk_Back_07: 1833309707
+      EnemyWaterOrc_Walk_Back_08: -248369982
+      EnemyWaterOrc_Walk_Front_00: -1674639751
+      EnemyWaterOrc_Walk_Front_01: 812193766
+      EnemyWaterOrc_Walk_Front_02: -1979911607
+      EnemyWaterOrc_Walk_Front_03: -1010864640
+      EnemyWaterOrc_Walk_Front_04: 798751427
+      EnemyWaterOrc_Walk_Front_05: -1548070860
+      EnemyWaterOrc_Walk_Front_06: 575371034
+      EnemyWaterOrc_Walk_Front_07: 1139544773
+      EnemyWaterOrc_Walk_Front_08: 1776983253
+      EnemyWaterOrc_Walk_Left_00: -2034126756
+      EnemyWaterOrc_Walk_Left_01: 1951727796
+      EnemyWaterOrc_Walk_Left_02: 1777116939
+      EnemyWaterOrc_Walk_Left_03: 1735533522
+      EnemyWaterOrc_Walk_Left_04: -1827614483
+      EnemyWaterOrc_Walk_Left_05: -1848666553
+      EnemyWaterOrc_Walk_Left_06: 478353397
+      EnemyWaterOrc_Walk_Left_07: -2073991462
+      EnemyWaterOrc_Walk_Left_08: -373109131
+      EnemyWaterOrc_Walk_Right_00: -1060901741
+      EnemyWaterOrc_Walk_Right_01: 1704680975
+      EnemyWaterOrc_Walk_Right_02: -114746056
+      EnemyWaterOrc_Walk_Right_03: -908696965
+      EnemyWaterOrc_Walk_Right_04: 2090848544
+      EnemyWaterOrc_Walk_Right_05: 1063945610
+      EnemyWaterOrc_Walk_Right_06: -1141905463
+      EnemyWaterOrc_Walk_Right_07: -58353406
+      EnemyWaterOrc_Walk_Right_08: -283565762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2384 @@
+fileFormatVersion: 2
+guid: efb38ac858e82794bac50b6328aede8b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55762197b2253954a85c4b67bde3bd0d
+      internalID: 1225029123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b2cdcd0de3544b9394632c4dd7d5c
+      internalID: -520186224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b2b8bc3d5804045bb70cad7fb17c38
+      internalID: 1071872359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bb52b53b525dd418fb2bf248579ed2
+      internalID: 265479261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55d71816ae045a43a0a26356858a0c9
+      internalID: -505064863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feb3316b36aec74ba72fb41dd592fd3
+      internalID: 1442730913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Back_0
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1799b33a9cbe5ef4ca3acff23770dbb3
+      internalID: 1164413787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1985
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40f5706ce788564ab538bcfd6c48683
+      internalID: -1544068824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1985
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71c9f576f9037b449dd9f5709156e71
+      internalID: 833268801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1985
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76467d040a23bf14487e5251fca4c046
+      internalID: 678748368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1985
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed100b4d9a9f82d4ca066061aa94c70a
+      internalID: -998050583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb329de06641f1543942465465149256
+      internalID: 1764873484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b928b6cf33aa2e4080959fb2cea8b2e
+      internalID: 1999192744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1985
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d46d518e0d51a348beba9396beb935e
+      internalID: -7852017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1921
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b1d0eba53b8c649905f49569c7119d
+      internalID: 1716216295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462c4361253eddc4fa8dd737bdb72dbe
+      internalID: -49305866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca429ff6fefb18f43944935941f76bad
+      internalID: 452146112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1921
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9c40392b618e942ba090b30bf644cd
+      internalID: -154801980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75368216b6b0a334d942fdaf4e4e8bb7
+      internalID: 435910685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d397a5fdfed864483b76dd539c6c46
+      internalID: 884071265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1921
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ffe1d161dafeb48965dfa03a43b41b
+      internalID: -116728815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1857
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd928c2ec9279f4cb5cb7780524a58c
+      internalID: 1044797124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1857
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5282ec039e5b9488aa3c444af85305
+      internalID: -1184950334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1857
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375e976b18c31c14390063038efc7706
+      internalID: -293584255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1857
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb16f52d94c0a544a81c41d533e8bc6
+      internalID: 1751618884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1857
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889a8d61aa2344846af2162cd1bd72a9
+      internalID: 226616785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1857
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78f724f95c8aa4458930025840c1c68
+      internalID: 1836765747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f834a28c2b8b4c887cba6576588ee
+      internalID: -921776891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1796
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40302dfa2b09c4c4c8ccb573f183c381
+      internalID: 1403290181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1796
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c89989c8ada6c41860434b7acb61c4
+      internalID: 1624594457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1795
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a75b82156c6e8c4fba6a0fc32276e6b
+      internalID: -673770298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1794
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28feda762a2fe2c419248fff34430270
+      internalID: 1275708278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1795
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40c0c848adee6948a51ed05dfb65754
+      internalID: 1823539420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1796
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfb7b463ebcddd4fbdd030fb29fd2a8
+      internalID: -1147803144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1795
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664ab71898573c4459f529e4aac09f4f
+      internalID: 1969014844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1794
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611dd87d82e4aef4295e90b76f194fe3
+      internalID: -1272437558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1795
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d14e7a82d059d248a7840fb473e5426
+      internalID: 410537107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1731
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420ec667d3d470644ba45c88391b307b
+      internalID: 1564010622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1731
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a1602030fbda429037c516525ab37
+      internalID: -1722825615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1733
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe6ee0c8bfd36a40adb62d6dabdfc16
+      internalID: -1677614404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1733
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6883c8595a27f4d8d7302e339e4121
+      internalID: 1322875159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1731
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9f8a64aad43574bac95732d1d085f6
+      internalID: 2080183702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1731
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37988a7b45829a40bcd17d067720914
+      internalID: -2132547214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1731
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b3afe72af1a2345a0e6de1b70a13e3
+      internalID: 1355287637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1731
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf252a926732c0449db2b6e5c91313e
+      internalID: 700688432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1731
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2294cc7c20d440d44bb618cbe1569888
+      internalID: -773498142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1668
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b4a06d6eb28b24fb67792159199924
+      internalID: 1905319765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1668
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bd50188fb73e44694fe06602d781f7
+      internalID: -369070950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1667
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b34534766de41b45863a9d7f79a4dc5
+      internalID: 1523409324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1667
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c53936c9e7bbd04186067d1da64bc8f
+      internalID: 596279292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1667
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bf8148e2cc2ad45809c628f0a18560
+      internalID: 372500868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1668
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c97ca94a122b3043bc27a532d531001
+      internalID: 1068327338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1667
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be37fc38cd3670d4a8c116c8f54f9027
+      internalID: -907856474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1667
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30239fa708b53dd4a95560e4f69d44a7
+      internalID: 1850314114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1667
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1058fc01dbd474f8fd7164e5e6bbbb
+      internalID: 1279868512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1604
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8a325dbb1e19549876c948d5d87e2e
+      internalID: 1540527046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1604
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e04cc6ffb80a743945a96ba90b1d1c
+      internalID: 2011452237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1605
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32b73dc00f659b498a81e2666128b79
+      internalID: 1871707613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1605
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2919baad8ce47f54f86799a89262c6f9
+      internalID: 1915005080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1604
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f08a06fb5200046ad284d6fb9bd7ab
+      internalID: 1312922547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1604
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0d2e08de512254aaedb5e4cdd8d059
+      internalID: 1361302236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1604
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb77b2c16e1aae40b8f89dec4785f0f
+      internalID: -2029538208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1604
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f57e1dce1091642a5bc9ec489dcf42
+      internalID: 1360012735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1604
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fda4d9de2d2a248b7b0cd459aed07d
+      internalID: 1487388782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1543
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a008e3a7eeaf48a5e01f40cab2611
+      internalID: -357869517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1543
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae41cfe2da444cc448e234442627f184
+      internalID: 445212345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1543
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2794552de435ee4b9f678eae74f2c06
+      internalID: -812668109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1543
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89058f5b4b4247f4c8b878e95f55f6d6
+      internalID: -1992295643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1543
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f112e73159219f4081d2b46fafaa9d2
+      internalID: 868308155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1542
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7c00f0bd467043b3efb28ed2cb730
+      internalID: 1231763800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1476
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86324392fb3b62d408c960e7cd829fa3
+      internalID: -245966509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1474
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68923b16c07ef7e448cf638ce7f8a22b
+      internalID: 472087480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1474
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1ea7a16c44c644b3f20e7e6aa5a3d
+      internalID: -500999253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1474
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad4a3d60fda73f4db0106f13f1ed632
+      internalID: -1773380833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1474
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ac42852627aea4f87945fefd5f3773
+      internalID: 1007838441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1474
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e0b55536e679142b18a2c858a45b65
+      internalID: -478731849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1474
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06b8ac2a2da24a4c8f6bf2639e01ace
+      internalID: -1913219814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Back_07
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1474
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48647ba4d7c8e04a8202f6de4da1f4d
+      internalID: 313173962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1404
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563040a6928b2ad49a66fb0c1afdb8b9
+      internalID: 1841377388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1404
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee1583b4bca49a4eb7c824ea9e1aed6
+      internalID: -2006866520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1404
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0982dade5ff0aac40a83b8514cd58568
+      internalID: 547719689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1404
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e7f54bf9b7e1a46aff1cf39ea8e175
+      internalID: -251052792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1404
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff75ab1ef13fd141a8b8f89b4e2e028
+      internalID: -902024312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1404
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2afb16eb33ad24a8947fa16372980a
+      internalID: 781256888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1404
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa53f44c3ed1129419ac84bde6b39bd3
+      internalID: 1227911219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Left_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1404
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad36e27fbb95cdf43a89403fcd0ef256
+      internalID: -1859829534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1338
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b328f5924f0d9e4db4107ca0c5dc6ce
+      internalID: -651357385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1339
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54ee4de227590b4ead9176601d5023b
+      internalID: 308333282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1339
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f62e2a9c3594a44bb5cac09ad1fe56e
+      internalID: -2046416144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1339
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336d405eae927d349ab9b8a6ac1b9643
+      internalID: -91529478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1337
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8a8a0ace85087489e0b9d6f05d53eb
+      internalID: 1333643112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1334
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf942769cf08040bc0fc52a0a61026
+      internalID: -257025640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1337
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c17a1f9178aa942bef6d3feab39a9c
+      internalID: -687954634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Front_07
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1339
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5c6a798ac39394cb8d30a711e9178f
+      internalID: 752422741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1271
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4be3626d380f7469fac0a9f3756b73
+      internalID: -1437078851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1271
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92f1751eac71e349be7bb4cb74fa6f4
+      internalID: -924113028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1271
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403aa24dc12a05246a4ed92ff29eb307
+      internalID: 96053241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1271
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51011e7a890d62940a0cf5c5f64ac6f6
+      internalID: 793258174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1271
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a111d0601168cca4ab139b9a11e4b98a
+      internalID: 587468072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1271
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fcd8c6bf6cb2348984b0cfde3f13ee
+      internalID: 729138333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1271
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33c1e86f042b2438f9cceabbfda67b
+      internalID: -133642944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterNormal_Weapon_Cast_Right_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1271
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d790569e89f3b46bf147579a397d94
+      internalID: 487508427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharacterNormal_Cast_Back_0: 1164413787
+      CharacterNormal_Cast_Back_00: 1225029123
+      CharacterNormal_Cast_Back_01: -520186224
+      CharacterNormal_Cast_Back_02: 1071872359
+      CharacterNormal_Cast_Back_03: 265479261
+      CharacterNormal_Cast_Back_04: -505064863
+      CharacterNormal_Cast_Back_06: 1442730913
+      CharacterNormal_Cast_Front_00: 1716216295
+      CharacterNormal_Cast_Front_01: -49305866
+      CharacterNormal_Cast_Front_02: 452146112
+      CharacterNormal_Cast_Front_03: -154801980
+      CharacterNormal_Cast_Front_04: 435910685
+      CharacterNormal_Cast_Front_05: 884071265
+      CharacterNormal_Cast_Front_06: -116728815
+      CharacterNormal_Cast_Left_00: -1544068824
+      CharacterNormal_Cast_Left_01: 833268801
+      CharacterNormal_Cast_Left_02: 678748368
+      CharacterNormal_Cast_Left_03: -998050583
+      CharacterNormal_Cast_Left_04: 1764873484
+      CharacterNormal_Cast_Left_05: 1999192744
+      CharacterNormal_Cast_Left_06: -7852017
+      CharacterNormal_Cast_Right_00: 1044797124
+      CharacterNormal_Cast_Right_01: -1184950334
+      CharacterNormal_Cast_Right_02: -293584255
+      CharacterNormal_Cast_Right_03: 1751618884
+      CharacterNormal_Cast_Right_04: 226616785
+      CharacterNormal_Cast_Right_05: 1836765747
+      CharacterNormal_Cast_Right_06: -921776891
+      CharacterNormal_Dead_00: -357869517
+      CharacterNormal_Dead_01: 445212345
+      CharacterNormal_Dead_02: -812668109
+      CharacterNormal_Dead_03: -1992295643
+      CharacterNormal_Dead_04: 868308155
+      CharacterNormal_Dead_05: 1231763800
+      CharacterNormal_Walk_Back_00: 1403290181
+      CharacterNormal_Walk_Back_01: 1624594457
+      CharacterNormal_Walk_Back_02: -673770298
+      CharacterNormal_Walk_Back_03: 1275708278
+      CharacterNormal_Walk_Back_04: 1823539420
+      CharacterNormal_Walk_Back_05: -1147803144
+      CharacterNormal_Walk_Back_06: 1969014844
+      CharacterNormal_Walk_Back_07: -1272437558
+      CharacterNormal_Walk_Back_08: 410537107
+      CharacterNormal_Walk_Front_00: 1905319765
+      CharacterNormal_Walk_Front_01: -369070950
+      CharacterNormal_Walk_Front_02: 1523409324
+      CharacterNormal_Walk_Front_03: 596279292
+      CharacterNormal_Walk_Front_04: 372500868
+      CharacterNormal_Walk_Front_05: 1068327338
+      CharacterNormal_Walk_Front_06: -907856474
+      CharacterNormal_Walk_Front_07: 1850314114
+      CharacterNormal_Walk_Front_08: 1279868512
+      CharacterNormal_Walk_Left_00: 1564010622
+      CharacterNormal_Walk_Left_01: -1722825615
+      CharacterNormal_Walk_Left_02: -1677614404
+      CharacterNormal_Walk_Left_03: 1322875159
+      CharacterNormal_Walk_Left_04: 2080183702
+      CharacterNormal_Walk_Left_05: -2132547214
+      CharacterNormal_Walk_Left_06: 1355287637
+      CharacterNormal_Walk_Left_07: 700688432
+      CharacterNormal_Walk_Left_08: -773498142
+      CharacterNormal_Walk_Right_00: 1540527046
+      CharacterNormal_Walk_Right_01: 2011452237
+      CharacterNormal_Walk_Right_02: 1871707613
+      CharacterNormal_Walk_Right_03: 1915005080
+      CharacterNormal_Walk_Right_04: 1312922547
+      CharacterNormal_Walk_Right_05: 1361302236
+      CharacterNormal_Walk_Right_06: -2029538208
+      CharacterNormal_Walk_Right_07: 1360012735
+      CharacterNormal_Walk_Right_08: 1487388782
+      CharacterNormal_Weapon_Cast_Back_00: -245966509
+      CharacterNormal_Weapon_Cast_Back_01: 472087480
+      CharacterNormal_Weapon_Cast_Back_02: -500999253
+      CharacterNormal_Weapon_Cast_Back_03: -1773380833
+      CharacterNormal_Weapon_Cast_Back_04: 1007838441
+      CharacterNormal_Weapon_Cast_Back_05: -478731849
+      CharacterNormal_Weapon_Cast_Back_06: -1913219814
+      CharacterNormal_Weapon_Cast_Back_07: 313173962
+      CharacterNormal_Weapon_Cast_Front_00: -651357385
+      CharacterNormal_Weapon_Cast_Front_01: 308333282
+      CharacterNormal_Weapon_Cast_Front_02: -2046416144
+      CharacterNormal_Weapon_Cast_Front_03: -91529478
+      CharacterNormal_Weapon_Cast_Front_04: 1333643112
+      CharacterNormal_Weapon_Cast_Front_05: -257025640
+      CharacterNormal_Weapon_Cast_Front_06: -687954634
+      CharacterNormal_Weapon_Cast_Front_07: 752422741
+      CharacterNormal_Weapon_Cast_Left_00: 1841377388
+      CharacterNormal_Weapon_Cast_Left_01: -2006866520
+      CharacterNormal_Weapon_Cast_Left_02: 547719689
+      CharacterNormal_Weapon_Cast_Left_03: -251052792
+      CharacterNormal_Weapon_Cast_Left_04: -902024312
+      CharacterNormal_Weapon_Cast_Left_05: 781256888
+      CharacterNormal_Weapon_Cast_Left_06: 1227911219
+      CharacterNormal_Weapon_Cast_Left_07: -1859829534
+      CharacterNormal_Weapon_Cast_Right_00: -1437078851
+      CharacterNormal_Weapon_Cast_Right_01: -924113028
+      CharacterNormal_Weapon_Cast_Right_02: 96053241
+      CharacterNormal_Weapon_Cast_Right_03: 793258174
+      CharacterNormal_Weapon_Cast_Right_04: 587468072
+      CharacterNormal_Weapon_Cast_Right_05: 729138333
+      CharacterNormal_Weapon_Cast_Right_06: -133642944
+      CharacterNormal_Weapon_Cast_Right_07: 487508427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

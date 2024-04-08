@@ -1,0 +1,2384 @@
+fileFormatVersion: 2
+guid: a42f16efd6916434f9885dd9d5b3b445
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77753aeb45871fb43ac6b3f944b524f2
+      internalID: -1791989004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40641f3438a0ec4c9eaa08ee0109613
+      internalID: 988105199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d2d992c28936d46ab9d2c93e4e2a29
+      internalID: -1750389287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720f98beda3bbc645b8f2f4a5bb748b7
+      internalID: -1339807654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2048
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec533962da5a1fe4fa4a939e15af1b85
+      internalID: 954642465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2048
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b8f1887a765a946b606a5dcb3fe464
+      internalID: -2016714761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd10c9d9c7bebac46a055820af7c3987
+      internalID: 1888709463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f0e5335dbbc20498099eae3017351b
+      internalID: -674819769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5410eba507e36ef498cc608807ac66c4
+      internalID: 1654169172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072b4745f603aa144ad7990c9af5238d
+      internalID: 703279650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f833095d5b2eb7f4a83e4fbcc3bf29fd
+      internalID: 641533400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346511c7378bccc40b435ad6aa82f7dd
+      internalID: -577734130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd17897a07395e4a90b06601121965f
+      internalID: -1246405949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3824a184d65bb3541a19bb8a0b766bcf
+      internalID: 2028812087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f4632ebf80ebb49be607aed16d3f94
+      internalID: 1603228605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572fa9132ddd39a41ae59e62f6598d60
+      internalID: -119082175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e7fb27e6ade1e4b968dc846810c8c7
+      internalID: 1989433947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201cdca43f4fda34194c9a5c59692fce
+      internalID: -388545951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493ce38ea34d974990c2e88f4f27435
+      internalID: 1107247603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb25db8dbedd14ebb23a343afcd70c
+      internalID: 1847612882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5432b705b99228e4fb5347d49cf91d74
+      internalID: -1225564480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea88f4fc75a7b2b40bd1515be0387368
+      internalID: 202653719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb465d1a7b8b0e4dbace55a327f7e4e
+      internalID: -420960085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6164afa4c1a29754b98db91a6bb0dd28
+      internalID: 2034498235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73d1251598a53b419ec7937f507425a
+      internalID: -1080190767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1857
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730ed539066b87479133e32ae4318c7
+      internalID: -1031016670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1857
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ad4b321f0eb444686b2cdecc0cf73f
+      internalID: 102055732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393743c44b421874e8e25a7c2c62adb7
+      internalID: -1482805481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1784
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da329f1120b848044aa32dc966d08a03
+      internalID: -364919031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1784
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc70cb6cc305d554e8ecfa24c68cadc5
+      internalID: 302899194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1784
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d0d0b283e54634c870071469c569c6
+      internalID: -1383141749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1783
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfcd2c9bee26904c9f64e975cce8783
+      internalID: -459230294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1784
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd645cd7b948f4d9f90027f44df521
+      internalID: 735406333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1784
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de88db27a0cf6564e8d1c241c0527271
+      internalID: 1646027801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1784
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1a13dda6c847049ba89c932f2b49a8
+      internalID: 565466750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1783
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58287694aa763034ab6296fed73a4306
+      internalID: 413932588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1784
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfd95c33e1499446964366e1fea30d8
+      internalID: 1171274951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1720
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7009afffa90a94d98a771cdb825b52
+      internalID: -1126166841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1720
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc68ad23aac09d14eb75831a230ac1a4
+      internalID: -744809699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1721
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd62832332bd074aa8c01d7ddaa888f
+      internalID: 1959459345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1721
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01269268831bf594a91e2fb323fae7f9
+      internalID: -112382696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1720
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad35aa663b31d0e49aa86645240520fc
+      internalID: 941687670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1720
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f04673ac2ec952439f48c125b80f819
+      internalID: 193736061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1720
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb903298156e64b4b9ee09b8546a2da4
+      internalID: -1076151531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1720
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9d11934c6b30747be0612638dd0b17
+      internalID: 1862600781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1720
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca49e37a431556345a404789ddd1e902
+      internalID: 1367816628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1656
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046f2af45647a34b9048b4bcd3ce35c
+      internalID: -980364951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1656
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd391e38a25fc942a21bce7cb36c792
+      internalID: -2092192334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1655
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16fa3694cd0569479b084e4b8dd9a2f
+      internalID: -554679225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1655
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d14da6527e3e924e94c58171c53f391
+      internalID: 1874656557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1655
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e3c2ee9a71ec247a528373e4699156
+      internalID: -1161636461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1656
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3919d8aedd10c4fa3eb1794f488db8
+      internalID: -2047732697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1655
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e03d4de69353ec4b8aae7ce1e70cddd
+      internalID: 639486399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1655
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a8a21565e46d64c930fc9e8af8e487
+      internalID: 1333579915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1655
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d491ac74a5073b34ea9779a3f73c9502
+      internalID: -339047526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1592
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a8c778b6bdcae4fa0eb4f2b33d2564
+      internalID: -1148302441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1592
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67774f8cf39fe842ab9f73eb54c2c5f
+      internalID: 1966668042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1593
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875f2591ef632843a7b49b92126577b
+      internalID: -1118014359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1593
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff324a0f30afdd4f8280fca0a75cf6a
+      internalID: 185089020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1592
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8fdbda04f62ea4b86248f8eda88f20
+      internalID: -1897672799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1592
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cace5602b62edc147ad82e573fdd46ff
+      internalID: 1470719407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1592
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667270fedf7d59c4fb319dd76b19f3de
+      internalID: -1103021730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1592
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b08410d0ebbd7e4ca2a0d6bf1d7b1bb
+      internalID: 1173635175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1592
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f706602b7b18674a84b1f04b127efb8
+      internalID: 839308197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1523
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f46243f276a0c48a6663699a8e6818
+      internalID: -1357154159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1523
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44978b13f1dc39d479d94fbf0617c14e
+      internalID: 2002511480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1523
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d7001267af5034fa568afc1114eae3
+      internalID: -2128055156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1523
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749def81454d1a9478ba55bb8ae41864
+      internalID: 2140832412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1523
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed36deb58e7589f4cae8b769b847ffd5
+      internalID: -1221916487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1522
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8857cd066ca8984297594eca4d8c1f1
+      internalID: 230702544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1447
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc1c9351483dd438a756f1d76b38db
+      internalID: -1410174990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1446
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a873d234934df24c9d297235823950d
+      internalID: -228924886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1445
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9c80f52137d1459530f9231e7839c
+      internalID: -893272038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1446
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6450eb67607e56d42b6ee6990f55cf05
+      internalID: -640778142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1450
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd05b7e392537b34fb7b4fe90ee6225d
+      internalID: -1334271287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1453
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4de013f940fba49a8e9ee4e2eb6c2d
+      internalID: 322671307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1457
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7160acce69507384f8615a43ad03d825
+      internalID: -2064755004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Back_07
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1455
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e471c1bc8fc29604fa88b7f991fb372b
+      internalID: -332527140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1361
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa705db68630c944eaa6db0914e4d302
+      internalID: -1593636931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1361
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239e456cec17b664ea8341a8b6d4721c
+      internalID: 933054329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1359
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5d5efdfcf7fa54fbf22f41e7340190
+      internalID: -428027214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1361
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71924e9ce7d3af48a1fcfacd0752d3a
+      internalID: 1781692133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1365
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad063070013c144a90fe0f4b30c89d7
+      internalID: -944461699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1367
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e947f62bec1e84bbdb9f33ada7993b
+      internalID: 1944149726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1371
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc379291ebeac9346b7b01235d6baaaa
+      internalID: -623785335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Left_07
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1369
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c407a7a510168d943ac74af92d1679e6
+      internalID: 962529152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1290
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb58b071d10fcab48b328cbe0ffc39c6
+      internalID: -921339823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1291
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e3e0fc95490064fb9730a498cbee45
+      internalID: -1880532169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1289
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd3003ab60db494ebd32c47516cf7c5
+      internalID: 1152003616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1291
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b4e8b6281a074ea46c0120db9187d
+      internalID: 833719784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1293
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e955d7b4e7556b4582984390cf3be63
+      internalID: 644198302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1293
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f156184cea4d3284180a4a39d350a793
+      internalID: 439975045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1299
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98e1215eb724434b81a1baeadfe4971
+      internalID: -114749487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Front_07
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1299
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41f8457af13c364dba46424f3c0bb9b
+      internalID: -1246167033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1219
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8e45a0fdd6a37409b53607d365232e
+      internalID: -220170036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1219
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908fb01c1eabf1d45906afc371152c23
+      internalID: -1670358070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1217
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536d156a0a217ba42b99ffadf8ed2adb
+      internalID: -627339860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1219
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7213b28486502c24c91aa9d438013f1c
+      internalID: 331302124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1224
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773b44dc9595a934fa106eccfd4309be
+      internalID: 515454238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1226
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb792ea461138744b3baaf0d3a5885d
+      internalID: -14951965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1230
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e359c9b0f7a94ba260cf825fd6edc
+      internalID: -1655475966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterFire_Weapon_Cast_Right_07
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1228
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0b305dd0f91dd4297ef4a59ac3c86e
+      internalID: -968139772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharacterFire_Cast_Back_00: -1791989004
+      CharacterFire_Cast_Back_01: 988105199
+      CharacterFire_Cast_Back_02: -1750389287
+      CharacterFire_Cast_Back_03: -1339807654
+      CharacterFire_Cast_Back_04: 954642465
+      CharacterFire_Cast_Back_05: -2016714761
+      CharacterFire_Cast_Back_06: 1888709463
+      CharacterFire_Cast_Front_00: 1603228605
+      CharacterFire_Cast_Front_01: -119082175
+      CharacterFire_Cast_Front_02: 1989433947
+      CharacterFire_Cast_Front_03: -388545951
+      CharacterFire_Cast_Front_04: 1107247603
+      CharacterFire_Cast_Front_05: 1847612882
+      CharacterFire_Cast_Front_06: -1225564480
+      CharacterFire_Cast_Left_00: -674819769
+      CharacterFire_Cast_Left_01: 1654169172
+      CharacterFire_Cast_Left_02: 703279650
+      CharacterFire_Cast_Left_03: 641533400
+      CharacterFire_Cast_Left_04: -577734130
+      CharacterFire_Cast_Left_05: -1246405949
+      CharacterFire_Cast_Left_06: 2028812087
+      CharacterFire_Cast_Right_00: 202653719
+      CharacterFire_Cast_Right_01: -420960085
+      CharacterFire_Cast_Right_02: 2034498235
+      CharacterFire_Cast_Right_03: -1080190767
+      CharacterFire_Cast_Right_04: -1031016670
+      CharacterFire_Cast_Right_05: 102055732
+      CharacterFire_Cast_Right_06: -1482805481
+      CharacterFire_Dead_00: -1357154159
+      CharacterFire_Dead_01: 2002511480
+      CharacterFire_Dead_02: -2128055156
+      CharacterFire_Dead_03: 2140832412
+      CharacterFire_Dead_04: -1221916487
+      CharacterFire_Dead_05: 230702544
+      CharacterFire_Walk_Back_00: -364919031
+      CharacterFire_Walk_Back_01: 302899194
+      CharacterFire_Walk_Back_02: -1383141749
+      CharacterFire_Walk_Back_03: -459230294
+      CharacterFire_Walk_Back_04: 735406333
+      CharacterFire_Walk_Back_05: 1646027801
+      CharacterFire_Walk_Back_06: 565466750
+      CharacterFire_Walk_Back_07: 413932588
+      CharacterFire_Walk_Back_08: 1171274951
+      CharacterFire_Walk_Front_00: -980364951
+      CharacterFire_Walk_Front_01: -2092192334
+      CharacterFire_Walk_Front_02: -554679225
+      CharacterFire_Walk_Front_03: 1874656557
+      CharacterFire_Walk_Front_04: -1161636461
+      CharacterFire_Walk_Front_05: -2047732697
+      CharacterFire_Walk_Front_06: 639486399
+      CharacterFire_Walk_Front_07: 1333579915
+      CharacterFire_Walk_Front_08: -339047526
+      CharacterFire_Walk_Left_00: -1126166841
+      CharacterFire_Walk_Left_01: -744809699
+      CharacterFire_Walk_Left_02: 1959459345
+      CharacterFire_Walk_Left_03: -112382696
+      CharacterFire_Walk_Left_04: 941687670
+      CharacterFire_Walk_Left_05: 193736061
+      CharacterFire_Walk_Left_06: -1076151531
+      CharacterFire_Walk_Left_07: 1862600781
+      CharacterFire_Walk_Left_08: 1367816628
+      CharacterFire_Walk_Right_00: -1148302441
+      CharacterFire_Walk_Right_01: 1966668042
+      CharacterFire_Walk_Right_02: -1118014359
+      CharacterFire_Walk_Right_03: 185089020
+      CharacterFire_Walk_Right_04: -1897672799
+      CharacterFire_Walk_Right_05: 1470719407
+      CharacterFire_Walk_Right_06: -1103021730
+      CharacterFire_Walk_Right_07: 1173635175
+      CharacterFire_Walk_Right_08: 839308197
+      CharacterFire_Weapon_Cast_Back_00: -1410174990
+      CharacterFire_Weapon_Cast_Back_01: -228924886
+      CharacterFire_Weapon_Cast_Back_02: -893272038
+      CharacterFire_Weapon_Cast_Back_03: -640778142
+      CharacterFire_Weapon_Cast_Back_04: -1334271287
+      CharacterFire_Weapon_Cast_Back_05: 322671307
+      CharacterFire_Weapon_Cast_Back_06: -2064755004
+      CharacterFire_Weapon_Cast_Back_07: -332527140
+      CharacterFire_Weapon_Cast_Front_00: -921339823
+      CharacterFire_Weapon_Cast_Front_01: -1880532169
+      CharacterFire_Weapon_Cast_Front_02: 1152003616
+      CharacterFire_Weapon_Cast_Front_03: 833719784
+      CharacterFire_Weapon_Cast_Front_04: 644198302
+      CharacterFire_Weapon_Cast_Front_05: 439975045
+      CharacterFire_Weapon_Cast_Front_06: -114749487
+      CharacterFire_Weapon_Cast_Front_07: -1246167033
+      CharacterFire_Weapon_Cast_Left_00: -1593636931
+      CharacterFire_Weapon_Cast_Left_01: 933054329
+      CharacterFire_Weapon_Cast_Left_02: -428027214
+      CharacterFire_Weapon_Cast_Left_03: 1781692133
+      CharacterFire_Weapon_Cast_Left_04: -944461699
+      CharacterFire_Weapon_Cast_Left_05: 1944149726
+      CharacterFire_Weapon_Cast_Left_06: -623785335
+      CharacterFire_Weapon_Cast_Left_07: 962529152
+      CharacterFire_Weapon_Cast_Right_00: -220170036
+      CharacterFire_Weapon_Cast_Right_01: -1670358070
+      CharacterFire_Weapon_Cast_Right_02: -627339860
+      CharacterFire_Weapon_Cast_Right_03: 331302124
+      CharacterFire_Weapon_Cast_Right_04: 515454238
+      CharacterFire_Weapon_Cast_Right_05: -14951965
+      CharacterFire_Weapon_Cast_Right_06: -1655475966
+      CharacterFire_Weapon_Cast_Right_07: -968139772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

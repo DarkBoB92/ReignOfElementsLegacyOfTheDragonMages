@@ -1,0 +1,2492 @@
+fileFormatVersion: 2
+guid: 65b80c41d4a1d9d48a13a9917d273cb0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ec5ea0e726de848bf9a848dbc51594
+      internalID: 1556884302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b7f2a945a72fa4f83c4489ac97029f
+      internalID: 119435372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f23f246bbf0284e9d783fce97f246d
+      internalID: 433765912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03164233fd6a8fa47aa62a92de05fc4f
+      internalID: -901108455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2048
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289585e2afab0bf47b4712316831c266
+      internalID: -410373779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2048
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a247cc3754d6e948822c51ff39b18e9
+      internalID: 1161845147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2048
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924028f41f54c6e458c3aeacaac5879e
+      internalID: -1856512649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d06aee3ef274c247ab442ead5042dbe
+      internalID: -1428298868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b873a83456acc1478890cd3b2a4369f
+      internalID: 747894347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dea378090a9a864ab28875b19288655
+      internalID: -571355830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1985
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e8ab8ddc89ee24c81f1f466da8e156
+      internalID: -710758568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e78611a934dcb843b532ba0cdfdf7e9
+      internalID: 1298024674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1749e091fd2069b439bcd9be83d4b37c
+      internalID: 1664218221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1985
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4690af08f42b14abaf721887354673
+      internalID: 1364644126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81650d14d7804204aa58d1243c348ad8
+      internalID: 869449708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b847f7975414a354e95200b895a03270
+      internalID: 851100021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646a25a392d35549b66220b90d54086
+      internalID: 564293094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e41290a47e6274699f89aa340473ba
+      internalID: -1536141093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d025fc97b578d4a9e59e52c75b3174
+      internalID: 778075953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3eabec367ae9264192cb2766a2da585
+      internalID: -369755989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1921
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582f8ab43c1eeb7449d08d8cb7cddd0d
+      internalID: 1464713421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296821f03039d924cb4ead06a1704c16
+      internalID: 382192847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a9176685989bd468730faa7b635e13
+      internalID: 2090245305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21df11e403eb58f4bb4d62241ceb1372
+      internalID: -1002309420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34cbdb8441df7d47b184e716c0dcc0e
+      internalID: 1557179567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1857
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42591c034e24b44f8c77cc091d22a71
+      internalID: 1105545370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1857
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0552651fc564194881240475b2b0b3d
+      internalID: 609814875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1857
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7767660df3a98d4ea015de0cf954c1d
+      internalID: 921934744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1537
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea1c77fe71cc264497924b02b509bba
+      internalID: 153349392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1537
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5c2a78953f20148a2903b2efaed070
+      internalID: 1782367836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1537
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dc8d3ebafcce44c895c22c7e1ad3c8
+      internalID: -2029500287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1536
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c34c25af1f4240842e7f2c4533e33
+      internalID: -1097605861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1537
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525cf432cfff0d74ea79848e7f83a349
+      internalID: 1843391644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1537
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d171062767ffb543b70c6c84144d73f
+      internalID: -36521652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1537
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933f50f6b8e7e84980460eabb0ebdfc
+      internalID: -2050103358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1536
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cd8393a15d11b45a31ea83317b37de
+      internalID: -238081804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1537
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6458cdb9cd4640b40b4f04617a657f48
+      internalID: -569902987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1473
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4694f5b128cd42647893ac42ceef10c0
+      internalID: -1291075287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1473
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b8d10646396a846af0898b72e7aa3d
+      internalID: -689229526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1474
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22cf2bde743fa84cb6c7929101bd99e
+      internalID: 1628918481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1474
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3c90e46af0454385bcb839dc03774
+      internalID: -659435546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1473
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2fbf031f7039a4cbbc6d1281a9f4dc
+      internalID: -41632476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1473
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4aca46773f7aa24c9be431dcddd9f7c
+      internalID: 595233749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1473
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6d9a22d1734bc4795c8c0ea44b1d4e
+      internalID: 2014557742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1473
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da4f253181f19645bc692e9e49e7c6a
+      internalID: -441463930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1473
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae20418bdbf92448b51d97e0dbe1a1b
+      internalID: 524100730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1409
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c4701abcb3b6429c245c4a14b0b12
+      internalID: 691291789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1409
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0071b8f2cb271ed4ab09218d912a67d6
+      internalID: -1797289561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1408
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be77c108efb823d428541d2f04bc05dc
+      internalID: -504585453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1408
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8443faa5667e1034997dea0c9ed88f86
+      internalID: 1723325258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1408
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4142a094148c454c8045ac4bf97a0e3
+      internalID: 2027921420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1409
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f413ee37a50b71048ba25ac771a84cea
+      internalID: -787078770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1408
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5f190c48878e14292e9b2184ff574c
+      internalID: -1557872160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1408
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2613a6f00b911444e82acf53adcec4bd
+      internalID: -688540154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1408
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f58aff82a8ac364db36298d53410936
+      internalID: -838055197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1345
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb4d76c71bbfd842bb37bbb632f74d3
+      internalID: -1402830917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1345
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5f134a9f982040a9ebfd0092ef4c6
+      internalID: -528661617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1346
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e304866949cf5094b8ab53355931ce77
+      internalID: -1205737064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1346
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13479d7b5c8afa642bf620a3708df606
+      internalID: 386806373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1345
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640d3a0511a26ee46a0db197b38e1454
+      internalID: -114594294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_05
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1345
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02fb33d8b08fa34cb7eb584bb554fed
+      internalID: 1739456755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1345
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560529606f964ff4faed7063f43b43c2
+      internalID: 890985787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1345
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03d2a41160e08479acea7e30eefdea
+      internalID: -690828626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1345
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20c16cc05e83b4eba483703221d63e
+      internalID: 144231443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 769
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb7e9398d115984da0c25980b35a5fb
+      internalID: -168975916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 769
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a4e71275b71e143a98e43b8cb04d9a
+      internalID: 1296068444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 769
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef13c223620ce4d4dbdced5f2aa69a4d
+      internalID: -1254975109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 769
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9595bcbc3776fae4e9f7455444154354
+      internalID: -1707577180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 769
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c26ba85b28dfc4fa165d1606d08be8
+      internalID: -594960080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 768
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd6e1695c7ed794da1800d5557df90f
+      internalID: -103677707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_00
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 640
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79e0fab36299214cb5a4bb3edd34bc0
+      internalID: -1955659486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_01
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 639
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f25dd99045fc34c8ad28d70f0fb1b7
+      internalID: 1829059295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_02
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 639
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa47fb1d2353104f9dcd07264648909
+      internalID: -2062952344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_03
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 639
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a312b32bc24c4b4b9f89a3cb77ebf61
+      internalID: -718736182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_04
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 639
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e24bf9f3698e446882ba2692b79a16
+      internalID: -1226390899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_05
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 639
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b244d62745cb44865e3ab31956154
+      internalID: 281686759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_06
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 639
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31150c4f221d32f478291aab2849cb55
+      internalID: -1078431268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Back_07
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 639
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7089111830b350a4990447b9c099c626
+      internalID: 594228321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_00
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 449
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451ec942a6f47ae45a9653d0893f8576
+      internalID: 1207917903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_01
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 449
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e426f98da29049a5fb97debe48ee9
+      internalID: -1894769537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_02
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 449
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f9b889b5c06449b72a658de8fd0f3
+      internalID: -1858467023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_03
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 449
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198cf49ab8cdeee4c85de96f880e2f0f
+      internalID: 563663138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_04
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 449
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246104358fee22345b4d5505449cb4b6
+      internalID: -2104583289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_05
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 449
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3749512d146c6547949ffc52431eb36
+      internalID: 1464352230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_06
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 449
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd52f348e27bd4e82f0e8187185fde
+      internalID: 1688069413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Left_07
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 449
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692cdeba15bddde4d99d5bc57b5b2dc8
+      internalID: 54951345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_00
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 257
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278c9aba8be7fda419c53763315303f5
+      internalID: -278408692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_01
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 258
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dd0c3727ee1ee4a9738cb796f42008
+      internalID: -1287919789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_02
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 258
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b536d10d176a6749a4c05aad8c1e76c
+      internalID: -1118684304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_03
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 258
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d93180c1d0e0440822707c9bccca8f
+      internalID: -569152944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_04
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 256
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef604d2bf73c8884599068ae30936f7a
+      internalID: 801563539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_05
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 254
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ee63df08760ec40b40d4850a18b9c4
+      internalID: -79062691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_06
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 256
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6150150a147014b48aec1e22fa01e761
+      internalID: 1864026768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Front_07
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 258
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898e5c70f293fed47b4ba2a8f7cb13d2
+      internalID: -82913901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_00
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 64
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d717a3696278e764bb231ed7f890dcff
+      internalID: 2005686695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_01
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 64
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f5c9b7efdba36478c983dbdf6652b1
+      internalID: -1809818428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_02
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3564ac24536334e459614b4e90262a72
+      internalID: -369852342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_03
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fed474307d7802418a1d1fa623f5d26
+      internalID: -1905659539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_04
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 64
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487b23212caebf244a00ca0818979419
+      internalID: 1887450899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_05
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 64
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd35558205508241a66da9ec007ccef
+      internalID: -309932834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_06
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 64
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7b59b10195dfc4b9d405452dbd9d25
+      internalID: 878141059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterEarth_Weapon_Cast_Right_07
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 64
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f76a22d6239d2d41a868e66b3e90a6a
+      internalID: -1242454008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      18: -915488343
+      19: 593612543
+      22: 1280466469
+      CharacterEarth_120: 1848658940
+      CharacterEarth_121: -1378445952
+      CharacterEarth_122: -742227587
+      CharacterEarth_123: 1172655639
+      CharacterEarth_124: -210930991
+      CharacterEarth_125: -460978430
+      CharacterEarth_126: 1637372710
+      CharacterEarth_127: 578436004
+      CharacterEarth_128: 172764867
+      CharacterEarth_129: -775581021
+      CharacterEarth_130: -1938265568
+      CharacterEarth_131: -867825432
+      CharacterEarth_132: 84736155
+      CharacterEarth_133: -393244025
+      CharacterEarth_134: 593700425
+      CharacterEarth_135: 823137513
+      CharacterEarth_136: -259331085
+      CharacterEarth_137: -189116174
+      CharacterEarth_138: -1334425431
+      CharacterEarth_139: 702119977
+      CharacterEarth_140: -999507016
+      CharacterEarth_141: -1452008507
+      CharacterEarth_142: 305626250
+      CharacterEarth_143: 1195833803
+      CharacterEarth_144: -1942210876
+      CharacterEarth_145: 2099298967
+      CharacterEarth_146: 257281588
+      CharacterEarth_147: 141911030
+      CharacterEarth_148: -1884694515
+      CharacterEarth_149: -589629138
+      CharacterEarth_150: 682032312
+      CharacterEarth_151: -454593743
+      CharacterEarth_152: 1099710756
+      CharacterEarth_153: 1147921945
+      CharacterEarth_154: 1630409014
+      CharacterEarth_155: 618000245
+      CharacterEarth_156: -900569445
+      CharacterEarth_157: 1623236370
+      CharacterEarth_158: 2141456573
+      CharacterEarth_159: -2000208763
+      CharacterEarth_160: -1559262633
+      CharacterEarth_161: -1984118277
+      CharacterEarth_162: 1731057003
+      CharacterEarth_163: -866001374
+      CharacterEarth_164: -1709693573
+      CharacterEarth_165: 1950716171
+      CharacterEarth_166: 53794852
+      CharacterEarth_167: -2075548123
+      CharacterEarth_168: 2052255782
+      CharacterEarth_169: -682812635
+      CharacterEarth_170: -521777142
+      CharacterEarth_171: -1090398446
+      CharacterEarth_Cast_Back_00: 119435372
+      CharacterEarth_Cast_Back_01: 433765912
+      CharacterEarth_Cast_Back_02: -901108455
+      CharacterEarth_Cast_Back_03: -410373779
+      CharacterEarth_Cast_Back_04: 1161845147
+      CharacterEarth_Cast_Back_05: -1856512649
+      CharacterEarth_Cast_Back_06: 869449708
+      CharacterEarth_Cast_Front_00: 851100021
+      CharacterEarth_Cast_Front_01: 564293094
+      CharacterEarth_Cast_Front_02: -1536141093
+      CharacterEarth_Cast_Front_03: 778075953
+      CharacterEarth_Cast_Front_04: -369755989
+      CharacterEarth_Cast_Front_05: 1464713421
+      CharacterEarth_Cast_Front_06: -1428298868
+      CharacterEarth_Cast_Left_00: 747894347
+      CharacterEarth_Cast_Left_01: -571355830
+      CharacterEarth_Cast_Left_02: -710758568
+      CharacterEarth_Cast_Left_03: 1298024674
+      CharacterEarth_Cast_Left_04: 1664218221
+      CharacterEarth_Cast_Left_05: 1364644126
+      CharacterEarth_Cast_Left_06: 382192847
+      CharacterEarth_Cast_Right_00: 2090245305
+      CharacterEarth_Cast_Right_01: -1002309420
+      CharacterEarth_Cast_Right_02: 1557179567
+      CharacterEarth_Cast_Right_03: 1105545370
+      CharacterEarth_Cast_Right_04: 609814875
+      CharacterEarth_Cast_Right_05: 921934744
+      CharacterEarth_Cast_Right_06: 1294269023
+      CharacterEarth_Dead_00: -168975916
+      CharacterEarth_Dead_01: 1296068444
+      CharacterEarth_Dead_02: -1254975109
+      CharacterEarth_Dead_03: -1707577180
+      CharacterEarth_Dead_04: -594960080
+      CharacterEarth_Dead_05: -103677707
+      CharacterEarth_Poke_Back_0: -420985753
+      CharacterEarth_Poke_Back_00: 159289697
+      CharacterEarth_Poke_Back_01: -40155183
+      CharacterEarth_Poke_Back_02: 43069179
+      CharacterEarth_Poke_Back_03: 1361041627
+      CharacterEarth_Poke_Back_04: -958345855
+      CharacterEarth_Poke_Back_05: 2028201811
+      CharacterEarth_Poke_Back_07: 228127500
+      CharacterEarth_Poke_Front_00: 408347721
+      CharacterEarth_Poke_Front_01: -1430550232
+      CharacterEarth_Poke_Front_02: -1167349932
+      CharacterEarth_Poke_Front_03: 2044664543
+      CharacterEarth_Poke_Front_04: -1899826418
+      CharacterEarth_Poke_Front_05: -2092024501
+      CharacterEarth_Poke_Front_06: 1786417354
+      CharacterEarth_Poke_Front_07: 1258544321
+      CharacterEarth_Poke_Left_00: -66796631
+      CharacterEarth_Poke_Left_01: -627597155
+      CharacterEarth_Poke_Left_02: 1935230053
+      CharacterEarth_Poke_Left_03: -2051100596
+      CharacterEarth_Poke_Left_04: 1360640727
+      CharacterEarth_Poke_Left_05: -1258120273
+      CharacterEarth_Poke_Left_06: -1888080750
+      CharacterEarth_Poke_Left_07: 336890452
+      CharacterEarth_Poke_Right_00: -1596563884
+      CharacterEarth_Poke_Right_01: 1905777730
+      CharacterEarth_Poke_Right_02: 1905777730
+      CharacterEarth_Poke_Right_03: -1099364250
+      CharacterEarth_Poke_Right_04: 440838666
+      CharacterEarth_Poke_Right_05: 713015028
+      CharacterEarth_Poke_Right_06: 441826922
+      CharacterEarth_Poke_Right_07: 925143442
+      CharacterEarth_Walk_Back_00: 153349392
+      CharacterEarth_Walk_Back_01: 1782367836
+      CharacterEarth_Walk_Back_02: -2029500287
+      CharacterEarth_Walk_Back_03: -1097605861
+      CharacterEarth_Walk_Back_04: 1843391644
+      CharacterEarth_Walk_Back_05: -36521652
+      CharacterEarth_Walk_Back_06: -2050103358
+      CharacterEarth_Walk_Back_07: -238081804
+      CharacterEarth_Walk_Back_08: -569902987
+      CharacterEarth_Walk_Front_00: 691291789
+      CharacterEarth_Walk_Front_01: -1797289561
+      CharacterEarth_Walk_Front_02: -504585453
+      CharacterEarth_Walk_Front_03: 1723325258
+      CharacterEarth_Walk_Front_04: 2027921420
+      CharacterEarth_Walk_Front_05: -787078770
+      CharacterEarth_Walk_Front_06: -1557872160
+      CharacterEarth_Walk_Front_07: -688540154
+      CharacterEarth_Walk_Front_08: -838055197
+      CharacterEarth_Walk_Left_00: -1291075287
+      CharacterEarth_Walk_Left_01: -689229526
+      CharacterEarth_Walk_Left_02: 1628918481
+      CharacterEarth_Walk_Left_03: -659435546
+      CharacterEarth_Walk_Left_04: -41632476
+      CharacterEarth_Walk_Left_05: 595233749
+      CharacterEarth_Walk_Left_06: 2014557742
+      CharacterEarth_Walk_Left_07: -441463930
+      CharacterEarth_Walk_Left_08: 524100730
+      CharacterEarth_Walk_Right_00: -1402830917
+      CharacterEarth_Walk_Right_01: -528661617
+      CharacterEarth_Walk_Right_02: -1205737064
+      CharacterEarth_Walk_Right_03: 386806373
+      CharacterEarth_Walk_Right_04: -114594294
+      CharacterEarth_Walk_Right_05: 1739456755
+      CharacterEarth_Walk_Right_06: 890985787
+      CharacterEarth_Walk_Right_07: -690828626
+      CharacterEarth_Walk_Right_08: 144231443
+      CharacterEarth_Weapon_Cast_Back_00: -1955659486
+      CharacterEarth_Weapon_Cast_Back_01: 1829059295
+      CharacterEarth_Weapon_Cast_Back_02: -2062952344
+      CharacterEarth_Weapon_Cast_Back_03: -718736182
+      CharacterEarth_Weapon_Cast_Back_04: -1226390899
+      CharacterEarth_Weapon_Cast_Back_05: 281686759
+      CharacterEarth_Weapon_Cast_Back_06: -1078431268
+      CharacterEarth_Weapon_Cast_Back_07: 594228321
+      CharacterEarth_Weapon_Cast_Front_00: -278408692
+      CharacterEarth_Weapon_Cast_Front_01: -1287919789
+      CharacterEarth_Weapon_Cast_Front_02: -1118684304
+      CharacterEarth_Weapon_Cast_Front_03: -569152944
+      CharacterEarth_Weapon_Cast_Front_04: 801563539
+      CharacterEarth_Weapon_Cast_Front_05: -79062691
+      CharacterEarth_Weapon_Cast_Front_06: 1864026768
+      CharacterEarth_Weapon_Cast_Front_07: -82913901
+      CharacterEarth_Weapon_Cast_Left_00: 1207917903
+      CharacterEarth_Weapon_Cast_Left_01: -1894769537
+      CharacterEarth_Weapon_Cast_Left_02: -1858467023
+      CharacterEarth_Weapon_Cast_Left_03: 563663138
+      CharacterEarth_Weapon_Cast_Left_04: -2104583289
+      CharacterEarth_Weapon_Cast_Left_05: 1464352230
+      CharacterEarth_Weapon_Cast_Left_06: 1688069413
+      CharacterEarth_Weapon_Cast_Left_07: 54951345
+      CharacterEarth_Weapon_Cast_Right_00: 2005686695
+      CharacterEarth_Weapon_Cast_Right_01: -1809818428
+      CharacterEarth_Weapon_Cast_Right_02: -369852342
+      CharacterEarth_Weapon_Cast_Right_03: -1905659539
+      CharacterEarth_Weapon_Cast_Right_04: 1887450899
+      CharacterEarth_Weapon_Cast_Right_05: -309932834
+      CharacterEarth_Weapon_Cast_Right_06: 878141059
+      CharacterEarth_Weapon_Cast_Right_07: -1242454008
+      Dead00: -1248406185
+      Dead01: 1008245121
+      Dead011: 1536035128
+      Dead012: 1487738340
+      Dead013: 1568554191
+      Dead014: -830772646
+      Dead015: -1099600893
+      Dead016: -239852569
+      Dead017: -547791130
+      Dead02: 458640758
+      Dead021: 196851352
+      Dead023: 1762464326
+      Dead024: 106247510
+      Dead025: -492850744
+      Dead03: -1106478908
+      Dead04: 232631295
+      Dead05: -474234867
+      Dead06: -690842999
+      Dead07: 1582766865
+      Dead08: -1995292343
+      Dead09: -417385308
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: 84a4bc88d3a420240be7aa233fa36dbd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2049
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac914eda7e52914f9c0949284809fe2
+      internalID: 2000364303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_01
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2049
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9183117ef78a8f4cb40b85acee5be69
+      internalID: 792175537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2048
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df09e26dd2f3a349aefdd524c2526c1
+      internalID: -107024267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_03
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2047
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c6a8b0edb8ddc4aa5bf78f8880db31
+      internalID: 1250782437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_04
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2048
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c859fc87c52312478c578001541aebe
+      internalID: -575464195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_05
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2049
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfac33ac62f62c499297af5f6a7881b
+      internalID: 1814645534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_06
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2048
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c9488eb609b924fa3c3de14cd9fad3
+      internalID: -2075733716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_07
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2047
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357e34f10c070e247a049d24293adac2
+      internalID: -490701650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Back_08
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2048
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bae378b65c6c447bfb7cc6730fc543
+      internalID: -210699652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1983
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66ed9eec983b5047be06734f3fd2731
+      internalID: 79774114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1983
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48a0f1afef1da646b01d93fd7aacf42
+      internalID: 834085347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_02
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1984
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f742e02e70e542b42e46d752f66f7
+      internalID: -1006813339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1984
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1477fd46539834993173199c798f38
+      internalID: 1598817660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_04
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1984
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b47aa4be8f894480aa6b14fd87597
+      internalID: 254393947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_05
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1983
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618908decef8024fa8e100a71fd9c3b
+      internalID: -1231234163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_06
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1983
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18a32473bd86aa47bc58c47f00acede
+      internalID: -631833820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_07
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1983
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad00a420165454046b8e97799b19ce0c
+      internalID: -1538941868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Left_08
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1983
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc94736a5a8c3b4e903fff7c8e7d8cd
+      internalID: -1570292884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1919
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed7df74ecea4374891b66cc8d92236a
+      internalID: -256235730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_01
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1919
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8297fd5e01907da418dd02ced4dcf89f
+      internalID: 1760361896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_02
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1918
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ca5851a86936243823d0872c8ddfae
+      internalID: -43302390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_03
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1918
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cfa1c26650ee1478ba24f1aa273906
+      internalID: 1438997185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_04
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1918
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fe2ece70ad7844f8e8261da31ac101
+      internalID: 378889133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1919
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da43a68f26ba36540af77872916f93f5
+      internalID: 1074998106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_06
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1918
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2f4b5d01c2e8a48aaf568e055f812b
+      internalID: 132298004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_07
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1918
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0387fab0cc9ac914cb9ee366b11e9be0
+      internalID: 43108459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Front_08
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1918
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661851d6e5ea5854fbef3712eac04060
+      internalID: 1979608045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1855
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deb898abb54d7341895acf546b2966a
+      internalID: -1274488270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1855
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2909b517cbff4dbb36433497a86a3
+      internalID: 702564390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_02
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1856
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581e72bf80a15864fa5805a4efa23c15
+      internalID: 515598124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_03
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1856
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff5c33ec016e914198544aa2cc0bc70
+      internalID: 189458259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_04
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1856
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c441e0ab09eee745b7d2a935ca6b5e2
+      internalID: -1108361439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1855
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139268e0c664365488d9c7d27f77f732
+      internalID: 916770086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_06
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1855
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ceb8f29cb2ad14ab71615ff368379a
+      internalID: 323738446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_07
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1855
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8a6560eb7b0094c84fbf879cc2ff38
+      internalID: -1671610487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Walk_Right_08
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1855
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d69f31cbf04a14e9ef27d36d1ccc13
+      internalID: -2104828428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Dead_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1787
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8595d0a194f814389648108fed22b3
+      internalID: -469757693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Dead_01
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1787
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da491e60315c584d9c0cb13c6100dd9
+      internalID: -1877723677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Dead_02
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1787
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4852efec5f54edb448175a2fa3a2442e
+      internalID: 123011087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Dead_03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1787
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90ec8bcb3d1135468940d604bf21ee4
+      internalID: -519872451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Dead_04
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1786
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35f3100638ea9b4a963eda9fb9e0bda
+      internalID: -2140793815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Dead_05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1786
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9549176e53688c945b044d5065ac2dbd
+      internalID: 966603223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Back_00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1714
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc642f2a2ce8874b8b4d70b23ab5188
+      internalID: 2122434379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Back_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1715
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c20f69e337749e4ca027e4e8825cb89
+      internalID: 97334495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Back_02
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1715
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c790b86e5b58f408c790b85a31ecd2
+      internalID: -1447849958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Back_03
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1715
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67feb5a5b8c002343a7756c53c6638a4
+      internalID: 1113941097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Back_04
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1711
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ecd07c360dfe148a11c48ded04fe65
+      internalID: -1647148812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Back_05
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1711
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830fdf32ac8ecba41b5d146a2097cf99
+      internalID: -453650403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Left_00
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1643
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eddccab93d506345b51735d8f52ce2c
+      internalID: -1833849134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Left_01
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1645
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dc4b7c8cbb3c749b5f689dcb50af56
+      internalID: 1565853481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Left_02
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1645
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336a796e8f97f244a710a9ac5e644ed
+      internalID: -18266727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Left_03
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1645
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51ca3a33f780534fadb3535766dc22c
+      internalID: -1501280860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Left_04
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1641
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933d6d63df714cb49bcdb281d652c554
+      internalID: -61681184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Left_05
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1641
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1804a77973229884f9befb233445a940
+      internalID: 1674882378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Front_00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1562
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f25cc8b7c51f4046a2dfa31547b80ed
+      internalID: -1241914362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Front_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1564
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689f1030fca28bd48a5e91af42bca847
+      internalID: -530073531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Front_02
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1564
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa9a5e7aeb143f48afb8e449b24ffbc
+      internalID: -474243026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Front_03
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1564
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37748630a42716d4995a18c8adc07e36
+      internalID: 663308858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Front_04
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1552
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7005cc63cf352a746a5fdcebebfb1f9e
+      internalID: 446018823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Front_05
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1556
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7936133ffb8e2ac43b56d52b7b374066
+      internalID: 1020308476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Right_00
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1491
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2386dba7062f89d47ab30b8f0e0d53ab
+      internalID: -441966111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Right_01
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1493
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c47823265ae2049afa623873758fd1
+      internalID: 2071479318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Right_02
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1493
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17d541247541214da70143c0550282b
+      internalID: -1010891967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Right_03
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1493
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a7fcd976026aa4880350837cfffd2f
+      internalID: 1015233156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Right_04
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1489
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07bc47ed472424caa04733ecb552e5
+      internalID: 873788604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyEarthMinotaur_Attack_Right_05
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1489
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1af5de22b339604abc6f1b6a1a09c97
+      internalID: 71524273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemyEarthMinotaur_Attack_Back_00: 2122434379
+      EnemyEarthMinotaur_Attack_Back_01: 97334495
+      EnemyEarthMinotaur_Attack_Back_02: -1447849958
+      EnemyEarthMinotaur_Attack_Back_03: 1113941097
+      EnemyEarthMinotaur_Attack_Back_04: -1647148812
+      EnemyEarthMinotaur_Attack_Back_05: -453650403
+      EnemyEarthMinotaur_Attack_Front_00: -1241914362
+      EnemyEarthMinotaur_Attack_Front_01: -530073531
+      EnemyEarthMinotaur_Attack_Front_02: -474243026
+      EnemyEarthMinotaur_Attack_Front_03: 663308858
+      EnemyEarthMinotaur_Attack_Front_04: 446018823
+      EnemyEarthMinotaur_Attack_Front_05: 1020308476
+      EnemyEarthMinotaur_Attack_Left_00: -1833849134
+      EnemyEarthMinotaur_Attack_Left_01: 1565853481
+      EnemyEarthMinotaur_Attack_Left_02: -18266727
+      EnemyEarthMinotaur_Attack_Left_03: -1501280860
+      EnemyEarthMinotaur_Attack_Left_04: -61681184
+      EnemyEarthMinotaur_Attack_Left_05: 1674882378
+      EnemyEarthMinotaur_Attack_Right_00: -441966111
+      EnemyEarthMinotaur_Attack_Right_01: 2071479318
+      EnemyEarthMinotaur_Attack_Right_02: -1010891967
+      EnemyEarthMinotaur_Attack_Right_03: 1015233156
+      EnemyEarthMinotaur_Attack_Right_04: 873788604
+      EnemyEarthMinotaur_Attack_Right_05: 71524273
+      EnemyEarthMinotaur_Dead_00: -469757693
+      EnemyEarthMinotaur_Dead_01: -1877723677
+      EnemyEarthMinotaur_Dead_02: 123011087
+      EnemyEarthMinotaur_Dead_03: -519872451
+      EnemyEarthMinotaur_Dead_04: -2140793815
+      EnemyEarthMinotaur_Dead_05: 966603223
+      EnemyEarthMinotaur_Walk_Back_00: 2000364303
+      EnemyEarthMinotaur_Walk_Back_01: 792175537
+      EnemyEarthMinotaur_Walk_Back_02: -107024267
+      EnemyEarthMinotaur_Walk_Back_03: 1250782437
+      EnemyEarthMinotaur_Walk_Back_04: -575464195
+      EnemyEarthMinotaur_Walk_Back_05: 1814645534
+      EnemyEarthMinotaur_Walk_Back_06: -2075733716
+      EnemyEarthMinotaur_Walk_Back_07: -490701650
+      EnemyEarthMinotaur_Walk_Back_08: -210699652
+      EnemyEarthMinotaur_Walk_Front_00: -256235730
+      EnemyEarthMinotaur_Walk_Front_01: 1760361896
+      EnemyEarthMinotaur_Walk_Front_02: -43302390
+      EnemyEarthMinotaur_Walk_Front_03: 1438997185
+      EnemyEarthMinotaur_Walk_Front_04: 378889133
+      EnemyEarthMinotaur_Walk_Front_05: 1074998106
+      EnemyEarthMinotaur_Walk_Front_06: 132298004
+      EnemyEarthMinotaur_Walk_Front_07: 43108459
+      EnemyEarthMinotaur_Walk_Front_08: 1979608045
+      EnemyEarthMinotaur_Walk_Left_00: 79774114
+      EnemyEarthMinotaur_Walk_Left_01: 834085347
+      EnemyEarthMinotaur_Walk_Left_02: -1006813339
+      EnemyEarthMinotaur_Walk_Left_03: 1598817660
+      EnemyEarthMinotaur_Walk_Left_04: 254393947
+      EnemyEarthMinotaur_Walk_Left_05: -1231234163
+      EnemyEarthMinotaur_Walk_Left_06: -631833820
+      EnemyEarthMinotaur_Walk_Left_07: -1538941868
+      EnemyEarthMinotaur_Walk_Left_08: -1570292884
+      EnemyEarthMinotaur_Walk_Right_00: -1274488270
+      EnemyEarthMinotaur_Walk_Right_01: 702564390
+      EnemyEarthMinotaur_Walk_Right_02: 515598124
+      EnemyEarthMinotaur_Walk_Right_03: 189458259
+      EnemyEarthMinotaur_Walk_Right_04: -1108361439
+      EnemyEarthMinotaur_Walk_Right_05: 916770086
+      EnemyEarthMinotaur_Walk_Right_06: 323738446
+      EnemyEarthMinotaur_Walk_Right_07: -1671610487
+      EnemyEarthMinotaur_Walk_Right_08: -2104828428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
