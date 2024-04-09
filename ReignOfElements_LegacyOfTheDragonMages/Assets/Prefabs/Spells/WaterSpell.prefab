@@ -161,7 +161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ffad777d77bc149b365c40e6f461ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 3
   lifeTime: 1.5
   type: 0
-  castSpeed: 15
+  damagingObjects:
+    serializedVersion: 2
+    m_Bits: 64
+  castSpeed: 10

@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,10 +8,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] int speed, testTypeSelection;
     [SerializeField] GameObject selectedSpell;
     [SerializeField] GameObject[] spell;
-    [SerializeField] SpellType transformation;
+    public SpellType.Type transformation;
     Rigidbody2D rb;
 
-    public enum SpellType { Normal, Fire, Water, Earth };
+    //public enum TransformType { Normal, Fire, Water, Earth };
     // Start is called before the first frame update
     void Start()
     {
@@ -62,20 +61,20 @@ public class PlayerController : MonoBehaviour
     {
         switch(transformation)
         {
-            case SpellType.Normal:
-                transformation = SpellType.Fire;
+            case SpellType.Type.Normal:
+                transformation = SpellType.Type.Fire;
                 selectedSpell = spell[1];
                 break;
-            case SpellType.Fire:
-                transformation = SpellType.Water;
+            case SpellType.Type.Fire:
+                transformation = SpellType.Type.Water;
                 selectedSpell = spell[2];
                 break;
-            case SpellType.Water:
-                transformation = SpellType.Earth;
+            case SpellType.Type.Water:
+                transformation = SpellType.Type.Earth;
                 selectedSpell = spell[3];
                 break;
-            case SpellType.Earth:
-                transformation = SpellType.Normal;
+            case SpellType.Type.Earth:
+                transformation = SpellType.Type.Normal;
                 selectedSpell = spell[0];
                 break;
         }
