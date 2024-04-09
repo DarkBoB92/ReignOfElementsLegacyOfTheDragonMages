@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Spell : MonoBehaviour
 {
-    //TODO: - Father Class for spells
-    //      - Enum states for selecting spell
-    //      - Does Damage: Different Class manages the damage, make this override method
-    //      - Open Doors: Think of tasks way to do it
-    //      - Destroy Itself
+    //TODO: - Does Damage: Different Class manages the damage, make this override method
+
     [SerializeField] int damage;
     [SerializeField] float lifeTime;
     [SerializeField] SpellType type;
@@ -33,7 +30,8 @@ public class Spell : MonoBehaviour
         }
         else if (collision.CompareTag("Enemy"))
         {
-            //TODO: Do damage
+            //TODO: Do damage get enemy health component pass to damage to give to the other methods
+            Damage();
             Destroy(this.gameObject);
         }
         else if (collision.CompareTag("Door"))
@@ -64,12 +62,45 @@ public class Spell : MonoBehaviour
         }
     }
 
+    void Damage()
+    {
+        switch(type)
+        {
+            case SpellType.Normal:
+                NormalDamage(damage);
+                break;
+            case SpellType.Fire:
+                FireDamage(damage);
+                break;
+            case SpellType.Water:
+                WaterDamage(damage);
+                break;
+            case SpellType.Earth:
+                EarthDamage(damage);
+                break;
+        }
+    }
+
+    void NormalDamage(int damageAmount) 
+    {
+        //TODO: does simple single damage
+    }
+    void FireDamage(int damageAmount)
+    {
+        //TODO: does less AOE damage but over time because burned
+    }
+    void WaterDamage(int damageAmount)
+    {
+        //TODO: AOE damage and slows down
+    }
+    void EarthDamage(int damageAmount)
+    {
+        //TODO: slow but high single damage
+    }
+
+
     void Dissolve()
     {
-        lifeTime -= Time.deltaTime;
-        if (lifeTime <= 0)
-        {
-            Destroy(this.gameObject);
-        }
+        Destroy(this.gameObject, lifeTime);
     }
 }
