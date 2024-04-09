@@ -6,10 +6,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] int speed;
+    [SerializeField] int speed, testTypeSelection;
     [SerializeField] GameObject selectedSpell;
     [SerializeField] GameObject[] spell;
+    [SerializeField] SpellType transformation;
     Rigidbody2D rb;
+
+    public enum SpellType { Normal, Fire, Water, Earth };
     // Start is called before the first frame update
     void Start()
     {
@@ -50,15 +53,31 @@ public class PlayerController : MonoBehaviour
 
     void CastSpell(GameObject currentSpell)
     {
-        GameObject castedSpeel = Instantiate(currentSpell, transform.position + transform.right, Quaternion.identity);
-        castedSpeel.GetComponent<Rigidbody2D>().velocity = transform.right * speed;
+        GameObject castedSpell = Instantiate(currentSpell, transform.position + transform.right, Quaternion.identity);
+        int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;
+        castedSpell.GetComponent<Rigidbody2D>().velocity = transform.right * castSpeed;
     }
 
     void ChangeSpell()
     {
-        switch(selectedSpell)
+        switch(transformation)
         {
-            //TODO: - Check Spell State and change to the next one
+            case SpellType.Normal:
+                transformation = SpellType.Fire;
+                selectedSpell = spell[1];
+                break;
+            case SpellType.Fire:
+                transformation = SpellType.Water;
+                selectedSpell = spell[2];
+                break;
+            case SpellType.Water:
+                transformation = SpellType.Earth;
+                selectedSpell = spell[3];
+                break;
+            case SpellType.Earth:
+                transformation = SpellType.Normal;
+                selectedSpell = spell[0];
+                break;
         }
     }
 }
