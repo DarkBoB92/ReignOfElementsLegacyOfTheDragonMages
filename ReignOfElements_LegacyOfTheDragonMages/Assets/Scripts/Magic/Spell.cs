@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SpellType;
 
 public class Spell : MonoBehaviour
 {
-    //TODO: - Does Damage: Different Class manages the damage, make this override method
 
     [SerializeField] int damage;
     [SerializeField] float lifeTime;    
     [SerializeField] LayerMask damagingObjects;
     CircleCollider2D colliderRadius;
-    public SpellType.Type type;
+    public Type type;
     public int castSpeed;
-    //public enum SpellType {Normal, Fire, Water, Earth};
+    public Caster currentCaster;
+    public enum Caster { Player, Enemy }
 
     private void Awake()
     {
@@ -31,9 +32,9 @@ public class Spell : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        else if (collision.CompareTag("Enemy"))
+        else if (collision.CompareTag("Enemy") && currentCaster == Caster.Player)
         {
-            if (type == SpellType.Type.Fire || type == SpellType.Type.Water)
+            if (type == Type.Fire || type == Type.Water)
             {
                 if (colliderRadius != null)
                 {
@@ -42,11 +43,23 @@ public class Spell : MonoBehaviour
                 AreaDamage();
                 Destroy(this.gameObject);
             }
-            else if (type == SpellType.Type.Normal || type == SpellType.Type.Earth)
+            else if (type == Type.Normal || type == Type.Earth)
             {
                 collision.GetComponent<Health>().Damage(damage, type);
                 Destroy(this.gameObject);
             }            
+        }
+        else if (collision.CompareTag("Player") && currentCaster == Caster.Enemy)
+        {
+            if (type == Type.Fire || type == Type.Water)
+            {
+                if (colliderRadius != null)
+                {
+                    colliderRadius.radius *= 5;
+                }
+                AreaDamage();
+                Destroy(this.gameObject);
+            }
         }
         else if (collision.CompareTag("Door"))
         {
@@ -62,16 +75,16 @@ public class Spell : MonoBehaviour
         switch(gameObject.tag)
         {
             case "Normal":
-                type = SpellType.Type.Normal; 
+                type = Type.Normal; 
                 break;
             case "Fire":
-                type = SpellType.Type.Fire;
+                type = Type.Fire;
                 break;
             case "Water":
-                type = SpellType.Type.Water;
+                type = Type.Water;
                 break;
             case "Earth":
-                type = SpellType.Type.Earth;
+                type = Type.Earth;
                 break;
         }
     }

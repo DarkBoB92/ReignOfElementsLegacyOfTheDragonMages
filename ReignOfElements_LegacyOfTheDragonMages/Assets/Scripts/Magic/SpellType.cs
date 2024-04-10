@@ -1,4 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 namespace SpellType
 {
-    public enum Type { Normal, Fire, Water, Earth}
+    public enum Type { None, Normal, Fire, Water, Earth}    
 }

@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using SpellType;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] int speed, testTypeSelection;
+    [SerializeField] int speed;
     [SerializeField] GameObject selectedSpell;
     [SerializeField] GameObject[] spell;
-    public SpellType.Type transformation;
+    [SerializeField] public Type transformation;
     Rigidbody2D rb;
 
-    //public enum TransformType { Normal, Fire, Water, Earth };
     // Start is called before the first frame update
     void Start()
     {
+        transformation = Type.Normal;
         rb = GetComponent<Rigidbody2D>();
         selectedSpell = spell[0];
     }
@@ -54,6 +55,7 @@ public class PlayerController : MonoBehaviour
     {
         GameObject castedSpell = Instantiate(currentSpell, transform.position + transform.right, Quaternion.identity);
         int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;
+        castedSpell.GetComponent<Spell>().currentCaster = Spell.Caster.Player;
         castedSpell.GetComponent<Rigidbody2D>().velocity = transform.right * castSpeed;
     }
 
@@ -61,20 +63,20 @@ public class PlayerController : MonoBehaviour
     {
         switch(transformation)
         {
-            case SpellType.Type.Normal:
-                transformation = SpellType.Type.Fire;
+            case Type.Normal:
+                transformation = Type.Fire;
                 selectedSpell = spell[1];
                 break;
-            case SpellType.Type.Fire:
-                transformation = SpellType.Type.Water;
+            case Type.Fire:
+                transformation = Type.Water;
                 selectedSpell = spell[2];
                 break;
-            case SpellType.Type.Water:
-                transformation = SpellType.Type.Earth;
+            case Type.Water:
+                transformation = Type.Earth;
                 selectedSpell = spell[3];
                 break;
-            case SpellType.Type.Earth:
-                transformation = SpellType.Type.Normal;
+            case Type.Earth:
+                transformation = Type.Normal;
                 selectedSpell = spell[0];
                 break;
         }

@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SpellType;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] int maxHealth, currentHealth;
     [SerializeField] float burningTime, wetnessTime;
     [SerializeField] bool burning, wet;
-    public SpellType.Type damageType;
-    //public enum DamageType { Normal, Fire, Water, Earth };
+    public Type damageType;
 
     private void Awake()
     {
@@ -26,26 +26,38 @@ public class Health : MonoBehaviour
         }
     }
 
-    public void Damage(int damage, SpellType.Type spellType)
+    public void Damage(int damage, Type spellType)
     {
         switch (spellType)
         {
-            case SpellType.Type.Normal:
+            case Type.None:
+                damageType = spellType;
+                NaturalDamage(damage);
+                break;
+            case Type.Normal:
                 damageType = spellType;
                 NormalDamage(damage);
                 break;
-            case SpellType.Type.Fire:
+            case Type.Fire:
                 damageType = spellType;
                 FireDamage(damage);
                 break;
-            case SpellType.Type.Water:
+            case Type.Water:
                 damageType = spellType;
                 WaterDamage(damage);
                 break;
-            case SpellType.Type.Earth:
+            case Type.Earth:
                 damageType = spellType;
                 EarthDamage(damage);
                 break;
+        }
+    }
+    void NaturalDamage(int damageAmount)
+    {
+        currentHealth -= damageAmount;
+        if (currentHealth <= 0)
+        {
+            Destroy(this.gameObject);
         }
     }
     void NormalDamage(int damageAmount)
