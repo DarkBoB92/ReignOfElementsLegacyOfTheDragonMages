@@ -162,9 +162,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
-  lifeTime: 1.5
-  type: 0
+  lifeTime: 10
   damagingObjects:
     serializedVersion: 2
     m_Bits: 64
-  castSpeed: 8
+  type: 0
+  castSpeed: 10
+  currentCaster: 0

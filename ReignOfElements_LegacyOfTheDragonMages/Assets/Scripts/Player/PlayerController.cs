@@ -36,10 +36,7 @@ public class PlayerController : MonoBehaviour
 
     void OnFire(InputValue input)
     {
-        if(input.isPressed)
-        {
-            CastSpell(selectedSpell);
-        }
+        CastSpell(selectedSpell);
         //TODO: - Check which direction is walking or last direction pointing so casting will be set on right direction
     }
 
