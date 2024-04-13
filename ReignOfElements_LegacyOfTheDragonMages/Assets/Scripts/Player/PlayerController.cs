@@ -11,12 +11,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject[] spell;
     [SerializeField] public Type transformation;
     Rigidbody2D rb;
+    Health health;
 
     // Start is called before the first frame update
     void Start()
     {
         transformation = Type.Normal;
         rb = GetComponent<Rigidbody2D>();
+        health = GetComponent<Health>();
         selectedSpell = spell[0];
     }
 
@@ -29,7 +31,18 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue input)
     {
         Vector2 xyInput = input.Get<Vector2>();
-        rb.velocity = xyInput * speed;
+        if(health.wet)
+        {
+            rb.velocity = xyInput * (speed/2);
+        }
+        else if(health.stunned)
+        {
+            rb.velocity *= 0;
+        }
+        else
+        {
+            rb.velocity = xyInput * speed;
+        }        
         //TODO: - Handle animation depending on direction of where the player is moving
         //      - Add checks to hold last movement
     }

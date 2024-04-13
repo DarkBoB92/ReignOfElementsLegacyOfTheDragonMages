@@ -6,8 +6,8 @@ using SpellType;
 public class Health : MonoBehaviour
 {
     [SerializeField] int maxHealth, currentHealth;
-    [SerializeField] float burningTime, wetnessTime;
-    [SerializeField] bool burning, wet;
+    [SerializeField] float burningTime, wetnessTime, stunTime;
+    public bool burning, wet, stunned;
     public Type damageType;
 
     private void Awake()
@@ -15,6 +15,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
         burningTime = 3;
         wetnessTime = 3;
+        stunTime = 3;
     }
 
     // Update is called once per frame
@@ -110,6 +111,7 @@ public class Health : MonoBehaviour
 
     void WaterDamage(int damageAmount)
     {
+        currentHealth -= damageAmount;
         if (currentHealth > 0)
         {
             if (wet)
@@ -131,12 +133,7 @@ public class Health : MonoBehaviour
     IEnumerator ApplyWetness()
     {
         while (wet)
-        {
-            Rigidbody2D rb = GetComponent<Rigidbody2D>(); 
-            if (rb != null)
-            {
-                rb.velocity *= 0.5f; 
-            }
+        {            
             yield return new WaitForSeconds(wetnessTime);
             wet = false;
         }
@@ -145,9 +142,29 @@ public class Health : MonoBehaviour
     void EarthDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
-        if (currentHealth <= 0)
+        if (currentHealth > 0)
+        {
+            if (stunned)
+            {
+                stunTime = 0;
+            }
+            else
+            {
+                stunned = true;
+                StartCoroutine(ApplyStun());
+            }
+        }
+        else
         {
             Destroy(this.gameObject);
         }
-    }    
+    }
+    IEnumerator ApplyStun()
+    {
+        while (stunned)
+        {
+            yield return new WaitForSeconds(stunTime);
+            stunned = false;
+        }        
+    }
 }
