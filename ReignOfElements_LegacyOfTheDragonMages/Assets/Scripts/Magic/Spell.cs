@@ -1,20 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SpellType;
 
 public class Spell : MonoBehaviour
 {
-    //TODO: - Does Damage: Different Class manages the damage, make this override method
 
     [SerializeField] int damage;
-    [SerializeField] float lifeTime;
-    [SerializeField] SpellType type;
+    [SerializeField] float lifeTime;    
+    [SerializeField] LayerMask damagingObjects;
+    CircleCollider2D colliderRadius;
+    public Type type;
     public int castSpeed;
-    public enum SpellType {Normal, Fire, Water, Earth};
+    public Caster currentCaster;
+    public enum Caster { Player, Enemy }
 
     private void Awake()
     {
         SelectSpellType();
+        colliderRadius = GetComponent<CircleCollider2D>();
     }
 
     private void Update()
@@ -23,16 +27,39 @@ public class Spell : MonoBehaviour
     }   
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    {        
         if (collision.CompareTag("Wall"))
         {
             Destroy(this.gameObject);
         }
-        else if (collision.CompareTag("Enemy"))
+        else if (collision.CompareTag("Enemy") && currentCaster == Caster.Player)
         {
-            //TODO: Do damage get enemy health component pass to damage to give to the other methods
-            Damage();
-            Destroy(this.gameObject);
+            if (type == Type.Fire || type == Type.Water)
+            {
+                if (colliderRadius != null)
+                {
+                    colliderRadius.radius *= 5;
+                }
+                AreaDamage();
+                Destroy(this.gameObject);
+            }
+            else if (type == Type.Normal || type == Type.Earth)
+            {
+                collision.GetComponent<Health>().Damage(damage, type);
+                Destroy(this.gameObject);
+            }            
+        }
+        else if (collision.CompareTag("Player") && currentCaster == Caster.Enemy)
+        {
+            if (type == Type.Fire || type == Type.Water)
+            {
+                if (colliderRadius != null)
+                {
+                    colliderRadius.radius *= 5;
+                }
+                AreaDamage();
+                Destroy(this.gameObject);
+            }
         }
         else if (collision.CompareTag("Door"))
         {
@@ -48,59 +75,38 @@ public class Spell : MonoBehaviour
         switch(gameObject.tag)
         {
             case "Normal":
-                type = SpellType.Normal; 
+                type = Type.Normal; 
                 break;
             case "Fire":
-                type = SpellType.Fire;
+                type = Type.Fire;
                 break;
             case "Water":
-                type = SpellType.Water;
+                type = Type.Water;
                 break;
             case "Earth":
-                type = SpellType.Earth;
+                type = Type.Earth;
                 break;
         }
     }
-
-    void Damage()
-    {
-        switch(type)
-        {
-            case SpellType.Normal:
-                NormalDamage(damage);
-                break;
-            case SpellType.Fire:
-                FireDamage(damage);
-                break;
-            case SpellType.Water:
-                WaterDamage(damage);
-                break;
-            case SpellType.Earth:
-                EarthDamage(damage);
-                break;
-        }
-    }
-
-    void NormalDamage(int damageAmount) 
-    {
-        //TODO: does simple single damage
-    }
-    void FireDamage(int damageAmount)
-    {
-        //TODO: does less AOE damage but over time because burned
-    }
-    void WaterDamage(int damageAmount)
-    {
-        //TODO: AOE damage and slows down
-    }
-    void EarthDamage(int damageAmount)
-    {
-        //TODO: slow but high single damage
-    }
-
 
     void Dissolve()
     {
         Destroy(this.gameObject, lifeTime);
+    }
+
+    public void AreaDamage()
+    {
+        Collider2D[] objectsInRange = Physics2D.OverlapCircleAll(transform.position, colliderRadius.radius, damagingObjects);
+        if (objectsInRange.Length > 0)
+        {
+            foreach (Collider2D obj in objectsInRange)
+            {
+                Health enemyHealth = obj.GetComponent<Health>();
+                if (enemyHealth != null) 
+                {
+                    enemyHealth.Damage(damage, type);
+                }
+            }
+        }        
     }
 }
