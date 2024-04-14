@@ -4830,6 +4830,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1278307620965878916, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -10529,25 +10533,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeOfSight: 2.5
   rangeOfAttack: 6
-  currentTime: 0
+  patrolTime: 0
   chasingTime: 0
   attackDelay: 1.5
   timeDelay: 0
-  damage: 3
-  player: {fileID: 0}
   speed: 4
-  attacking: 0
   melee: 0
   ranged: 0
   currentState: 0
+  attacking: 0
   targetPatrolPositions:
   - {fileID: 167994301}
   - {fileID: 1546646837}
   - {fileID: 1293967792}
   - {fileID: 1269493909}
   - {fileID: 1510144277}
-  targetCounter: 0
-  rb: {fileID: 0}
   spell: {fileID: 2056050359617034882, guid: c207439dac5d0f34aa02a23fd98862f8, type: 3}
 --- !u!1 &1090790669
 GameObject:
@@ -12710,25 +12710,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeOfSight: 2.5
   rangeOfAttack: 6
-  currentTime: 0
+  patrolTime: 0
   chasingTime: 0
   attackDelay: 1.5
   timeDelay: 0
-  damage: 3
-  player: {fileID: 0}
   speed: 5
-  attacking: 0
   melee: 0
   ranged: 0
   currentState: 0
+  attacking: 0
   targetPatrolPositions:
   - {fileID: 1510144277}
   - {fileID: 167994301}
   - {fileID: 1546646837}
   - {fileID: 1293967792}
   - {fileID: 1269493909}
-  targetCounter: 0
-  rb: {fileID: 0}
   spell: {fileID: 2056050359617034882, guid: 59b0d084b1d27a34c931b38897d6f962, type: 3}
 --- !u!1 &1321437867
 GameObject:
@@ -16102,6 +16098,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1278307620965878916, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
@@ -20139,6 +20139,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3707209972497024117, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: speed
       value: 3
@@ -20232,6 +20236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2530359020011749718, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: maxHealth
+      value: 10000000
+      objectReference: {fileID: 0}
     - target: {fileID: 2939453545609265638, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.77
@@ -20271,6 +20279,10 @@ PrefabInstance:
     - target: {fileID: 2939453545609265638, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403679767414634191, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

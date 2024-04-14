@@ -5,27 +5,34 @@ using SpellType;
 
 public class Spell : MonoBehaviour
 {
-
+    [Header("Spell Variables")]
     [SerializeField] int damage;
-    [SerializeField] float lifeTime;    
-    [SerializeField] LayerMask damagingObjects;
-    CircleCollider2D colliderRadius;
+    [SerializeField] float lifeTime;      
     public Type type;
     public int castSpeed;
+
+    [Header("Spell Caster")]
     public Caster currentCaster;
+
+    [Header("Damageble Layers By AOE Spells")]
+    [SerializeField] LayerMask damagingObjects;
+    CircleCollider2D colliderRadius;
     public enum Caster { Player, Enemy }
 
+    // On Awake() execute SelectSpellType() and reference the Collider of the spell
     private void Awake()
     {
         SelectSpellType();
         colliderRadius = GetComponent<CircleCollider2D>();
     }
 
+    // On Update execute Dissolve()
     private void Update()
     {        
         Dissolve();
     }   
 
+    // On trigger enter with the collider it executes the Correct methods depending on the ollided object Tag
     private void OnTriggerEnter2D(Collider2D collision)
     {        
         if (collision.CompareTag("Wall"))
@@ -70,6 +77,7 @@ public class Spell : MonoBehaviour
         }
     }
 
+    // On execution it assigns the spell type depending on the gameobject Tag
     void SelectSpellType()
     {
         switch(gameObject.tag)
@@ -89,22 +97,24 @@ public class Spell : MonoBehaviour
         }
     }
 
+    // On execution it destroys the spell gameobject after its lifeTime.
     void Dissolve()
     {
         Destroy(this.gameObject, lifeTime);
     }
 
+    // On execution it checks every collider that overlaps its collider and it damages every object that has the Health script attached
     public void AreaDamage()
     {
         Collider2D[] objectsInRange = Physics2D.OverlapCircleAll(transform.position, colliderRadius.radius, damagingObjects);
         if (objectsInRange.Length > 0)
         {
-            foreach (Collider2D obj in objectsInRange)
+            foreach (Collider2D objects in objectsInRange)
             {
-                Health enemyHealth = obj.GetComponent<Health>();
-                if (enemyHealth != null) 
+                Health health = objects.GetComponent<Health>();
+                if (health != null) 
                 {
-                    enemyHealth.Damage(damage, type);
+                    health.Damage(damage, type);
                 }
             }
         }        

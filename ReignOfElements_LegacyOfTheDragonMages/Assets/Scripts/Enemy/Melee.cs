@@ -5,15 +5,20 @@ using UnityEngine;
 
 public class Melee : Enemy
 {
+    [Header("Enemy General Variables")]
+    [SerializeField] int damage;
+
+    // On Start() sets boolean letting the code know of its type
     private void Start()
     {
         melee = true;
         ranged = false;
     }
 
+    // This Update just copies the Father class
     void Update()
     {
-        currentTime += Time.deltaTime;
+        patrolTime += Time.deltaTime;
         if (currentState == State.Attack)
         {
             chasingTime += Time.deltaTime;
@@ -25,6 +30,7 @@ public class Melee : Enemy
         }
     }
 
+    // This method is an override and that starts a Corotuine of damage depending on the gameobject name
     protected override void Attack()
     {
         if (!attacking)
@@ -41,6 +47,7 @@ public class Melee : Enemy
         }
     }
 
+    // This Coroutine just handles damage with using an atack delay
     IEnumerator Damaging(int damage, Type damageType)
     {
         while (attacking)

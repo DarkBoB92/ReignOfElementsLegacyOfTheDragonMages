@@ -6,21 +6,36 @@ using SpellType;
 
 public class Enemy : MonoBehaviour
 {
+    [Header("Enemy General Variables")]
     [SerializeField] protected float rangeOfSight, rangeOfAttack;
-    [SerializeField] protected float currentTime, chasingTime, attackDelay,timeDelay;
-    [SerializeField] protected int damage;
-    [SerializeField] protected GameObject player;
+    [SerializeField] protected float patrolTime, chasingTime, attackDelay, timeDelay;       
     [SerializeField] protected float speed;
-    [SerializeField] protected bool attacking, melee, ranged;
+    protected Vector2 directionToMove; // directionToRayCast;
+    protected Rigidbody2D rb;
+
+    [Header("Enemy Type")]
+    [SerializeField] protected bool melee, ranged;
+
+    [Header("Enemy State")]
     [SerializeField] protected State currentState;
+    [SerializeField] protected bool attacking;
+
+    [Header("Player Related Variables")]
+    protected GameObject player;
+    protected Vector2 playerPos;
+    
+
+    [Header("Patrol Position Variables")]
     [SerializeField] protected Transform[] targetPatrolPositions;
-    [SerializeField] protected int targetCounter = 0;    
-    [SerializeField] protected Rigidbody2D rb;
+    protected int targetCounter = 0;  
+    
     //[SerializeField] protected int horizontal, vertical; //Thinking to use simple movement for patrol and change direction after collision
-    protected Vector2 playerPos, directionToMove; // directionToRayCast;
+    
+    [Header("Health References")]
     protected Health playerHealth, ownHealth;
     public enum State {Attack, Patrol}
     
+    // On Awake() get all references and set enemy initial state and default time delay value
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,10 +48,11 @@ public class Enemy : MonoBehaviour
         currentState = State.Patrol;
         timeDelay = 3;
     }
-    // Update is called once per frame
+    
+    // On Update() handle timers progression and if player reference is not null execute CheckInSightDistance() and Move() methods
     void Update()
     {        
-        currentTime += Time.deltaTime;
+        patrolTime += Time.deltaTime;
         if (currentState == State.Attack)
         {
             chasingTime += Time.deltaTime;
@@ -47,13 +63,19 @@ public class Enemy : MonoBehaviour
             Move();
         }
     }
+
+    // This Method is a virtual method that will be overrided by the child class
     protected virtual void Attack()
     {
-
-        Debug.Log("Something");
+        if (!attacking)
+        {
+            attacking = true;
+        }
         //Do attack
     }
-    protected virtual void Move()
+
+    // This method calls respectively the methods to move depending on the enemy state
+    protected void Move()
     {        
         if (currentState == State.Attack)
         {
@@ -65,26 +87,23 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    protected virtual void MoveToPlayer()
+    // MoveToPlayer() references the player position and handles speed according to its health alteration, moving towards the player,
+    // executes CheckAttackRangeDistance() and checks if chasing time is not finished, if it is, it sets enemy state to Patrol
+    protected void MoveToPlayer()
     {
-        playerPos = player.transform.position;
-        //Check if you want to use Lerp or give velocity on the RigidBody               
+        playerPos = player.transform.position;            
         if (!ownHealth.wet && !ownHealth.stunned)
         {
-            //directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
             DirectionToMoveWhileAttacking();
             rb.velocity = directionToMove * speed;
-            //transform.position = new Vector2(Mathf.Lerp(transform.position.x, playerPos.x, speed * Time.deltaTime), Mathf.Lerp(transform.position.y, playerPos.y, speed * Time.deltaTime));            
         }
         else if (ownHealth.wet)
         {
-            //directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
             DirectionToMoveWhileAttacking();
             rb.velocity = directionToMove * (speed/3);
         }
         else if (ownHealth.stunned)
         {
-            //directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
             DirectionToMoveWhileAttacking();
             rb.velocity *= 0;
         }
@@ -97,6 +116,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    // This method adjust the distance from the player depending on enemy attack range
     protected void DirectionToMoveWhileAttacking()
     {
         if(playerPos.x < transform.position.x)
@@ -133,18 +153,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    protected virtual void MoveToPatrol()
+    // This method moves the enemy towards points in its array of targets
+    protected void MoveToPatrol()
     {
         Vector2 patrolPos = targetPatrolPositions[targetCounter].position;
-        //Check if you want to use Lerp or give velocity on the RigidBody
         directionToMove = patrolPos - new Vector2(transform.position.x, transform.position.y);
         rb.velocity = directionToMove * speed;
-        //transform.position = new Vector2(Mathf.Lerp(transform.position.x, patrolPos.x, speed * Time.deltaTime), Mathf.Lerp(transform.position.y, patrolPos.y, speed * Time.deltaTime));
         float distance = Vector2.Distance(transform.position, patrolPos);
-        if (distance < 0.1 && currentTime >= timeDelay)
+        if (distance < 0.1 && patrolTime >= timeDelay)
         {
             targetCounter++;
-            currentTime = 0;
+            patrolTime = 0;
             if (targetCounter >= targetPatrolPositions.Length)
             {
                 targetCounter = 0;
@@ -152,6 +171,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    // This method triggers the Attack state of the enemy if Player is in sight range
     protected void CheckInSightDistance()
     {
         float distance = Vector2.Distance(transform.position, player.transform.position);
@@ -186,6 +206,7 @@ public class Enemy : MonoBehaviour
         //}
     }
 
+    // When the enemy is in attack state, with this method it will check if the player is in its attack range
     protected void CheckAttackRangeDistance()
     {
         float distance = Vector2.Distance(transform.position, player.transform.position);

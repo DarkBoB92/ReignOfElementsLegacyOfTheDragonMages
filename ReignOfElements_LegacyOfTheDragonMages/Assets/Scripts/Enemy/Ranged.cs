@@ -5,17 +5,20 @@ using SpellType;
 
 public class Ranged : Enemy
 {
+    [Header("Enemy General Variables")]
     [SerializeField] GameObject spell;
 
+    // On Start() sets boolean letting the code know of its type
     private void Start()
     {
         melee = false;
         ranged = true;
     }
 
+    // This Update just copies the Father class
     void Update()
     {
-        currentTime += Time.deltaTime;
+        patrolTime += Time.deltaTime;
         if (currentState == State.Attack)
         {
             chasingTime += Time.deltaTime;
@@ -27,6 +30,7 @@ public class Ranged : Enemy
         }
     }    
 
+    // Attack method just starts a coroutine to cast and set attack to true
     protected override void Attack()
     {
         if (!attacking)
@@ -35,6 +39,8 @@ public class Ranged : Enemy
             StartCoroutine(Casting(spell));                       
         }
     }
+
+    // This Coroutine just handles casting with using an atack delay
     IEnumerator Casting(GameObject castingSpell)
     {
         while (attacking)
@@ -44,9 +50,9 @@ public class Ranged : Enemy
         }
     }
 
+    // This Method instantiate a spell object in the direction of the player
     void Cast(GameObject castSpell)
     {
-        Debug.Log("Casting from Enemy");
         Vector2 directionToCast = player.transform.position - transform.position;
         GameObject castedSpell = Instantiate(castSpell, transform.position, Quaternion.identity);
         int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;

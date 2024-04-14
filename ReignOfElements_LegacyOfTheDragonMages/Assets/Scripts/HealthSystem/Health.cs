@@ -5,11 +5,17 @@ using SpellType;
 
 public class Health : MonoBehaviour
 {
+    [Header("Health Variables")]
     [SerializeField] int maxHealth, currentHealth;
-    [SerializeField] float burningTime, wetnessTime, stunTime;
+
+    [Header("Status Alterations and its Duration")]    
     public bool burning, wet, stunned;
+    [SerializeField] float burningTime, wetnessTime, stunTime;
+
+    [Header("Damage Type")]
     public Type damageType;
 
+    // On Awake() sets current health to it's maximum and the default values for status duration 
     private void Awake()
     {
         currentHealth = maxHealth;
@@ -18,15 +24,12 @@ public class Health : MonoBehaviour
         stunTime = 3;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (burning)
-        {
-            burningTime -= Time.deltaTime;
-        }
+       
     }
 
+    // On execution with a switch it activates the related damage depending on the damage Type 
     public void Damage(int damage, Type spellType)
     {
         switch (spellType)
@@ -53,6 +56,8 @@ public class Health : MonoBehaviour
                 break;
         }
     }
+
+    // This method does non magical damage
     void NaturalDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
@@ -61,6 +66,8 @@ public class Health : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    // This method does magical damage
     void NormalDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
@@ -69,6 +76,8 @@ public class Health : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    // This method does fire magical damage and burns the enemy by starting a Coroutine that handles the burning damage 
     void FireDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
@@ -91,6 +100,7 @@ public class Health : MonoBehaviour
         }
     }
 
+    // This is the Coroutine that handles the burning damage
     IEnumerator BurnDamage()
     {                
         while (burning)
@@ -102,14 +112,12 @@ public class Health : MonoBehaviour
                 Destroy(this.gameObject); 
                 break;
             }
-            if(burningTime <= 0)
-            {
-                burning = false;
-                burningTime = 3;
-            }
+            yield return new WaitForSeconds(burningTime);
+            burning = false;           
         }
     }
 
+    // This method does fire magical damage and burns the enemy by starting a Coroutine that handles the wet status
     void WaterDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
@@ -132,22 +140,17 @@ public class Health : MonoBehaviour
         }
     }
 
+    // This is the Coroutine that handles the wet status duration
     IEnumerator ApplyWetness()
     {
         while (wet)
         {            
             yield return new WaitForSeconds(wetnessTime);
-            if (gameObject.CompareTag("Player"))
-            {
-                if (gameObject.GetComponent<Rigidbody>() != null)
-                {
-                    gameObject.GetComponent<Rigidbody>().velocity /= 0.5f;
-                }
-            }
             wet = false;
         }
     }
 
+    // This method does fire magical damage and burns the enemy by starting a Coroutine that handles the stunned status
     void EarthDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
@@ -169,17 +172,12 @@ public class Health : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    // This is the Coroutine that handles the stunned status duration
     IEnumerator ApplyStun()
     {
         while (stunned)
         {
-            if(gameObject.CompareTag("Player"))
-            {
-                if (gameObject.GetComponent<Rigidbody>() != null)
-                {
-                    gameObject.GetComponent<Rigidbody>().velocity = Vector2.zero;
-                }
-            }
             yield return new WaitForSeconds(stunTime);
             stunned = false;
         }        
