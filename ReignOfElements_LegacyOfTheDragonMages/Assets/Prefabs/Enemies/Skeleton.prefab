@@ -197,9 +197,14 @@ MonoBehaviour:
   rangeOfAttack: 1.25
   currentTime: 0
   chasingTime: 0
+  attackDelay: 1
   timeDelay: 0
+  damage: 5
   player: {fileID: 0}
   speed: 4
+  attacking: 0
+  melee: 0
+  ranged: 0
   currentState: 0
   targetPatrolPositions:
   - {fileID: 0}

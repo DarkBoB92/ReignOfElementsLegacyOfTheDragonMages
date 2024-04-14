@@ -4872,11 +4872,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.43
+      value: -5.24
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.12
+      value: 2.26
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10523,16 +10523,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de31771287f1b454faf1c0d4e8374c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeOfSight: 3
-  rangeOfAttack: 2.5
+  rangeOfSight: 2.5
+  rangeOfAttack: 6
   currentTime: 0
   chasingTime: 0
-  attackDelay: 0
+  attackDelay: 1.5
   timeDelay: 0
   damage: 3
   player: {fileID: 0}
   speed: 4
   attacking: 0
+  melee: 0
+  ranged: 0
   currentState: 0
   targetPatrolPositions:
   - {fileID: 167994301}
@@ -10542,6 +10544,7 @@ MonoBehaviour:
   - {fileID: 1510144277}
   targetCounter: 0
   rb: {fileID: 0}
+  spell: {fileID: 2056050359617034882, guid: c207439dac5d0f34aa02a23fd98862f8, type: 3}
 --- !u!1 &1090790669
 GameObject:
   m_ObjectHideFlags: 0
@@ -12701,16 +12704,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de31771287f1b454faf1c0d4e8374c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeOfSight: 3
-  rangeOfAttack: 2.5
+  rangeOfSight: 2.5
+  rangeOfAttack: 6
   currentTime: 0
   chasingTime: 0
-  attackDelay: 0
+  attackDelay: 1.5
   timeDelay: 0
   damage: 3
   player: {fileID: 0}
   speed: 5
   attacking: 0
+  melee: 0
+  ranged: 0
   currentState: 0
   targetPatrolPositions:
   - {fileID: 1510144277}
@@ -12720,6 +12725,7 @@ MonoBehaviour:
   - {fileID: 1269493909}
   targetCounter: 0
   rb: {fileID: 0}
+  spell: {fileID: 2056050359617034882, guid: 59b0d084b1d27a34c931b38897d6f962, type: 3}
 --- !u!1 &1321437867
 GameObject:
   m_ObjectHideFlags: 0
@@ -16136,11 +16142,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.67
+      value: -9.58
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.93
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20131,7 +20137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707209972497024117, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: attackDelay
-      value: 2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3707209972497024117, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: targetPatrolPositions.Array.data[0]
@@ -20159,11 +20165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.24
+      value: -3.94
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.97
+      value: -0.73
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20213,6 +20219,10 @@ PrefabInstance:
     - target: {fileID: 1252344770602157387, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252344770602157387, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2530359020011749718, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: maxHealth

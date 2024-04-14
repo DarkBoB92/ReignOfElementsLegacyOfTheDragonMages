@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class Melee : Enemy
 {
-    //TODO: Give an Attack Range to melee enemy (big enough to fit animation)
-    //      Do the override methods to attack
-    
+    private void Start()
+    {
+        melee = true;
+        ranged = false;
+    }
     // Update is called once per frame
     void Update()
     {

@@ -11,14 +11,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected int damage;
     [SerializeField] protected GameObject player;
     [SerializeField] protected float speed;
-    [SerializeField] protected bool attacking;
+    [SerializeField] protected bool attacking, melee, ranged;
     [SerializeField] protected State currentState;
     [SerializeField] protected Transform[] targetPatrolPositions;
     [SerializeField] protected int targetCounter = 0;    
     [SerializeField] protected Rigidbody2D rb;
     //[SerializeField] protected int horizontal, vertical; //Thinking to use simple movement for patrol and change direction after collision
-    protected Vector2 playerPos, directionToMove; // directionToCast;
-    protected Health playerHealth, ownHealth;    
+    protected Vector2 playerPos, directionToMove; // directionToRayCast;
+    protected Health playerHealth, ownHealth;
     public enum State {Attack, Patrol}
     
     void Awake()
@@ -68,28 +68,68 @@ public class Enemy : MonoBehaviour
         //Check if you want to use Lerp or give velocity on the RigidBody               
         if (!ownHealth.wet && !ownHealth.stunned)
         {
-            directionToMove = playerPos - new Vector2(transform.position.x, transform.position.y);
+            //directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
+            DirectionToMoveWhileAttacking();
             rb.velocity = directionToMove * speed;
-            //transform.position = new Vector2(Mathf.Lerp(transform.position.x, playerPos.x, speed * Time.deltaTime), Mathf.Lerp(transform.position.y, playerPos.y, speed * Time.deltaTime));
-            CheckAttackRangeDistance();
+            //transform.position = new Vector2(Mathf.Lerp(transform.position.x, playerPos.x, speed * Time.deltaTime), Mathf.Lerp(transform.position.y, playerPos.y, speed * Time.deltaTime));            
         }
         else if (ownHealth.wet)
         {
-            directionToMove = playerPos - new Vector2(transform.position.x, transform.position.y);
+            //directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
+            DirectionToMoveWhileAttacking();
             rb.velocity = directionToMove * (speed/3);
         }
         else if (ownHealth.stunned)
         {
-            directionToMove = playerPos - new Vector2(transform.position.x, transform.position.y);
+            //directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
+            DirectionToMoveWhileAttacking();
             rb.velocity *= 0;
-        }        
-
+        }
+        CheckAttackRangeDistance();
         if (chasingTime >= timeDelay)
         {
             currentState = State.Patrol;
+            attacking = false;
             chasingTime = 0;
         }
     }
+
+    protected void DirectionToMoveWhileAttacking()
+    {
+        if(playerPos.x < transform.position.x)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y);
+        }
+        else if (playerPos.x > transform.position.x)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x + (rangeOfAttack / 1.25f), transform.position.y);
+        }
+        else if (playerPos.y < transform.position.y)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x, transform.position.y - (rangeOfAttack / 1.25f));
+        }
+        else if (playerPos.y > transform.position.y)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x, transform.position.y + (rangeOfAttack / 1.25f));
+        }
+        else if (playerPos.x < transform.position.x && playerPos.y < transform.position.y)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
+        }
+        else if (playerPos.x < transform.position.x && playerPos.y > transform.position.y)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y + (rangeOfAttack / 1.25f));
+        }
+        else if (playerPos.x > transform.position.x && playerPos.y < transform.position.y)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x - (rangeOfAttack / 1.25f), transform.position.y - (rangeOfAttack / 1.25f));
+        }
+        else if (playerPos.x > transform.position.x && playerPos.y > transform.position.y)
+        {
+            directionToMove = playerPos - new Vector2(transform.position.x + (rangeOfAttack / 1.25f), transform.position.y + (rangeOfAttack / 1.25f));
+        }
+    }
+
     protected virtual void MoveToPatrol()
     {
         Vector2 patrolPos = targetPatrolPositions[targetCounter].position;
@@ -148,13 +188,30 @@ public class Enemy : MonoBehaviour
         float distance = Vector2.Distance(transform.position, player.transform.position);
         if (distance <= rangeOfAttack)
         {
-            rb.velocity *= 0.5f;
+            if (melee)
+            {
+                rb.velocity *= 0.5f;
+            }
+            if (ranged)
+            {
+                rb.velocity *= 1.5f;
+            }
             Attack();
         }
         else
         {
-            rb.velocity = directionToMove * speed;
-            attacking = false;
+            if (attacking)
+            {
+                if (melee)
+                {
+                    rb.velocity /= 0.5f;
+                }
+                if (ranged)
+                {
+                    rb.velocity /= 1.5f;
+                }
+                attacking = false;
+            }
         }
     }
 

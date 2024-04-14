@@ -5,7 +5,14 @@ using SpellType;
 
 public class Ranged : Enemy
 {
-    // Update is called once per frame
+    [SerializeField] GameObject spell;
+
+    private void Start()
+    {
+        melee = false;
+        ranged = true;
+    }
+
     void Update()
     {
         currentTime += Time.deltaTime;
@@ -15,37 +22,32 @@ public class Ranged : Enemy
         }
         CheckInSightDistance();
         Move();
-    }
-
-    
+    }    
 
     protected override void Attack()
     {
         if (!attacking)
         {
             attacking = true;
-            if (gameObject.name == "Goblin")
-            {
-                StartCoroutine(Casting(damage, Type.Fire));
-            }
-            else if (gameObject.name == "Orc")
-            {
-                StartCoroutine(Casting(damage, Type.Water));
-            }
+            StartCoroutine(Casting(spell));                       
         }
     }
-    IEnumerator Casting(int damage, Type damageType)
+    IEnumerator Casting(GameObject castingSpell)
     {
         while (attacking)
         {
-            Cast(damage, damageType);
+            Cast(castingSpell);
             yield return new WaitForSeconds(attackDelay);
         }
     }
 
-    void Cast(int damage, Type damageType)
+    void Cast(GameObject castSpell)
     {
-        //playerHealth.Damage(damage, damageType);
+        Vector2 directionToCast = player.transform.position - transform.position;
+        GameObject castedSpell = Instantiate(castSpell, transform.position, Quaternion.identity);
+        int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;
+        castedSpell.GetComponent<Spell>().currentCaster = Spell.Caster.Enemy;
+        castedSpell.GetComponent<Rigidbody2D>().velocity = directionToCast.normalized * castSpeed;
     }
 
     //TODO: Useful for Caster Attack in override method

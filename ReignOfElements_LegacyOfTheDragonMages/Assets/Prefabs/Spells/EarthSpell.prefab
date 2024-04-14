@@ -165,7 +165,7 @@ MonoBehaviour:
   lifeTime: 10
   damagingObjects:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 72
   type: 0
   castSpeed: 8
   currentCaster: 0

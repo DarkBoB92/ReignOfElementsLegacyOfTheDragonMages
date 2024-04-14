@@ -133,8 +133,22 @@ public class Health : MonoBehaviour
     IEnumerator ApplyWetness()
     {
         while (wet)
-        {            
+        {
+            if (gameObject.CompareTag("Player"))
+            {
+                if (gameObject.GetComponent<Rigidbody>() != null)
+                {
+                    gameObject.GetComponent<Rigidbody>().velocity *= 0.5f;
+                }
+            }
             yield return new WaitForSeconds(wetnessTime);
+            if (gameObject.CompareTag("Player"))
+            {
+                if (gameObject.GetComponent<Rigidbody>() != null)
+                {
+                    gameObject.GetComponent<Rigidbody>().velocity /= 0.5f;
+                }
+            }
             wet = false;
         }
     }
@@ -163,6 +177,13 @@ public class Health : MonoBehaviour
     {
         while (stunned)
         {
+            if(gameObject.CompareTag("Player"))
+            {
+                if (gameObject.GetComponent<Rigidbody>() != null)
+                {
+                    gameObject.GetComponent<Rigidbody>().velocity = Vector2.zero;
+                }
+            }
             yield return new WaitForSeconds(stunTime);
             stunned = false;
         }        
