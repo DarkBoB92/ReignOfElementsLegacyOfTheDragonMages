@@ -10,7 +10,7 @@ public class Melee : Enemy
         melee = true;
         ranged = false;
     }
-    // Update is called once per frame
+
     void Update()
     {
         currentTime += Time.deltaTime;
@@ -18,8 +18,11 @@ public class Melee : Enemy
         {
             chasingTime += Time.deltaTime;
         }
-        CheckInSightDistance();
-        Move();
+        if (player != null)
+        {
+            CheckInSightDistance();
+            Move();
+        }
     }
 
     protected override void Attack()

@@ -49,7 +49,12 @@ public class PlayerController : MonoBehaviour
 
     void OnFire(InputValue input)
     {
-        CastSpell(selectedSpell);
+        Vector2 xyInput = input.Get<Vector2>();
+        if (xyInput.magnitude > 0)
+        {
+            CastSpell(selectedSpell, xyInput);
+        }
+        
         //TODO: - Check which direction is walking or last direction pointing so casting will be set on right direction
     }
 
@@ -61,12 +66,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void CastSpell(GameObject currentSpell)
+    void CastSpell(GameObject currentSpell, Vector2 directionToCast)
     {
-        GameObject castedSpell = Instantiate(currentSpell, transform.position + transform.right, Quaternion.identity);
+        GameObject castedSpell = Instantiate(currentSpell, transform.position, Quaternion.identity);
         int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;
         castedSpell.GetComponent<Spell>().currentCaster = Spell.Caster.Player;
-        castedSpell.GetComponent<Rigidbody2D>().velocity = transform.right * castSpeed;
+        castedSpell.GetComponent<Rigidbody2D>().velocity = directionToCast * castSpeed;
     }
 
     void ChangeSpell()

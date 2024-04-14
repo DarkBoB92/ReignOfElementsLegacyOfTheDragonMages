@@ -86,6 +86,7 @@ public class Health : MonoBehaviour
         }
         else
         {
+            StopAllCoroutines();
             Destroy(this.gameObject);
         }
     }
@@ -126,6 +127,7 @@ public class Health : MonoBehaviour
         }
         else
         {
+            StopAllCoroutines();
             Destroy(this.gameObject);
         }
     }
@@ -133,14 +135,7 @@ public class Health : MonoBehaviour
     IEnumerator ApplyWetness()
     {
         while (wet)
-        {
-            if (gameObject.CompareTag("Player"))
-            {
-                if (gameObject.GetComponent<Rigidbody>() != null)
-                {
-                    gameObject.GetComponent<Rigidbody>().velocity *= 0.5f;
-                }
-            }
+        {            
             yield return new WaitForSeconds(wetnessTime);
             if (gameObject.CompareTag("Player"))
             {
@@ -170,6 +165,7 @@ public class Health : MonoBehaviour
         }
         else
         {
+            StopAllCoroutines();
             Destroy(this.gameObject);
         }
     }
