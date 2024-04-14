@@ -41,8 +41,11 @@ public class Enemy : MonoBehaviour
         {
             chasingTime += Time.deltaTime;
         }
-        CheckInSightDistance();
-        Move();
+        if (player != null)
+        {
+            CheckInSightDistance();
+            Move();
+        }
     }
     protected virtual void Attack()
     {

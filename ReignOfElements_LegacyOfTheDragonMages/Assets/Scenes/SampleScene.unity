@@ -4826,6 +4826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orc
       objectReference: {fileID: 0}
+    - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1278307620965878916, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -16096,6 +16100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin
       objectReference: {fileID: 0}
+    - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1278307620965878916, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -20127,6 +20135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minotaur
       objectReference: {fileID: 0}
+    - target: {fileID: 53981280115732736, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3707209972497024117, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: speed
       value: 3
@@ -20165,11 +20177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.94
+      value: -12.08
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.73
+      value: 4.75
       objectReference: {fileID: 0}
     - target: {fileID: 9048407335361424925, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20219,14 +20231,6 @@ PrefabInstance:
     - target: {fileID: 1252344770602157387, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252344770602157387, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2530359020011749718, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
-      propertyPath: maxHealth
-      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 2939453545609265638, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20360,6 +20364,10 @@ PrefabInstance:
     - target: {fileID: 8969597373306326177, guid: 9695932597c9de04da2e625cd37a924c, type: 3}
       propertyPath: m_Name
       value: Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8969597373306326177, guid: 9695932597c9de04da2e625cd37a924c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
