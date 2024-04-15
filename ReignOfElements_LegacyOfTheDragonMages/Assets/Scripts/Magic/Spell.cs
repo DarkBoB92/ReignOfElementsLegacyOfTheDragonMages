@@ -17,6 +17,10 @@ public class Spell : MonoBehaviour
     [Header("Damageble Layers By AOE Spells")]
     [SerializeField] LayerMask damagingObjects;
     CircleCollider2D colliderRadius;
+
+    [Header("Reference Variables")]
+    Door collidingDoor;
+
     public enum Caster { Player, Enemy }
 
     // On Awake() execute SelectSpellType() and reference the Collider of the spell
@@ -68,11 +72,15 @@ public class Spell : MonoBehaviour
                 Destroy(this.gameObject);
             }
         }
-        else if (collision.CompareTag("Door"))
+        else if (collision.CompareTag("Door") && currentCaster == Caster.Player)
         {
             //TODO: - Check if right spell state to open door
             //      - If right spell, Open door and destroy door
-            Destroy(collision.gameObject);
+            collidingDoor = collision.GetComponent<Door>();
+            if (collidingDoor != null)
+            {
+                collidingDoor.OpenDoor(type);
+            }
             Destroy(this.gameObject);
         }
     }
