@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     
     [Header("Health References")]
     protected Health playerHealth, ownHealth;
-    public enum State {Attack, Patrol}
+    protected enum State {Attack, Patrol}
     
     // On Awake() get all references and set enemy initial state and default time delay value
     void Awake()
