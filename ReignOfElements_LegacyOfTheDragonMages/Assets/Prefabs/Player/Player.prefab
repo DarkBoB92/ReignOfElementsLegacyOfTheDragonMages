@@ -225,10 +225,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  burningTime: 0
-  wetnessTime: 0
-  stunTime: 0
   burning: 0
+  burningTime: 0
   wet: 0
+  wetnessTime: 0
   stunned: 0
+  stunTime: 0
   damageType: 0

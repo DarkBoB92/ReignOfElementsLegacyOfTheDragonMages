@@ -6,11 +6,16 @@ using SpellType;
 public class Health : MonoBehaviour
 {
     [Header("Health Variables")]
-    [SerializeField] int maxHealth, currentHealth;
+    [SerializeField] int maxHealth;
+    [SerializeField] int currentHealth;
 
-    [Header("Status Alterations and its Duration")]    
-    public bool burning, wet, stunned;
-    [SerializeField] float burningTime, wetnessTime, stunTime;
+    [Header("Status Alterations and its Duration")]
+    public bool burning;
+    [SerializeField] float burningTime;
+    public bool wet;
+    [SerializeField] float wetnessTime;
+    public bool stunned;
+    [SerializeField] float stunTime;
 
     [Header("Damage Type")]
     public Type damageType;

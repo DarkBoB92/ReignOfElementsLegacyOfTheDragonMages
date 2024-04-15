@@ -5,7 +5,7 @@ using SpellType;
 
 public class Ranged : Enemy
 {
-    [Header("Enemy General Variables")]
+    [Header("Ranged General Variables")]
     [SerializeField] GameObject spell;
 
     // On Start() sets boolean letting the code know of its type

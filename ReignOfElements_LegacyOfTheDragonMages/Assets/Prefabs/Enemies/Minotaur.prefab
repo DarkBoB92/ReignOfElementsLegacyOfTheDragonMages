@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9048407335361424925
 Transform:
   m_ObjectHideFlags: 0
@@ -174,12 +174,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 50
   currentHealth: 0
-  burningTime: 0
-  wetnessTime: 0
-  stunTime: 0
   burning: 0
   wet: 0
   stunned: 0
+  burningTime: 0
+  wetnessTime: 0
+  stunTime: 0
   damageType: 0
 --- !u!114 &3707209972497024117
 MonoBehaviour:
@@ -195,22 +195,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeOfSight: 2
   rangeOfAttack: 1.25
-  currentTime: 0
+  patrolTime: 0
   chasingTime: 0
   attackDelay: 3.5
   timeDelay: 0
-  damage: 10
-  player: {fileID: 0}
   speed: 3
-  attacking: 0
   melee: 0
   ranged: 0
   currentState: 0
+  attacking: 0
   targetPatrolPositions:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  targetCounter: 0
-  rb: {fileID: 0}
+  damage: 10

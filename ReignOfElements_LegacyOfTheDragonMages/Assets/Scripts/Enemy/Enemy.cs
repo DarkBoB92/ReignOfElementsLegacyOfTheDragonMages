@@ -7,14 +7,16 @@ using SpellType;
 public class Enemy : MonoBehaviour
 {
     [Header("Enemy General Variables")]
-    [SerializeField] protected float rangeOfSight, rangeOfAttack;
+    [SerializeField] protected float rangeOfSight;
+    [SerializeField] protected float rangeOfAttack;
     [SerializeField] protected float patrolTime, chasingTime, attackDelay, timeDelay;       
     [SerializeField] protected float speed;
     protected Vector2 directionToMove; // directionToRayCast;
     protected Rigidbody2D rb;
 
     [Header("Enemy Type")]
-    [SerializeField] protected bool melee, ranged;
+    [SerializeField] protected bool melee;
+    [SerializeField] protected bool ranged;
 
     [Header("Enemy State")]
     [SerializeField] protected State currentState;

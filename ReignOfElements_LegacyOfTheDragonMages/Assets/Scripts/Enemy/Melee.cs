@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Melee : Enemy
 {
-    [Header("Enemy General Variables")]
+    [Header("Melee General Variables")]
     [SerializeField] int damage;
 
     // On Start() sets boolean letting the code know of its type

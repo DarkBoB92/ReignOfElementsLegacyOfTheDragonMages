@@ -14,13 +14,14 @@ GameObject:
   - component: {fileID: 8894541034007227032}
   - component: {fileID: 7228328372546728620}
   - component: {fileID: 27949194265630490}
+  - component: {fileID: 3869499019748378866}
   m_Layer: 6
   m_Name: Orc
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5011205367970496689
 Transform:
   m_ObjectHideFlags: 0
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2738972547837575039}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.24, y: 2.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -174,12 +175,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 50
   currentHealth: 0
-  burningTime: 0
-  wetnessTime: 0
-  stunTime: 0
   burning: 0
   wet: 0
   stunned: 0
+  burningTime: 0
+  wetnessTime: 0
+  stunTime: 0
   damageType: 0
 --- !u!114 &27949194265630490
 MonoBehaviour:
@@ -195,23 +196,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeOfSight: 2.5
   rangeOfAttack: 6
-  currentTime: 0
+  patrolTime: 0
   chasingTime: 0
   attackDelay: 1.5
   timeDelay: 0
-  damage: 3
-  player: {fileID: 0}
   speed: 4
-  attacking: 0
   melee: 0
   ranged: 0
   currentState: 0
+  attacking: 0
   targetPatrolPositions:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  targetCounter: 0
-  rb: {fileID: 0}
+  spell: {fileID: 2056050359617034882, guid: c207439dac5d0f34aa02a23fd98862f8, type: 3}
+--- !u!114 &3869499019748378866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738972547837575039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de31771287f1b454faf1c0d4e8374c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangeOfSight: 2.5
+  rangeOfAttack: 6
+  patrolTime: 0
+  chasingTime: 0
+  attackDelay: 1.5
+  timeDelay: 0
+  speed: 4
+  melee: 0
+  ranged: 0
+  currentState: 0
+  attacking: 0
+  targetPatrolPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   spell: {fileID: 2056050359617034882, guid: c207439dac5d0f34aa02a23fd98862f8, type: 3}
