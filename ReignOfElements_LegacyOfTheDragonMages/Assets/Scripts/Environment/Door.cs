@@ -44,6 +44,9 @@ public class Door : MonoBehaviour
     {
         switch (gameObject.name)
         {
+            case "WoodDoor":
+                doorElement = Type.None;
+                break;
             case "Door":
                 doorElement = Type.Normal;
                 break;
