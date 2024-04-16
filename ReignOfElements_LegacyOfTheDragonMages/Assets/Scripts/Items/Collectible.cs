@@ -7,7 +7,7 @@ public class Collectible : MonoBehaviour
     protected Inventory playerInventory;
 
     // When it collides with the Player it gives something to the player and destroys the collectible
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
