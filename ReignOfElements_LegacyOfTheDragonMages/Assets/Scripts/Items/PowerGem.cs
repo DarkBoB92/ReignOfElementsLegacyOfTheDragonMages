@@ -1,18 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SpellType;
 
-public class PowerGem : MonoBehaviour
+public class PowerGem : Collectible
 {
-    // Start is called before the first frame update
-    void Start()
+    Type gemType;
+
+    private void Awake()
     {
-        
+        SelectGemType();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void Give()
     {
-        
+        if(playerInventory != null)
+        {
+            playerInventory.CollectPowerGem(gemType);
+        }
+    }
+
+    protected override void Destroy()
+    {
+        base.Destroy();
+    }
+
+    void SelectGemType()
+    {
+        switch (gameObject.tag)
+        {            
+            case "Fire":
+                gemType = Type.Fire;
+                break;
+            case "Water":
+                gemType = Type.Water;
+                break;
+            case "Earth":
+                gemType = Type.Earth;
+                break;
+        }
     }
 }

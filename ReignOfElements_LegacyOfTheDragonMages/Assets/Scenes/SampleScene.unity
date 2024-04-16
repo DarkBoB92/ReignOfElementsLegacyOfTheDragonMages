@@ -4898,6 +4898,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9120671708740707954, guid: a8f1aafc98735f24daadfe9f1f481832, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8639,6 +8643,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &800120511 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1252344770602157387, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+  m_PrefabInstance: {fileID: 5587907774935212194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800120512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800120511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa98de37c527994eade2b51cc7fe3c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasKey: 0
+  fire: 0
+  water: 0
+  earth: 0
+  health: 0
+  mana: 0
 --- !u!1 &811467864
 GameObject:
   m_ObjectHideFlags: 0
@@ -16185,6 +16212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin
       objectReference: {fileID: 0}
+    - target: {fileID: 7617853911894035198, guid: 77ddc7aba67e1ee4d8d3a4747216b00a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20132,6 +20163,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1278307620965878916, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3707209972497024117, guid: b246446a7cac6894996202eb88ae14e8, type: 3}
       propertyPath: targetPatrolPositions.Array.data[0]
       value: 
@@ -20220,6 +20255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1978038118899014664, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2530359020011749718, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: maxHealth
       value: 1000000
@@ -20267,7 +20306,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1252344770602157387, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800120512}
   m_SourcePrefab: {fileID: 100100000, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
 --- !u!1001 &7309958629095448139
 PrefabInstance:
@@ -20277,6 +20319,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2246750816484200182, guid: 9695932597c9de04da2e625cd37a924c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4665229877509943411, guid: 9695932597c9de04da2e625cd37a924c, type: 3}
       propertyPath: targetPatrolPositions.Array.data[0]
       value: 

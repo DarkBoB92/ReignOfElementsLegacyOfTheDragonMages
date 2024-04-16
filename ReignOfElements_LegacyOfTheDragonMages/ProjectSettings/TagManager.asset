@@ -11,6 +11,8 @@ TagManager:
   - Fire
   - Water
   - Normal
+  - HealthPotion
+  - ManaPotion
   layers:
   - Default
   - TransparentFX
