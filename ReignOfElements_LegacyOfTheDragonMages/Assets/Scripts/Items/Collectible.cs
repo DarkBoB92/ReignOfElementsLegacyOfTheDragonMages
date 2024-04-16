@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    protected Inventory playerInventory;
+
     // When it collides with the Player it gives something to the player and destroys the collectible
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            Give();
-            DestroyCollectible();
+            playerInventory = collision.gameObject.GetComponent<Inventory>();
+            if (playerInventory != null)
+            {
+                Give();
+                Destroy();
+            }
         }
     }
 
@@ -21,7 +27,7 @@ public class Collectible : MonoBehaviour
     }
 
     // This method is overridble because every single collectible will have a different way of disappearing
-    protected virtual void DestroyCollectible()
+    protected virtual void Destroy()
     {
         Destroy(this.gameObject);
     }

@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     [Header("Player Element Affinity")]
     [SerializeField] public Type transformation;
 
+    [Header("Player Inventory")]
+    Inventory inventory;
+
     [Header("Referenced Variables")]
     Rigidbody2D rb;
     Health health;
@@ -26,6 +29,7 @@ public class PlayerController : MonoBehaviour
         transformation = Type.Normal;
         rb = GetComponent<Rigidbody2D>();
         health = GetComponent<Health>();
+        inventory = GetComponent<Inventory>();
         selectedSpell = spell[0];
     }
 
@@ -87,24 +91,66 @@ public class PlayerController : MonoBehaviour
     // On execution it switches between the Type of elemental affinity assigning the new affinity and changing the current equipped Spell
     void ChangeSpell()
     {
-        switch(transformation)
+        if (inventory.fire || inventory.water || inventory.earth)
         {
-            case Type.Normal:
-                transformation = Type.Fire;
-                selectedSpell = spell[1];
-                break;
-            case Type.Fire:
-                transformation = Type.Water;
-                selectedSpell = spell[2];
-                break;
-            case Type.Water:
-                transformation = Type.Earth;
-                selectedSpell = spell[3];
-                break;
-            case Type.Earth:
-                transformation = Type.Normal;
-                selectedSpell = spell[0];
-                break;
+            switch (transformation)
+            {
+                case Type.Normal:
+                    if (inventory.fire)
+                    {
+                        transformation = Type.Fire;
+                        selectedSpell = spell[1];
+                    }
+                    else if (inventory.water)
+                    {
+                        transformation = Type.Water;
+                        selectedSpell = spell[2];
+                    }
+                    else if (inventory.earth)
+                    {
+                        transformation = Type.Earth;
+                        selectedSpell = spell[3];
+                    }
+                    break;
+                case Type.Fire:
+                    if (!inventory.water && !inventory.earth)
+                    {
+                        transformation = Type.Normal;
+                        selectedSpell = spell[0];
+                    }
+                    else if (inventory.water) 
+                    { 
+                        transformation = Type.Water;
+                        selectedSpell = spell[2];
+                    }
+                    else if (inventory.earth)
+                    {
+                        transformation = Type.Earth;
+                        selectedSpell = spell[3];
+                    }
+                    break;
+                case Type.Water:
+                    if (!inventory.fire && !inventory.earth || !inventory.earth)
+                    {
+                        transformation = Type.Normal;
+                        selectedSpell = spell[0];
+                    }
+                    else if (inventory.earth)
+                    {
+                        transformation = Type.Earth;
+                        selectedSpell = spell[3];
+                    }
+                    break;
+                case Type.Earth:
+                    transformation = Type.Normal;
+                    selectedSpell = spell[0];
+                    break;
+            }
+        }
+        else
+        {
+            // UI message that you don't have any power gem
+            Debug.Log("UwU");
         }
     }
 }

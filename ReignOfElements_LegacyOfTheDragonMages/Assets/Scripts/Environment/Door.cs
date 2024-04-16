@@ -17,11 +17,7 @@ public class Door : MonoBehaviour
     // On execution it checks if the colliding Spell matches the element of the door to Open
     public void OpenDoor(Type collidingSpell)
     {
-        if(collidingSpell == Type.None) // && Player hasKey
-        {
-            Destroy(gameObject);
-        }
-        else if (collidingSpell == Type.Normal && doorElement == Type.Normal)
+        if (collidingSpell == Type.Normal && doorElement == Type.Normal)
         {
             Destroy(gameObject);
         }
@@ -36,6 +32,31 @@ public class Door : MonoBehaviour
         else if (collidingSpell == Type.Earth && doorElement == Type.Fire)
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (doorElement == Type.None)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                Inventory playerInventory = collision.gameObject.GetComponent<Inventory>();
+                if (playerInventory != null)
+                {
+                    if(playerInventory.hasKey)
+                    {
+                        Destroy(gameObject);
+                        playerInventory.hasKey = false;
+                    }
+                    else
+                    {
+                        // UI message you don't have the key
+                        Debug.Log("UwU");
+                    }
+                }
+                
+            }
         }
     }
 
