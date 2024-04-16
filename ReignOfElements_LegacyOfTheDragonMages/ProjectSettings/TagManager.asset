@@ -13,6 +13,7 @@ TagManager:
   - Normal
   - HealthPotion
   - ManaPotion
+  - Room
   layers:
   - Default
   - TransparentFX

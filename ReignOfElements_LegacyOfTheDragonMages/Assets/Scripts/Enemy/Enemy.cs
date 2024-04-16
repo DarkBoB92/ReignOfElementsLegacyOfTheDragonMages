@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
     protected Health playerHealth, ownHealth;
     protected enum State {Attack, Patrol}
     
-    // On Awake() get all references and set enemy initial state and default time delay value
+    // On Awake() get all references and set enemy initial state
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -48,13 +48,15 @@ public class Enemy : MonoBehaviour
             playerHealth = player.GetComponent<Health>();
         }
         currentState = State.Patrol;
-        timeDelay = 3;
     }
     
     // On Update() handle timers progression and if player reference is not null execute CheckInSightDistance() and Move() methods
     void Update()
-    {        
-        patrolTime += Time.deltaTime;
+    {
+        if (currentState == State.Patrol) 
+        {
+            
+        }
         if (currentState == State.Attack)
         {
             chasingTime += Time.deltaTime;
@@ -68,11 +70,7 @@ public class Enemy : MonoBehaviour
 
     // This Method is a virtual method that will be overrided by the child class
     protected virtual void Attack()
-    {
-        if (!attacking)
-        {
-            attacking = true;
-        }
+    {        
         //Do attack
     }
 
