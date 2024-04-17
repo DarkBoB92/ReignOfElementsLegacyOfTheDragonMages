@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5011205367970496689}
   - component: {fileID: 9120671708740707954}
   - component: {fileID: 2225271345217779482}
+  - component: {fileID: -648201447445538443}
   - component: {fileID: 8894541034007227032}
   - component: {fileID: 7228328372546728620}
   - component: {fileID: 3869499019748378866}
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1674639751, guid: 34a4ad372245a7f4ba0ec1c70449b7d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -117,10 +118,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0944168, y: -0.275382}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -131,8 +132,43 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99755526, y: 1.0118631}
+  m_Size: {x: 0.9375, y: 1.59375}
   m_EdgeRadius: 0
+--- !u!58 &-648201447445538443
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738972547837575039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.51}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!50 &8894541034007227032
 Rigidbody2D:
   serializedVersion: 4
@@ -172,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d70de908e17d34c855566b9a54d322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 15
   currentHealth: 0
   burning: 0
   burningTime: 0
@@ -198,8 +234,8 @@ MonoBehaviour:
   patrolTime: 0
   chasingTime: 0
   attackDelay: 1.5
-  timeDelay: 0
-  speed: 4
+  timeDelay: 3
+  speed: 0.5
   melee: 0
   ranged: 0
   currentState: 0

@@ -8,12 +8,21 @@ public class Key : Collectible
     {
         if(playerInventory != null)
         {
-            playerInventory.CollectKey();
+            if (!playerInventory.hasKey)
+            {
+                playerInventory.CollectKey();
+            }
         }
     }
 
     protected override void Destroy()
     {
-        base.Destroy();
+        if (playerInventory != null)
+        {
+            if (playerInventory.hasKey)
+            {
+                base.Destroy();
+            }
+        }
     }
 }

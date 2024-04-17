@@ -73,9 +73,7 @@ public class Spell : MonoBehaviour
             }
         }
         else if (collision.CompareTag("Door") && currentCaster == Caster.Player)
-        {
-            //TODO: - Check if right spell state to open door
-            //      - If right spell, Open door and destroy door
+        {            
             collidingDoor = collision.GetComponent<Door>();
             if (collidingDoor != null)
             {

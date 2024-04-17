@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 1978038118899014664}
   - component: {fileID: 1538174582005289053}
   - component: {fileID: 8808868060406528391}
+  - component: {fileID: 7540597870755558733}
   - component: {fileID: 960918347509567722}
   - component: {fileID: 6403679767414634191}
   - component: {fileID: 2530359020011749718}
+  - component: {fileID: 5474985111862863619}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -77,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1905319765, guid: efb38ac858e82794bac50b6328aede8b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -145,10 +147,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010670185, y: -0.28160405}
+  m_Offset: {x: -0.034269333, y: -0.3708403}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -159,8 +161,43 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.98856926, y: 1.0012708}
+  m_Size: {x: 0.7810383, y: 0.74726915}
   m_EdgeRadius: 0
+--- !u!58 &7540597870755558733
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252344770602157387}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.42}
+  serializedVersion: 2
+  m_Radius: 0.35
 --- !u!114 &960918347509567722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,3 +269,21 @@ MonoBehaviour:
   stunned: 0
   stunTime: 0
   damageType: 0
+--- !u!114 &5474985111862863619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252344770602157387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa98de37c527994eade2b51cc7fe3c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasKey: 0
+  fire: 0
+  water: 0
+  earth: 0
+  health: 0
+  mana: 0
