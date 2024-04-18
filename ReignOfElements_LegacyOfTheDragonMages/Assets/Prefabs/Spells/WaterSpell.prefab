@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.25, g: 0.47438467, b: 1, a: 1}
   m_FlipX: 0
@@ -163,9 +163,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   lifeTime: 10
-  damagingObjects:
-    serializedVersion: 2
-    m_Bits: 72
   type: 0
   castSpeed: 12
   currentCaster: 0
+  damagingObjects:
+    serializedVersion: 2
+    m_Bits: 72
