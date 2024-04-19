@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 960918347509567722}
   - component: {fileID: 6403679767414634191}
   - component: {fileID: 2530359020011749718}
+  - component: {fileID: 5385279001186596781}
   - component: {fileID: 5474985111862863619}
   m_Layer: 3
   m_Name: Player
@@ -269,6 +270,20 @@ MonoBehaviour:
   stunned: 0
   stunTime: 0
   damageType: 0
+--- !u!114 &5385279001186596781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252344770602157387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6abc3b7eb799c44989247c3f6c7a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxMana: 100
+  currentMana: 0
 --- !u!114 &5474985111862863619
 MonoBehaviour:
   m_ObjectHideFlags: 0

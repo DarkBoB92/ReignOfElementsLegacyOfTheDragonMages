@@ -246,4 +246,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  droppingItems:
+  - {fileID: 2931217696036841342, guid: 1f3e727aacf37d740babff2977b8766b, type: 3}
+  - {fileID: 3909084595262979363, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
   damage: 5

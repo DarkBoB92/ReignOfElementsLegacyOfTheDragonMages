@@ -35,6 +35,10 @@ public class Enemy : MonoBehaviour
     
     [Header("Health References")]
     protected Health playerHealth, ownHealth;
+
+    [Header("Drop Item")]
+    [SerializeField] protected GameObject[] droppingItems;
+
     protected enum State {Attack, Patrol}
     
     // On Awake() get all references and set enemy initial state
@@ -237,6 +241,20 @@ public class Enemy : MonoBehaviour
                 attacking = false;
             }
         }
+    }
+
+    protected void OnDestroy()
+    {
+        Health health = GetComponent<Health>();
+        if (health != null)
+        {
+            if(health.currentHealth <= 0)
+            {
+                int dropChoice = Random.Range(0, 2);
+                GameObject itemToDrop = Instantiate(droppingItems[dropChoice], transform.position, Quaternion.identity);
+            }
+        }
+
     }
 
     private void OnDrawGizmos()
