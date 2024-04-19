@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
     [Header("Health Variables")]
     [SerializeField] int maxHealth;
-    [SerializeField] int currentHealth;
+    public int currentHealth;
 
     [Header("Status Alterations and its Duration")]
     public bool burning;

@@ -19,7 +19,7 @@ public class Manager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    //TODO: Winning Condition, altars on
     void Update()
     {
         

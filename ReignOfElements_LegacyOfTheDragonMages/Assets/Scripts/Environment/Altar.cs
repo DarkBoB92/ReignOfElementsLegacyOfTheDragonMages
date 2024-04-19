@@ -32,12 +32,11 @@ public class Altar : MonoBehaviour
     IEnumerator ActivateGem()
     {        
         Color gemColor = gem.color;
-        while(gemColor.a <= 1)
-        {
-            Debug.Log("UwU");
-            gemColor.a += 0.3f;
-            gemColor = gem.color;
-            yield return new WaitForSeconds(0.1f);
+        while (gemColor.a <= 1)
+        {           
+            gemColor.a += 0.02f;
+            gem.color = gemColor;
+            yield return new WaitForSeconds(0.01f);
         }        
     }
 
