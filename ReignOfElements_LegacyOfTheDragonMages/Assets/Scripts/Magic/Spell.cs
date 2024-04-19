@@ -20,6 +20,7 @@ public class Spell : MonoBehaviour
 
     [Header("Reference Variables")]
     Door collidingDoor;
+    Altar collidingAltar;
 
     public enum Caster { Player, Enemy }
 
@@ -80,6 +81,14 @@ public class Spell : MonoBehaviour
                 collidingDoor.OpenDoor(type);
             }
             Destroy(this.gameObject);
+        }
+        else if (collision.CompareTag("Altar"))
+        {
+            collidingAltar = collision.GetComponent<Altar>();
+            if(collidingAltar != null)
+            {
+                collidingAltar.ActivateAltar(type);
+            }
         }
     }
 
