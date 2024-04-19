@@ -31,6 +31,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "UseHealthPotion",
+                    "type": "Button",
+                    "id": "e4a72424-a4a3-4241-b5ea-a34637fff000",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UseManaPotion",
+                    "type": "Button",
+                    "id": "66f0434b-8019-4350-a9c3-c5fcf9d5ad50",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -187,6 +205,28 @@
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c408890d-3f5f-4d74-859f-59b2cfa59f0e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "UseHealthPotion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c76e6ac5-bf91-4553-99e5-1aef3c0e7825",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "UseManaPotion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

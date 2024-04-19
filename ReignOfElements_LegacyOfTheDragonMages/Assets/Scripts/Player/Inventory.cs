@@ -16,7 +16,17 @@ public class Inventory : MonoBehaviour
     [Header("Potions")]
     public int health;
     public int mana;
- 
+
+    [Header("Player Variables")]
+    Health playerHealth;
+    Mana playerMana;
+
+    private void Start()
+    {
+        playerHealth = GetComponent<Health>();
+        playerMana = GetComponent<Mana>();
+    }
+
     public void CollectKey()
     {
         hasKey = true;
@@ -49,6 +59,48 @@ public class Inventory : MonoBehaviour
         if (potion.CompareTag("ManaPotion"))
         {
             mana++;
+        }
+    }
+    public void UsePotion(string potion)
+    {
+        if (potion == "HealthPotion")
+        {
+            if (playerHealth != null)
+            {
+                if (playerHealth.currentHealth < playerHealth.GetMaxHealth())
+                {
+                    health--;
+                    playerHealth.currentHealth += 10;
+                    if(playerHealth.currentHealth >= playerHealth.GetMaxHealth())
+                    {
+                        playerHealth.currentHealth = playerHealth.GetMaxHealth();
+                    }
+                }
+                else
+                {
+                    Debug.Log("You're at Max Health");
+                }
+            }
+
+        }
+        else if (potion == "ManaPotion")
+        {
+            if (playerMana != null)
+            {
+                if (playerMana.currentMana < playerMana.GetMaxMana())
+                {
+                    mana--;
+                    playerMana.currentMana += 10;
+                    if (playerMana.currentMana >= playerMana.GetMaxMana())
+                    {
+                        playerMana.currentMana = playerMana.GetMaxMana();
+                    }
+                }
+                else
+                {
+                    Debug.Log("You're at Max Health");
+                }
+            }
         }
     }
 }

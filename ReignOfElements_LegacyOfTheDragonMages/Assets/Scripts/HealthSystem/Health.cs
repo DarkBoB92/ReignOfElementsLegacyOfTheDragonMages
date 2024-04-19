@@ -187,4 +187,9 @@ public class Health : MonoBehaviour
             stunned = false;
         }        
     }
+
+    public int GetMaxHealth()
+    {
+        return maxHealth;
+    }
 }

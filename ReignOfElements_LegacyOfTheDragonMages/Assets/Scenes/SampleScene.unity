@@ -9977,7 +9977,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxMana: 100
   currentMana: 0
-  spellType: 0
 --- !u!1 &803519030
 GameObject:
   m_ObjectHideFlags: 0
@@ -35250,11 +35249,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 732894682640030446, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.540733
+      value: -26.54
       objectReference: {fileID: 0}
     - target: {fileID: 732894682640030446, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.467963
+      value: -12.4
       objectReference: {fileID: 0}
     - target: {fileID: 732894682640030446, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37674,11 +37673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2939453545609265638, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.9
+      value: -31.94
       objectReference: {fileID: 0}
     - target: {fileID: 2939453545609265638, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.5
+      value: 8.67
       objectReference: {fileID: 0}
     - target: {fileID: 2939453545609265638, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
       propertyPath: m_LocalPosition.z

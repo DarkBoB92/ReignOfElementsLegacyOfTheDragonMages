@@ -22,7 +22,7 @@ public class Mana : MonoBehaviour
                 currentMana -= 2;
                 break;
             case Type.Fire:
-                currentMana -= 4; 
+                currentMana -= 4;
                 break;
             case Type.Water:
                 currentMana -= 3;
@@ -31,5 +31,24 @@ public class Mana : MonoBehaviour
                 currentMana -= 5;
                 break;
         }
+        
+    }
+
+    public bool CheckManaAmount()
+    {
+        if (currentMana > 0)
+        {            
+            return true;
+        }
+        else
+        {
+            currentMana = 0;
+            return false;
+        }
+    }
+
+    public int GetMaxMana()
+    {
+        return maxMana;
     }
 }

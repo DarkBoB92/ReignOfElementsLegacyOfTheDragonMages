@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     [Header("Referenced Variables")]
     Rigidbody2D rb;
     Health health;
+    Mana mana;
 
     // On Start() get references and set default Element Affinity and Used Spell
     void Start()
@@ -29,17 +30,14 @@ public class PlayerController : MonoBehaviour
         transformation = Type.Normal;
         rb = GetComponent<Rigidbody2D>();
         health = GetComponent<Health>();
+        mana = GetComponent<Mana>();
         inventory = GetComponent<Inventory>();
         selectedSpell = spell[0];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //--------------Input System---------------------
 
-    // Gets input from InputSystem. Checks if Player is wet or stunned and changes movement accordingly
+    // Checks if Player is wet or stunned and changes movement accordingly
     void OnMove(InputValue input)
     {
         Vector2 xyInput = input.Get<Vector2>();
@@ -64,10 +62,18 @@ public class PlayerController : MonoBehaviour
         Vector2 xyInput = input.Get<Vector2>();
         if (xyInput.magnitude > 0)
         {
-            CastSpell(selectedSpell, xyInput);
+            if (mana.CheckManaAmount())
+            {
+                CastSpell(selectedSpell, xyInput);
+                mana.UseMana(transformation);
+            }
+            else
+            {
+                Debug.Log("You don't have Mana");
+            }
         }
         
-        //TODO: - Check which direction is walking or last direction pointing so casting will be set on right direction
+        //TODO: - Check which direction is Casting so casting animation will be set on right direction
     }
 
     // Gets input from InputSystem. Executes ChangeSpell() on press.
@@ -78,6 +84,38 @@ public class PlayerController : MonoBehaviour
             ChangeSpell();
         }
     }
+
+    void OnUseHealthPotion(InputValue input)
+    {
+        if (input.isPressed)
+        {
+            if (inventory.health > 0)
+            {
+                inventory.UsePotion("HealthPotion");
+            }
+            else
+            {
+                Debug.Log("You don't have Health Potions");
+            }
+        }
+    }
+
+    void OnUseManaPotion(InputValue input)
+    {
+        if (input.isPressed)
+        {
+            if (inventory.mana > 0)
+            {
+                inventory.UsePotion("ManaPotion");
+            }
+            else
+            {
+                Debug.Log("You don't have Mana Potions");
+            }
+        }
+    }
+
+    //------------------Class Methods------------------------------
 
     // On execution Instantiate the gameobject passed by the parameter in the direction given by the parameter 
     void CastSpell(GameObject currentSpell, Vector2 directionToCast)
