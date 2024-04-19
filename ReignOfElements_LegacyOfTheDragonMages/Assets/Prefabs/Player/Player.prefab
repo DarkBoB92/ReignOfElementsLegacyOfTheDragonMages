@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6abc3b7eb799c44989247c3f6c7a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMana: 100
+  maxMana: 200
   currentMana: 0
 --- !u!114 &5474985111862863619
 MonoBehaviour:
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasKey: 0
-  fire: 0
-  water: 0
-  earth: 0
+  fire: 1
+  water: 1
+  earth: 1
   health: 0
   mana: 0

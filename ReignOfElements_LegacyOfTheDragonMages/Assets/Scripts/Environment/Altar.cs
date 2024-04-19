@@ -7,7 +7,7 @@ public class Altar : MonoBehaviour
 {
     [Header("Altar Variables")]
     [SerializeField] Type altarElement;
-    [SerializeField] bool activated;
+    public bool activated;
     [SerializeField] SpriteRenderer gem;
     [SerializeField] GameObject shinyGemParticle;
 

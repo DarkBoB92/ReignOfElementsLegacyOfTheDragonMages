@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject[] spell; // List of Spells: 0 = Normal, 1 = Fire, 2 = Water, 3 = Earth
 
     [Header("Player Element Affinity")]
-    [SerializeField] public Type transformation;
+    public Type transformation;
 
     [Header("Player Inventory")]
     Inventory inventory;
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     Mana mana;
 
     // On Start() get references and set default Element Affinity and Used Spell
-    void Start()
+    void Awake()
     {
         transformation = Type.Normal;
         rb = GetComponent<Rigidbody2D>();

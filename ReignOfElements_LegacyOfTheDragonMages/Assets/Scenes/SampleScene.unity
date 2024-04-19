@@ -29780,6 +29780,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1519548714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1737795667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1737795669}
+  - component: {fileID: 1737795668}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1737795668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737795667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026f64f5c8f412a4f8d002dde51cf0c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransformation: 0
+  spriteTransformation:
+  - {fileID: 1905319765, guid: efb38ac858e82794bac50b6328aede8b, type: 3}
+  - {fileID: -980364951, guid: a42f16efd6916434f9885dd9d5b3b445, type: 3}
+  - {fileID: 714642451, guid: 8ec1919c862c37b48bd5b1bc60bbbbc2, type: 3}
+  - {fileID: 691291789, guid: 65b80c41d4a1d9d48a13a9917d273cb0, type: 3}
+  altarsObject: []
+  altars: []
+  altarState: 
+--- !u!4 &1737795669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737795667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.19832, y: -1.20504, z: -1.0283753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1741807630
 GameObject:
   m_ObjectHideFlags: 0
@@ -37688,6 +37741,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474985111862863619, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: fire
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474985111862863619, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: earth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474985111862863619, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+      propertyPath: water
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -37759,3 +37824,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 5587907774935212194}
   - {fileID: 909378270}
+  - {fileID: 1737795669}
