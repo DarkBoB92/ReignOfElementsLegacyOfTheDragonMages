@@ -98,7 +98,7 @@ public class Inventory : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("You're at Max Health");
+                    Debug.Log("You're at Max Mana");
                 }
             }
         }

@@ -95,24 +95,34 @@ public class Enemy : MonoBehaviour
     // executes CheckAttackRangeDistance() and checks if chasing time is not finished, if it is, it sets enemy state to Patrol
     protected void MoveToPlayer()
     {
-        playerPos = player.transform.position;            
-        if (!ownHealth.wet && !ownHealth.stunned)
+        if (player != null)
         {
-            DirectionToMoveWhileAttacking();
-            rb.velocity = directionToMove * speed;
+            playerPos = player.transform.position;
+
+            if (!ownHealth.wet && !ownHealth.stunned)
+            {
+                DirectionToMoveWhileAttacking();
+                rb.velocity = directionToMove * speed;
+            }
+            else if (ownHealth.wet)
+            {
+                DirectionToMoveWhileAttacking();
+                rb.velocity = directionToMove * (speed / 3);
+            }
+            else if (ownHealth.stunned)
+            {
+                DirectionToMoveWhileAttacking();
+                rb.velocity *= 0;
+            }
+            CheckAttackRangeDistance();
+            if (chasingTime >= timeDelay)
+            {
+                currentState = State.Patrol;
+                attacking = false;
+                chasingTime = 0;
+            }
         }
-        else if (ownHealth.wet)
-        {
-            DirectionToMoveWhileAttacking();
-            rb.velocity = directionToMove * (speed/3);
-        }
-        else if (ownHealth.stunned)
-        {
-            DirectionToMoveWhileAttacking();
-            rb.velocity *= 0;
-        }
-        CheckAttackRangeDistance();
-        if (chasingTime >= timeDelay)
+        else
         {
             currentState = State.Patrol;
             attacking = false;
@@ -120,7 +130,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // This method adjust the distance from the player depending on enemy attack range
+    // This method adjust the distance from the player depending on enemy attack range and direction of player
     protected void DirectionToMoveWhileAttacking()
     {
         if(playerPos.x < transform.position.x)

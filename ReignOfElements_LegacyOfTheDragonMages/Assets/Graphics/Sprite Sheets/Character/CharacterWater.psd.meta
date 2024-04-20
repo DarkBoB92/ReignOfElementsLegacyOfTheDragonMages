@@ -1383,10 +1383,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5
+      name: CharacterWater_Walk_Right_05
       rect:
         serializedVersion: 2
-        x: 331
+        x: 332
         y: 1603
         width: 38
         height: 49
@@ -2275,7 +2275,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      5: -1089791286
       CharacterWater_Cast_Back_00: 844198905
       CharacterWater_Cast_Back_01: 590853173
       CharacterWater_Cast_Back_02: 1362140928
@@ -2342,6 +2341,7 @@ TextureImporter:
       CharacterWater_Walk_Right_02: 1631239550
       CharacterWater_Walk_Right_03: -375058572
       CharacterWater_Walk_Right_04: 186792808
+      CharacterWater_Walk_Right_05: -1089791286
       CharacterWater_Walk_Right_06: 1988645095
       CharacterWater_Walk_Right_07: -275917261
       CharacterWater_Walk_Right_08: 922308300

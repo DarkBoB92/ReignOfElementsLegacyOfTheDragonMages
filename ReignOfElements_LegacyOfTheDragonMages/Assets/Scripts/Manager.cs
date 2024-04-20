@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using SpellType;
 
 public class Manager : MonoBehaviour
 {
     [Header("Reference Variables")]
-    [SerializeField] Type playerTransformation; 
-    Health playerHealth;
-    SpriteRenderer player;
+    [SerializeField] Type playerTransformation;
+    [SerializeField] GameObject player;
+    [SerializeField] Health playerHealth;
+    [SerializeField] Mana playerMana;
+    [SerializeField] SpriteRenderer playerSpriteRenderer;
 
     [Header("Sprite List For Player")]
     [SerializeField] Sprite[] spriteTransformation;
 
     [Header("Altar States")]
-    [SerializeField] GameObject[] altarsObject;
+    [SerializeField] List<GameObject> altarsObject;
     [SerializeField] List<Altar> altars;
     [SerializeField] List<bool> altarState;
 
@@ -25,7 +28,7 @@ public class Manager : MonoBehaviour
     [Header("Game State Check")]
     static GameManagerUI gameManagerUI;
     public static bool gamePaused;
-    public static bool newGame;
+
 
     private void Awake()
     {
@@ -38,45 +41,47 @@ public class Manager : MonoBehaviour
         else
         {
             Destroy(gameObject);
-        }        
-    }
-
-    private void Start()
-    {
+        }
+        
         //Referencing
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();        
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>();
+        gameManagerUI = FindAnyObjectByType<GameManagerUI>();
+        player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
-            player.sprite = spriteTransformation[0];
+            playerHealth = player.GetComponent<Health>();
+            playerMana = player.GetComponent<Mana>();
+            playerSpriteRenderer = player.GetComponent<SpriteRenderer>();
+            if (playerSpriteRenderer != null)
+            {
+                playerSpriteRenderer.sprite = spriteTransformation[0];
+            }
         }
 
-        altarsObject = GameObject.FindGameObjectsWithTag("Altar");
+        altarsObject = new List<GameObject>(GameObject.FindGameObjectsWithTag("Altar"));
         GatherAltarsState();
     }
 
-    //TODO: Winning Condition, altars on
     void Update()
     {
-        CheckPlayerState();
-        CheckWinningCondition();
-        CheckPlayerTransformation();
+        if (gameManagerUI.currentState == GameManagerUI.GameState.Playing)
+        {
+            CheckPlayerState();
+            CheckWinningCondition();
+            CheckPlayerTransformation();
+        }
     }
 
     void CheckPlayerState()
     {
-        if(playerHealth != null)
+        if (player == null)
         {
-            if(playerHealth.currentHealth <= 0)
-            {
-                //Set GameOver state for canvas
-            }
+            gameManagerUI.CheckGameState(GameManagerUI.GameState.GameOver);
         }
     }
     
     void GatherAltarsState()
-    {
-        for(int i = 0; i < altarsObject.Length; i++)
+    {        
+        for (int i = 0; i < altarsObject.Count; i++)
         {
             altars.Add(altarsObject[i].GetComponent<Altar>());
             altarState.Add(altars[i].activated);
@@ -98,23 +103,26 @@ public class Manager : MonoBehaviour
 
     void CheckPlayerTransformation()
     {
-        playerTransformation = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().transformation;
         if (player != null)
         {
-            switch (playerTransformation)
+            playerTransformation = player.GetComponent<PlayerController>().transformation;
+            if (playerSpriteRenderer != null)
             {
-                case Type.Normal:
-                    player.sprite = spriteTransformation[0];
-                    break;
-                case Type.Fire:
-                    player.sprite = spriteTransformation[1];
-                    break;
-                case Type.Water:
-                    player.sprite = spriteTransformation[2];
-                    break;
-                case Type.Earth:
-                    player.sprite = spriteTransformation[3];
-                    break;
+                switch (playerTransformation)
+                {
+                    case Type.Normal:
+                        playerSpriteRenderer.sprite = spriteTransformation[0];
+                        break;
+                    case Type.Fire:
+                        playerSpriteRenderer.sprite = spriteTransformation[1];
+                        break;
+                    case Type.Water:
+                        playerSpriteRenderer.sprite = spriteTransformation[2];
+                        break;
+                    case Type.Earth:
+                        playerSpriteRenderer.sprite = spriteTransformation[3];
+                        break;
+                }
             }
         }
     }

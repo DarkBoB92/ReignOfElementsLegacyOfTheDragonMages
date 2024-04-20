@@ -49,11 +49,18 @@ public class Melee : Enemy
 
     // This Coroutine just handles damage with using an atack delay
     IEnumerator Damaging(int damage, Type damageType)
-    {
+    {        
         while (attacking)
         {
-            playerHealth.Damage(damage, damageType);
+            if (playerHealth != null)
+            {
+                playerHealth.Damage(damage, damageType);
+            }
             yield return new WaitForSeconds(attackDelay);
+            if (player == null)
+            {
+                attacking = false;
+            }
         }
     }
 }

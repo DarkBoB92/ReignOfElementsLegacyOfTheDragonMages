@@ -52,11 +52,14 @@ public class Ranged : Enemy
 
     // This Method instantiate a spell object in the direction of the player
     void Cast(GameObject castSpell)
-    {
-        Vector2 directionToCast = player.transform.position - transform.position;
-        GameObject castedSpell = Instantiate(castSpell, transform.position, Quaternion.identity);
-        int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;
-        castedSpell.GetComponent<Spell>().currentCaster = Spell.Caster.Enemy;
-        castedSpell.GetComponent<Rigidbody2D>().velocity = directionToCast.normalized * castSpeed;
+    {        
+        if (player != null)
+        {
+            Vector2 directionToCast = player.transform.position - transform.position;
+            GameObject castedSpell = Instantiate(castSpell, transform.position, Quaternion.identity);
+            int castSpeed = castedSpell.GetComponent<Spell>().castSpeed;
+            castedSpell.GetComponent<Spell>().currentCaster = Spell.Caster.Enemy;
+            castedSpell.GetComponent<Rigidbody2D>().velocity = directionToCast.normalized * castSpeed;
+        }
     }    
 }
