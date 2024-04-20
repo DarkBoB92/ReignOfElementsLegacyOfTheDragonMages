@@ -9,6 +9,10 @@ public class PlayerController : MonoBehaviour
     [Header("Player Movement Speed")]
     [SerializeField] int speed;
 
+    [Header("Player Position")]
+    Vector2 currentPos;
+    Vector2 lastPos;
+
     [Header("Spell Variables")]
     [SerializeField] GameObject selectedSpell;
     [SerializeField] GameObject[] spell; // List of Spells: 0 = Normal, 1 = Fire, 2 = Water, 3 = Earth
@@ -23,6 +27,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Health health;
     Mana mana;
+    Animator animator;
 
     // On Start() get references and set default Element Affinity and Used Spell
     void Awake()
@@ -32,6 +37,7 @@ public class PlayerController : MonoBehaviour
         health = GetComponent<Health>();
         mana = GetComponent<Mana>();
         inventory = GetComponent<Inventory>();
+        animator = GetComponent<Animator>();
         selectedSpell = spell[0];
     }
 
@@ -52,25 +58,40 @@ public class PlayerController : MonoBehaviour
         else
         {
             rb.velocity = xyInput * speed;
-        }        
+            if (xyInput.x != 0 || xyInput.y != 0)
+            {
+                currentPos = rb.velocity;
+                MovementAnimationCheck();
+            }
+            else if(xyInput.x == 0 || xyInput.y == 0)
+            {
+                animator.Play("Idle");
+            }
+        }
+        
         //TODO: - Handle animation depending on direction of where the player is moving
     }
 
     // Gets input from InputSystem. Checks if input magnitude value is greater than 0 to execute CastSpell(GameObject x, Vector2 y)
     void OnFire(InputValue input)
     {
-        Vector2 xyInput = input.Get<Vector2>();
-        if (xyInput.magnitude > 0)
+        if (!health.stunned)
         {
-            if (mana.CheckManaAmount())
+            Vector2 xyInput = input.Get<Vector2>();
+            if (xyInput.magnitude > 0)
             {
-                CastSpell(selectedSpell, xyInput);
-                mana.UseMana(transformation);
+                if (mana.CheckManaAmount())
+                {
+                    CastSpell(selectedSpell, xyInput);
+                    AttackAnimationCheck(xyInput);
+                    mana.UseMana(transformation);
+                }
+                else
+                {
+                    Debug.Log("You don't have Mana");
+                }
             }
-            else
-            {
-                Debug.Log("You don't have Mana");
-            }
+            
         }
         
         //TODO: - Check which direction is Casting so casting animation will be set on right direction
@@ -191,4 +212,57 @@ public class PlayerController : MonoBehaviour
             Debug.Log("UwU");
         }
     }
+
+    void MovementAnimationCheck()
+    {
+        Vector2 deltaPosition = currentPos - lastPos;
+
+        if (deltaPosition.magnitude > 0.01f)
+        {
+            if (Mathf.Abs(deltaPosition.x) > Mathf.Abs(deltaPosition.y))
+            {
+                if (deltaPosition.x > 0)
+                {
+                    animator.Play("WalkRight");
+                }
+                else if (deltaPosition.x < 0)
+                {
+                    animator.Play("WalkLeft");
+                }
+            }
+            else
+            {
+                if (deltaPosition.y > 0)
+                {
+                    animator.Play("WalkUp");
+                }
+                else if (deltaPosition.y < 0)
+                {
+                    animator.Play("WalkDown");
+                }
+            }
+        }
+        lastPos = currentPos;
+    }
+
+    void AttackAnimationCheck(Vector2 directionToShoot)
+    {
+        if(directionToShoot.x > 0)
+        {
+            animator.Play("AttackRight");
+        }
+        else if (directionToShoot.x < 0)
+        {
+            animator.Play("AttackLeft");
+        }
+        else if (directionToShoot.y > 0)
+        {
+            animator.Play("AttackUp");
+        }
+        else if (directionToShoot.y < 0)
+        {
+            animator.Play("AttackDown");
+        }
+    }
+
 }

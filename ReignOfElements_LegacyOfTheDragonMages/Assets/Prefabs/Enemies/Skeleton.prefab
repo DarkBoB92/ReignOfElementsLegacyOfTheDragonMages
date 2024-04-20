@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2573454771969474116}
   - component: {fileID: 2559034757308519815}
   - component: {fileID: 4665229877509943411}
+  - component: {fileID: -6737366472705677056}
   m_Layer: 6
   m_Name: Skeleton
   m_TagString: Enemy
@@ -250,3 +251,24 @@ MonoBehaviour:
   - {fileID: 2931217696036841342, guid: 1f3e727aacf37d740babff2977b8766b, type: 3}
   - {fileID: 3909084595262979363, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
   damage: 5
+--- !u!95 &-6737366472705677056
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8969597373306326177}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 792c12f27add97f41a39d72f31a8b3a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

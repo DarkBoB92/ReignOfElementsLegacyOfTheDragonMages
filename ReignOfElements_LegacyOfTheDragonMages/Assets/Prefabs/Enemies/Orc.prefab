@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8894541034007227032}
   - component: {fileID: 7228328372546728620}
   - component: {fileID: 3869499019748378866}
+  - component: {fileID: 7289031196281341708}
   m_Layer: 6
   m_Name: Orc
   m_TagString: Enemy
@@ -250,3 +251,24 @@ MonoBehaviour:
   - {fileID: 2931217696036841342, guid: 1f3e727aacf37d740babff2977b8766b, type: 3}
   - {fileID: 3909084595262979363, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
   spell: {fileID: 2056050359617034882, guid: c207439dac5d0f34aa02a23fd98862f8, type: 3}
+--- !u!95 &7289031196281341708
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738972547837575039}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7893cf8bcdfe0ce40a0878da67f3e09c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

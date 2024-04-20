@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6572002633268198109}
   - component: {fileID: 8232055335229259736}
   - component: {fileID: 3707209972497024117}
+  - component: {fileID: -3373320543590045087}
   m_Layer: 6
   m_Name: Minotaur
   m_TagString: Enemy
@@ -250,3 +251,24 @@ MonoBehaviour:
   - {fileID: 2931217696036841342, guid: 1f3e727aacf37d740babff2977b8766b, type: 3}
   - {fileID: 3909084595262979363, guid: 309dffc45ca90bb46873feefe18447cd, type: 3}
   damage: 10
+--- !u!95 &-3373320543590045087
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53981280115732736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7fb6606bd6179714d8a1e2423a4e88cc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

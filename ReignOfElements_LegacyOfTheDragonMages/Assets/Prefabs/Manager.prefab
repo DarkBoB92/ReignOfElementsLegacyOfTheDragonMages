@@ -45,11 +45,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransformation: 0
+  player: {fileID: 0}
+  playerHealth: {fileID: 0}
+  playerMana: {fileID: 0}
+  playerSpriteRenderer: {fileID: 0}
+  playerAnimator: {fileID: 0}
   spriteTransformation:
   - {fileID: 1905319765, guid: efb38ac858e82794bac50b6328aede8b, type: 3}
   - {fileID: -980364951, guid: a42f16efd6916434f9885dd9d5b3b445, type: 3}
   - {fileID: 714642451, guid: 8ec1919c862c37b48bd5b1bc60bbbbc2, type: 3}
   - {fileID: 691291789, guid: 65b80c41d4a1d9d48a13a9917d273cb0, type: 3}
+  animatorTransformation:
+  - {fileID: 9100000, guid: a4fbcf8ea74290048a51ffaa20645123, type: 2}
+  - {fileID: 9100000, guid: 115ee7bbdf63ea84fa24546d61c5c23f, type: 2}
+  - {fileID: 9100000, guid: 3960188e12db3e94286f7eba2e470270, type: 2}
+  - {fileID: 9100000, guid: a0e9105f1f1012047aeef9e33c812a33, type: 2}
   altarsObject: []
   altars: []
   altarState: 

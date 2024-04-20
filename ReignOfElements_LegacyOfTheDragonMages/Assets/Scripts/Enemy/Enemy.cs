@@ -13,6 +13,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float speed;
     protected Vector2 directionToMove; // directionToRayCast;
     protected Rigidbody2D rb;
+    protected Vector2 currentPos;
+    protected Vector2 lastPos;
+    protected Animator animator;
+
 
     [Header("Enemy Type")]
     [SerializeField] protected bool melee;
@@ -46,6 +50,7 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         ownHealth = GetComponent<Health>();
+        animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         if (player != null )
         {
@@ -88,6 +93,15 @@ public class Enemy : MonoBehaviour
         else if (currentState == State.Patrol)
         {
             MoveToPatrol();
+        }
+        currentPos = transform.position;
+        if(!attacking)
+        {
+            MovementAnimationCheck();
+        }
+        else
+        {
+            AttackAnimationCheck();
         }
     }
 
@@ -266,6 +280,71 @@ public class Enemy : MonoBehaviour
         }
 
     }
+
+    protected void MovementAnimationCheck()
+    {
+        Vector2 deltaPosition = currentPos - lastPos;
+
+        if (deltaPosition.magnitude > 0.01f)
+        {
+            if (Mathf.Abs(deltaPosition.x) > Mathf.Abs(deltaPosition.y))
+            {
+                if (deltaPosition.x > 0)
+                {
+                    animator.Play("WalkRight");
+                }
+                else if (deltaPosition.x < 0)
+                {
+                    animator.Play("WalkLeft");
+                }
+            }
+            else
+            {
+                if (deltaPosition.y > 0)
+                {
+                    animator.Play("WalkUp");
+                }
+                else if (deltaPosition.y < 0)
+                {
+                    animator.Play("WalkDown");
+                }
+            }
+        }
+        lastPos = currentPos;
+    }
+
+    protected void AttackAnimationCheck()
+    {
+        Vector2 deltaPosition = currentPos - lastPos;
+
+        if (deltaPosition.magnitude < rangeOfAttack)
+        {
+            if (Mathf.Abs(deltaPosition.x) > Mathf.Abs(deltaPosition.y))
+            {
+                if (deltaPosition.x > 0)
+                {
+                    animator.Play("AttackRight");
+                }
+                else if (deltaPosition.x < 0)
+                {
+                    animator.Play("AttackLeft");
+                }
+            }
+            else
+            {
+                if (deltaPosition.y > 0)
+                {
+                    animator.Play("AttackUp");
+                }
+                else if (deltaPosition.y < 0)
+                {
+                    animator.Play("AttackDown");
+                }
+            }
+        }
+        lastPos = currentPos;
+    }
+
 
     private void OnDrawGizmos()
     {
