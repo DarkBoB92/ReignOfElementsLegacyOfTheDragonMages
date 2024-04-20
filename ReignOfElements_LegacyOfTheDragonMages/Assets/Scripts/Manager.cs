@@ -22,6 +22,11 @@ public class Manager : MonoBehaviour
     [Header("Own Instance")]
     public static Manager instance;
 
+    [Header("Game State Check")]
+    static GameManagerUI gameManagerUI;
+    public static bool gamePaused;
+    public static bool newGame;
+
     private void Awake()
     {
         //Destroies itself so only one of this exists per scene
