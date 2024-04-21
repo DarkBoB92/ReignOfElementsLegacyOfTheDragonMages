@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collectible : MonoBehaviour
+public abstract class Collectible : MonoBehaviour
 {
     protected Inventory playerInventory;
 
@@ -21,14 +21,7 @@ public class Collectible : MonoBehaviour
     }
 
     // This method is overridble because every single collectible will give different things
-    protected virtual void Give()
-    {
-        Debug.Log("Give Item");
-    }
-
+    protected abstract void Give();
     // This method is overridble because every single collectible will have a different way of disappearing
-    protected virtual void Destroy()
-    {
-        Destroy(this.gameObject);
-    }
+    protected abstract void Destroy();
 }

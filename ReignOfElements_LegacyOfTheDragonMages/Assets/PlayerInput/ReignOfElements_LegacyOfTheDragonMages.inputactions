@@ -228,6 +228,17 @@
                 },
                 {
                     "name": "",
+                    "id": "20a32403-c64c-4f13-9444-93b2bac64b85",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "UseHealthPotion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c76e6ac5-bf91-4553-99e5-1aef3c0e7825",
                     "path": "<Keyboard>/q",
                     "interactions": "",
@@ -239,11 +250,33 @@
                 },
                 {
                     "name": "",
+                    "id": "dedd35fd-c7e5-413a-bcd4-3e6490cdf673",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "UseManaPotion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4fecd5df-50ca-4bb9-9871-948fbd494d95",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "PauseButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd1d9e8c-87e5-40a2-8920-da1bc8cbb61d",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "PauseButton",
                     "isComposite": false,
                     "isPartOfComposite": false

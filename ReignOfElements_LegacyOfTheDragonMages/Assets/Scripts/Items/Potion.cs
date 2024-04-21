@@ -14,6 +14,6 @@ public class Potion : Collectible
 
     protected override void Destroy()
     {
-        base.Destroy();
+        Destroy(this.gameObject);
     }
 }

@@ -68,8 +68,6 @@ public class PlayerController : MonoBehaviour
                 animator.Play("Idle");
             }
         }
-        
-        //TODO: - Handle animation depending on direction of where the player is moving
     }
 
     // Gets input from InputSystem. Checks if input magnitude value is greater than 0 to execute CastSpell(GameObject x, Vector2 y)
@@ -78,7 +76,7 @@ public class PlayerController : MonoBehaviour
         if (!health.stunned)
         {
             Vector2 xyInput = input.Get<Vector2>();
-            if (xyInput.magnitude > 0)
+            if (xyInput.magnitude == 1)
             {
                 if (mana.CheckManaAmount())
                 {
@@ -93,8 +91,6 @@ public class PlayerController : MonoBehaviour
             }
             
         }
-        
-        //TODO: - Check which direction is Casting so casting animation will be set on right direction
     }
 
     // Gets input from InputSystem. Executes ChangeSpell() on press.

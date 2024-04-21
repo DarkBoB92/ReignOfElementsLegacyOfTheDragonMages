@@ -113,18 +113,15 @@ public class GameManagerUI : MonoBehaviour
 
     void OnPauseButton(InputValue input)
     {
-        if (input.isPressed)
+        if (currentState == GameState.Playing)
         {
-            if (currentState == GameState.Playing)
-            {
-                CheckGameState(GameState.Paused);
-            }
-            else if (currentState == GameState.Paused)
-            {
-                CheckGameState(GameState.Playing);
-            }
+            CheckGameState(GameState.Paused);
         }
-    }
+        else if (currentState == GameState.Paused)
+        {
+            CheckGameState(GameState.Playing);
+        }
+    }    
 
     public void StartGame()
     {

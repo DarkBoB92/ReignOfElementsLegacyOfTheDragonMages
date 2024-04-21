@@ -21,7 +21,7 @@ public class Key : Collectible
         {
             if (playerInventory.hasKey)
             {
-                base.Destroy();
+                Destroy(this.gameObject);
             }
         }
     }

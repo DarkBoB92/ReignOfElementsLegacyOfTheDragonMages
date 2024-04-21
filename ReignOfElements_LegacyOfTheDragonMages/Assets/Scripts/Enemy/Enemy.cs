@@ -77,11 +77,8 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    // This Method is a virtual method that will be overrided by the child class
-    protected virtual void Attack()
-    {        
-        //Do attack
-    }
+    // This Method is an abstract method that will be overrided by the child class
+    protected abstract void Attack();
 
     // This method calls respectively the methods to move depending on the enemy state
     protected void Move()

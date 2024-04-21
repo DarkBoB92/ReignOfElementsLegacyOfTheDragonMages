@@ -103,8 +103,7 @@ public class Manager : MonoBehaviour
         }
         if (altarState[0] && altarState[1] && altarState[2])
         {
-            //Se WinGame state for canvas
-            Debug.Log("You Won");
+            gameManagerUI.CheckGameState(GameManagerUI.GameState.GameOver);
         }
     }
 

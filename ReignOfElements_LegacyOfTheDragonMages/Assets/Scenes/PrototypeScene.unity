@@ -24464,7 +24464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf18365881e0e81488e34957dfa88d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: []
+  player: {fileID: 0}
 --- !u!1001 &1459736146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37832,22 +37832,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8167140504625807553, guid: 76d23451390c1804c82333351cca1280, type: 3}
-      propertyPath: animatorTransformation.Array.data[0]
-      value: 
-      objectReference: {fileID: 7346029916989056111, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
-    - target: {fileID: 8167140504625807553, guid: 76d23451390c1804c82333351cca1280, type: 3}
-      propertyPath: animatorTransformation.Array.data[1]
-      value: 
-      objectReference: {fileID: 7346029916989056111, guid: 4955b637bfed406448523627467b7609, type: 3}
-    - target: {fileID: 8167140504625807553, guid: 76d23451390c1804c82333351cca1280, type: 3}
-      propertyPath: animatorTransformation.Array.data[2]
-      value: 
-      objectReference: {fileID: 7346029916989056111, guid: 755e456c323d7a14c98b63c7b2b90176, type: 3}
-    - target: {fileID: 8167140504625807553, guid: 76d23451390c1804c82333351cca1280, type: 3}
-      propertyPath: animatorTransformation.Array.data[3]
-      value: 
-      objectReference: {fileID: 7346029916989056111, guid: 50d0fc704e55df347bbfb1a773a60717, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
