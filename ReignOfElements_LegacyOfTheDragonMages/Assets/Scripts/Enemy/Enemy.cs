@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngineInternal;
 using SpellType;
 
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
     [Header("Enemy General Variables")]
     [SerializeField] protected float rangeOfSight;
@@ -64,7 +64,7 @@ public class Enemy : MonoBehaviour
     {
         if (currentState == State.Patrol) 
         {
-            
+            patrolTime += Time.deltaTime;
         }
         if (currentState == State.Attack)
         {
@@ -88,10 +88,12 @@ public class Enemy : MonoBehaviour
     {        
         if (currentState == State.Attack)
         {
-            MoveToPlayer();                      
+            speed = 3;
+            MoveToPlayer();
         }
         else if (currentState == State.Patrol)
         {
+            speed = 1;
             MoveToPatrol();
         }
         currentPos = transform.position;
@@ -274,7 +276,7 @@ public class Enemy : MonoBehaviour
         {
             if(health.currentHealth <= 0)
             {
-                int dropChoice = Random.Range(0, 2);
+                int dropChoice = Random.Range(0, droppingItems.Length);
                 GameObject itemToDrop = Instantiate(droppingItems[dropChoice], transform.position, Quaternion.identity);
             }
         }

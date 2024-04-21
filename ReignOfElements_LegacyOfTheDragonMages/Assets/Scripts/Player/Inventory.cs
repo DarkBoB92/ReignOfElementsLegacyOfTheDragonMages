@@ -70,7 +70,7 @@ public class Inventory : MonoBehaviour
                 if (playerHealth.currentHealth < playerHealth.GetMaxHealth())
                 {
                     health--;
-                    playerHealth.currentHealth += 10;
+                    playerHealth.currentHealth += 50;
                     if(playerHealth.currentHealth >= playerHealth.GetMaxHealth())
                     {
                         playerHealth.currentHealth = playerHealth.GetMaxHealth();
@@ -90,7 +90,7 @@ public class Inventory : MonoBehaviour
                 if (playerMana.currentMana < playerMana.GetMaxMana())
                 {
                     mana--;
-                    playerMana.currentMana += 10;
+                    playerMana.currentMana += 50;
                     if (playerMana.currentMana >= playerMana.GetMaxMana())
                     {
                         playerMana.currentMana = playerMana.GetMaxMana();

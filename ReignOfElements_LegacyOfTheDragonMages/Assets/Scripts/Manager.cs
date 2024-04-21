@@ -4,7 +4,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using SpellType;
-using UnityEditor.Animations;
 
 public class Manager : MonoBehaviour
 {
@@ -18,7 +17,7 @@ public class Manager : MonoBehaviour
 
     [Header("Transformation Lists For Player")]
     [SerializeField] Sprite[] spriteTransformation;
-    [SerializeField] AnimatorController[] animatorTransformation;
+    [SerializeField] Animator[] animatorTransformation;
     
     [Header("Altar States")]
     [SerializeField] List<GameObject> altarsObject;
@@ -53,12 +52,15 @@ public class Manager : MonoBehaviour
         {
             playerHealth = player.GetComponent<Health>();
             playerMana = player.GetComponent<Mana>();
-            playerSpriteRenderer = player.GetComponent<SpriteRenderer>();
-            playerAnimator = player.GetComponent<Animator>();
+            playerSpriteRenderer = player.GetComponent<SpriteRenderer>();            
             if (playerSpriteRenderer != null)
             {
-                playerSpriteRenderer.sprite = spriteTransformation[0];
-                playerAnimator.runtimeAnimatorController = animatorTransformation[0];
+                playerSpriteRenderer.sprite = spriteTransformation[0];                
+            }
+            playerAnimator = player.GetComponent<Animator>();
+            if (playerAnimator != null)
+            {
+                playerAnimator.runtimeAnimatorController = animatorTransformation[0].runtimeAnimatorController;
             }
         }
 
@@ -117,19 +119,19 @@ public class Manager : MonoBehaviour
                 {
                     case Type.Normal:
                         playerSpriteRenderer.sprite = spriteTransformation[0];
-                        playerAnimator.runtimeAnimatorController = animatorTransformation[0];
+                        playerAnimator.runtimeAnimatorController = animatorTransformation[0].runtimeAnimatorController;
                         break;
                     case Type.Fire:
                         playerSpriteRenderer.sprite = spriteTransformation[1];
-                        playerAnimator.runtimeAnimatorController = animatorTransformation[1];
+                        playerAnimator.runtimeAnimatorController = animatorTransformation[1].runtimeAnimatorController;
                         break;
                     case Type.Water:
                         playerSpriteRenderer.sprite = spriteTransformation[2];
-                        playerAnimator.runtimeAnimatorController = animatorTransformation[2];
+                        playerAnimator.runtimeAnimatorController = animatorTransformation[2].runtimeAnimatorController;
                         break;
                     case Type.Earth:
                         playerSpriteRenderer.sprite = spriteTransformation[3];
-                        playerAnimator.runtimeAnimatorController = animatorTransformation[3];
+                        playerAnimator.runtimeAnimatorController = animatorTransformation[3].runtimeAnimatorController;
                         break;
                 }
             }

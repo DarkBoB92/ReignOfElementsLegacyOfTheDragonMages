@@ -56,10 +56,10 @@ MonoBehaviour:
   - {fileID: 714642451, guid: 8ec1919c862c37b48bd5b1bc60bbbbc2, type: 3}
   - {fileID: 691291789, guid: 65b80c41d4a1d9d48a13a9917d273cb0, type: 3}
   animatorTransformation:
-  - {fileID: 9100000, guid: a4fbcf8ea74290048a51ffaa20645123, type: 2}
-  - {fileID: 9100000, guid: 115ee7bbdf63ea84fa24546d61c5c23f, type: 2}
-  - {fileID: 9100000, guid: 3960188e12db3e94286f7eba2e470270, type: 2}
-  - {fileID: 9100000, guid: a0e9105f1f1012047aeef9e33c812a33, type: 2}
+  - {fileID: 7346029916989056111, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+  - {fileID: 7346029916989056111, guid: 4955b637bfed406448523627467b7609, type: 3}
+  - {fileID: 7346029916989056111, guid: 755e456c323d7a14c98b63c7b2b90176, type: 3}
+  - {fileID: 7346029916989056111, guid: 50d0fc704e55df347bbfb1a773a60717, type: 3}
   altarsObject: []
   altars: []
   altarState: 
