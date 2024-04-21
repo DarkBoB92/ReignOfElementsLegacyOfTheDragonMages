@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &886034983552982713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7433973730766639178}
+  - component: {fileID: 8167140504625807553}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7433973730766639178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886034983552982713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.19832, y: -1.20504, z: -1.0283753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8167140504625807553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886034983552982713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026f64f5c8f412a4f8d002dde51cf0c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransformation: 0
+  player: {fileID: 0}
+  playerHealth: {fileID: 0}
+  playerMana: {fileID: 0}
+  playerSpriteRenderer: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  spriteTransformation:
+  - {fileID: 1905319765, guid: efb38ac858e82794bac50b6328aede8b, type: 3}
+  - {fileID: -980364951, guid: a42f16efd6916434f9885dd9d5b3b445, type: 3}
+  - {fileID: 714642451, guid: 8ec1919c862c37b48bd5b1bc60bbbbc2, type: 3}
+  - {fileID: 691291789, guid: 65b80c41d4a1d9d48a13a9917d273cb0, type: 3}
+  animatorTransformation:
+  - {fileID: 7346029916989056111, guid: 339cb804a7a50ac45bc4814ad53dfd5a, type: 3}
+  - {fileID: 7346029916989056111, guid: 4955b637bfed406448523627467b7609, type: 3}
+  - {fileID: 7346029916989056111, guid: 755e456c323d7a14c98b63c7b2b90176, type: 3}
+  - {fileID: 7346029916989056111, guid: 50d0fc704e55df347bbfb1a773a60717, type: 3}
+  altarsObject: []
+  altars: []
+  altarState: 

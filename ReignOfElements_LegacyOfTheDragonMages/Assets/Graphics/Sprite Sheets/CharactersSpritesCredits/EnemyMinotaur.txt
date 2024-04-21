@@ -1,0 +1,41 @@
+Authors: bluecarrot16, Evert, TheraHedwig, MuffinElZangano, Durrani, Sander Frenken (castelonia), Benjamin K. Smith (BenCreating), Eliza Wyatt (ElizaWy), dalonedrau, Stephen Challener (Redshrike), Nila122, Daniel Eddeland (daneeklu), Johannes Sjölund (wulax), Matthew Krohn (makrohn)
+
+- body/bodies/muscular/universal/brown.png: by bluecarrot16, Evert, TheraHedwig, MuffinElZangano, Durrani, Sander Frenken (castelonia), Benjamin K. Smith (BenCreating), Eliza Wyatt (ElizaWy), dalonedrau, Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0. 
+    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+    - https://opengameart.org/content/lpc-barbarian-sprite-base
+    - https://opengameart.org/content/lpc-muscular-swing-animation
+    - https://opengameart.org/content/lpc-muscular-hurt-animation
+    - https://opengameart.org/content/lpc-jump-expanded
+
+- head/heads/minotaur/universal/brown.png: by Evert, Nila122, Daniel Eddeland (daneeklu). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-style-farm-animals
+    - https://opengameart.org/content/lpc-lizard-headgear
+    - https://opengameart.org/content/lpc-faun-and-minotaur
+
+- shoulders/leather/male/maroon.png: by Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+
+- bauldron/male/walnut.png: by Nila122. License(s): GPL 2.0, GPL 3.0, CC-BY-SA 3.0. 
+    - https://opengameart.org/content/more-lpc-clothes-and-hair
+
+- arms/bracers/male/iron.png: by Matthew Krohn (makrohn), Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+
+- legs/skirts/legion/male/maroon.png: by bluecarrot16, Nila122. License(s): CC-BY-SA 3.0, GPL 2.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-roman-armor
+    - http://opengameart.org/content/lpc-clothing-updates
+
+- feet/hoofs/male/black.png: by Evert. License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-faun-and-minotaur
+
+- weapon/blunt/waraxe/behind/waraxe.png: by Benjamin K. Smith (BenCreating), bluecarrot16, Sander Frenken (castelonia). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-weapons
+
+- weapon/blunt/waraxe/waraxe.png: by Benjamin K. Smith (BenCreating), bluecarrot16, Sander Frenken (castelonia). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-weapons
+
+- weapon/blunt/waraxe/attack_slash/behind/waraxe.png: by Benjamin K. Smith (BenCreating), bluecarrot16, Sander Frenken (castelonia). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-weapons
+
+- weapon/blunt/waraxe/attack_slash/waraxe.png: by Benjamin K. Smith (BenCreating), bluecarrot16, Sander Frenken (castelonia). License(s): CC-BY-SA 3.0, GPL 3.0. 
+    - https://opengameart.org/content/lpc-medieval-weapons
